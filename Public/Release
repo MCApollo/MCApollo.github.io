@@ -1,0 +1,9 @@
+Origin: MCApollo 
+Label: MCApollo/Homebrew
+Suite: stable
+Version: 2.2-Final
+Architectures: iphoneos-arm
+Components: main
+Codename: Athena Project
+Description: Checkout my stuff on elucubratus (Mac C.)
+

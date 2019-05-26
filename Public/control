@@ -1,0 +1,14 @@
+Package: com.mc.
+Priority: optional
+Name: 
+Version: 
+Section: 
+Architecture: iphoneos-arm
+Depends:
+Pre-Depends: dpkg
+Provides:
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com> 
+Homepage:
+Tag:
+Description: Athena Project | Compiled for ARM64.
+

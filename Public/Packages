@@ -1,0 +1,2824 @@
+Package: ca-certificates
+Version: 0.0.1-3
+Architecture: all
+Maintainer: Sam Bingner
+Depends: firmware (>= 2.0)
+Conflicts: org.thebigboss.cacerts
+Replaces: org.thebigboss.cacerts
+Provides: org.thebigboss.cacerts
+Filename: ./Athena/ca-certificates_0.0.1-3_all.deb
+Size: 140948
+MD5sum: 2eee292c51cb0e536f9c2e133732feee
+SHA1: 45ba49e4f8663e5f2479e429860cf689aeea4bcc
+SHA256: 5f374352202efa1eadbbf328fa55f3dfa4c9f0d8f3a1078871632bf87f731a89
+Section: Utilities
+Priority: optional
+Multi-Arch: foreign
+Description: CA certs for curl, wget, git.
+Tag: purpose::console, role::hacker
+Name: CA Certs
+
+Package: com.mc.MariaDB
+Version: 10.3.11-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gnutls, com.mc.snappy, com.mc.ncurses
+Filename: ./Athena/com.mc.mariadb_10.3.11-1_iphoneos-arm.deb
+Size: 22960508
+MD5sum: 838df735dea67525e158eadab24c31b0
+SHA1: 3474372784559d357b924cdd7e20de201cd8455b
+SHA256: db09eb59b99d09862616f954b6d4eafd305d820b8da47bca2ad56725a23a6778
+Section: Data Storage
+Priority: optional
+Homepage: https://mariadb.org/
+Description: Athena Project | Compiled for ARM64.
+ Drop-in replacement for MySQL
+ | TODO:
+ Make LaunchDaemon; temp install script in /var/mysql.
+Tag: purpose::console
+Name: MariaDB
+
+Package: com.mc.SDK
+Version: 1.1-4
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg, wget, unzip
+Depends: ldid, org.coolstar.llvm-clang64 | llvm-clang, org.coolstar.ld64 | ld64, org.coolstar.cctools | odcctools, sed, findutils, make
+Filename: ./Athena/com.mc.sdk_1.1-4_iphoneos-arm.deb
+Size: 503612
+MD5sum: 23d32aa88f45c58aeb04fe0feb116580
+SHA1: 37abbf2fff51643e54451b3e49038cc7e9481544
+SHA256: 72d06059831e1089a5d61961a95586aee4e0674a572c3dafdf3a7899a621fbe2
+Section: Addons
+Priority: optional
+Description: Athena Project | Compiled for ARM64.
+ Downloads the 11.1 SDK and installs the tools for compiling on device.
+ This packages also downloads dependencies needed for adding support for pythons' pip, golang's go & ruby's gems.
+ |
+ This package does not illegally redistribute the SDK, only the LLVM C++ headers which are under the Illinois Open Source License & MIT license and headers under the APSL version 2.0 license. (TLDR, please don't sue.) See /usr/SDK/README for more information about these licenses.
+ I /could/ just package the whole SDK (except for headers with the APSL V1.1 license). It's /really/ unclear on the terms of distribution of the iOS SDK (Xcode's agreement says "you can't", but the headers points to maybe because opensource. IANAL). It's unclear if the *.tbd files are safe to redistribute.
+ |
+ Unc0ver: org.coolstar.llvm-clang64, org.coolstar.ld64, org.coolstar.cctools dependencies should be met before installing this, find them from sbingner's repo.
+Name: SDK Installer / On-Device Compiler
+
+Package: com.mc.alcaro-flips
+Version: 8d2f363
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.alcaro-flips_8d2f363_iphoneos-arm.deb
+Size: 36772
+MD5sum: 1e50081639d2d73ee490d50a37508354
+SHA1: 23c0c815f537b1bd56c17047175e8d34779ad61f
+SHA256: 8f61a41f1138da62397fd3df2272598d09184c21c21984603bd5d091d4d5ea7b
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/Alcaro/Flips
+Description: Athena Project | Compiled for ARM64.
+ patcher for IPS and BPS files
+Tag: purpose::console
+Name: Flips
+
+Package: com.mc.aria2
+Version: 1.34.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libuv, com.mc.libxml2, com.mc.xz | xz, com.mc.sqlite, com.mc.openssl, com.mc.libssh2, com.mc.zlib, com.mc.gcrypt, com.mc.gpg-error, com.mc.c-ares, com.mc.gettext
+Filename: ./Athena/com.mc.aria2_1.34.0-1_iphoneos-arm.deb
+Size: 1147840
+MD5sum: 98439b7d53b09e15831eb5037aea7128
+SHA1: b153b7d87e2e11c3e873cef8569eca027558afc7
+SHA256: 1d2612f27e3b89970bdfae6521b0897341885697db0304bdde1e79f43265f910
+Section: Networking
+Priority: optional
+Homepage: https://aria2.github.io/
+Description: Athena Project | Compiled for ARM64.
+ Download with resuming and segmented downloading
+Tag: purpose::console
+Name: aria2
+
+Package: com.mc.arp-scan
+Version: 1.9.5-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libpcap
+Filename: ./Athena/com.mc.arp-scan_1.9.5-1_iphoneos-arm.deb
+Size: 288596
+MD5sum: 8e24389d7ffe0d83cbe9832355be2d3d
+SHA1: 1fac139e4f41b45632451fefbc08bc6b35239612
+SHA256: 9fea228f4113df6b61c1d4d218e68af7929acd59947d3a4cd907e7e4f633530a
+Section: Networking
+Priority: optional
+Homepage: https://github.com/royhills/arp-scan
+Description: Athena Project | Compiled for ARM64.
+ ARP scanning and fingerprinting tool
+Tag: purpose::console
+Name: arp-scan
+
+Package: com.mc.aspell
+Version: 0.60.6.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext, com.mc.ncurses
+Filename: ./Athena/com.mc.aspell_0.60.6.1-1_iphoneos-arm.deb
+Size: 1498844
+MD5sum: e0ebbac1a68e636cc085a257f3920ff2
+SHA1: ee82a2513d6a6749ec39ec8e82ea53e80fa273c7
+SHA256: f2e5b4a6775fa7bef172156102e13828d8adf9a17c482f256d029e02f952caf3
+Section: Utilities
+Priority: optional
+Homepage: http://aspell.net/
+Description: Athena Project | Compiled for ARM64.
+ Command line spell checking engine.
+Tag: purpose::console
+Name: Aspell
+
+Package: com.mc.atomicparsely
+Version: 0.9.6-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.atomicparsely_0.9.6-1_iphoneos-arm.deb
+Size: 120764
+MD5sum: cba608b047ef32342387e97a3d142a94
+SHA1: 17118018189f10e15d1facdf5a8bee8ed777be18
+SHA256: 59dc7ce42bc5984f2100380fa480dfa4b9cd4062210c3a8f61cffac6f6fcb400
+Section: Utilities
+Priority: optional
+Homepage: https://bitbucket.org/wez/atomicparsley/overview/
+Description: Athena Project | Compiled for ARM64.
+ MPEG-4 command-line tool
+Tag: purpose::console
+Name: Atomicparsley
+
+Package: com.mc.autoconf
+Version: 2.69-3
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.perl
+Filename: ./Athena/com.mc.autoconf_2.69-3_iphoneos-arm.deb
+Size: 272812
+MD5sum: 8e5621c0b33263bf2118aeb11eec9ead
+SHA1: 5b81edc29a0eb065966b5dcd4be439f3d0c10b74
+SHA256: bded4f7f6f586cf347f0f73984261d48a779a95b15baa34430636a2c9cbd3890
+Section: Development
+Priority: optional
+Homepage: https://www.gnu.org/software/autoconf
+Description: Athena Project | Compiled for ARM64.
+ Automatic configure script builder
+Tag: purpose::console
+Name: Autoconf
+
+Package: com.mc.axel
+Version: 2.16.1-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext, com.mc.openssl
+Filename: ./Athena/com.mc.axel_2.16.1-2_iphoneos-arm.deb
+Size: 44092
+MD5sum: 0bb54b11e2a9966cb75ae386c2bf8fba
+SHA1: 6796f6ecd453347a05abd2daf79c187e9143249c
+SHA256: 118896275cf9d2248beab9811c2d9f7118ca295fc4ff408fecc6d397cd09e34f
+Section: Networking
+Priority: optional
+Homepage: https://github.com/eribertomota/axel
+Description: Athena Project | Compiled for ARM64.
+ Light UNIX download accelerator
+Tag: purpose::console
+Name: axel
+
+Package: com.mc.bash
+Version: 5.2
+Architecture: iphoneos-arm
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Filename: ./Athena/com.mc.bash_5.2_iphoneos-arm.deb
+Size: 937004
+MD5sum: 80548e1e306caed848c4ba341362b007
+SHA1: 4789e78245bcead932d0a208459e475a4e47828c
+SHA256: 133649b70c021fd3190e36ffab85af09354c8701bc9b429e80996ee0f2309711
+Section: Terminal Support
+Priority: optional
+Homepage: https://www.gnu.org/software/bash/
+Description: Athena Project | Compiled for ARM64.
+ Bourne-Again SHell, A UNIX command interpreter
+Name: bash
+Tags: purpose::console
+
+Package: com.mc.bash-completion
+Version: 2.8-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: bash
+Filename: ./Athena/com.mc.bash-completion_2.8-1_iphoneos-arm.deb
+Size: 144392
+MD5sum: e297718c0fa18c367a2e5b73be4d53d7
+SHA1: 9c138ed851b06d3c5f87ed916d5f907668491b3b
+SHA256: aaf2967407e2e7579d2110898664b3c62dd43ee341c66f1c8885c3b5817849cb
+Section: Terminal Support
+Priority: optional
+Homepage: https://github.com/scop/bash-completion
+Description: Athena Project | Compiled for ARM64.
+ Programmable completion for Bash
+Tag: purpose::console
+Name: Bash Completion
+
+Package: com.mc.bc
+Version: 1.07.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.bc_1.07.1-1_iphoneos-arm.deb
+Size: 67180
+MD5sum: 589109ca56f76461afea8a6d3b3591fb
+SHA1: 9730f5a1b61fb26cca5b7ac9e02b694220214153
+SHA256: 67b4574a6b89cf71969e5bbd82d0c6ced6b35337709d7092667ee11eca6b9e2b
+Section: Utilities
+Priority: optional
+Homepage: https://www.gnu.org/software/bc/
+Description: Athena Project | Compiled for ARM64.
+ Arbitrary precision numeric processing language
+Tag: purpose::console
+Name: bc
+
+Package: com.mc.bdwgc
+Version: 8.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.bdwgc_8.0.0-1_iphoneos-arm.deb
+Size: 219860
+MD5sum: 00e8e405aa4e43f2f0ac29eaecf30314
+SHA1: 2768b3453273a99447f2f722b15c24f67184c5e9
+SHA256: 50fd6ce26bab1a0787c6730ba5890e054c189414f7097be092fd76513eba2081
+Section: Development
+Priority: optional
+Homepage: https://www.hboehm.info/gc/
+Description: Athena Project | Compiled for ARM64.
+ Garbage collector for C and C++
+Tag: purpose::library
+Name: bdwgc
+
+Package: com.mc.boost
+Version: 1.68.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.boost_1.68.0-1_iphoneos-arm.deb
+Size: 12186160
+MD5sum: 3ff14e27430bd4b73092581b596c6f8d
+SHA1: 2f18ca7048782e80ee2e81e71d682b64f9ce956e
+SHA256: b451d0c137c2ed26415b871b154a78e6ce4808a058f4874961afe1deb73ff94f
+Section: Development
+Priority: optional
+Homepage: https://www.boost.org/
+Description: Athena Project | Compiled for ARM64.
+ Collection of portable C++ source libraries
+Tag: purpose::library
+Name: Boost
+
+Package: com.mc.c-ares
+Version: 1.14.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.c-ares_1.14.0-1_iphoneos-arm.deb
+Size: 48824
+MD5sum: 0ae4cfc6bb24213b931b4a90c99db448
+SHA1: 4104e77a764b12942fe93b1c2ce9529c8f754c00
+SHA256: 7f5b3523eea802078ad860b72d928d602d541c09e3b3146707291390150f9861
+Section: Development
+Priority: optional
+Homepage: https://c-ares.haxx.se/
+Description: Athena Project | Compiled for ARM64.
+ Asynchronous DNS library
+Tag: purpose::library
+Name: CAres
+
+Package: com.mc.cloog
+Version: 0.20.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.isl, com.mc.gmp
+Filename: ./Athena/com.mc.cloog_0.20.0-1_iphoneos-arm.deb
+Size: 64384
+MD5sum: 2617a82845508c018b9b9cdbaf734532
+SHA1: 71035ef63166e10e55cc0bd4c9e11d9d42733168
+SHA256: 2b0d3f9cfde2e6c729180b951996407406bde672319d6b79ed149df7a4db2955
+Section: Development
+Priority: optional
+Homepage: https://www.bastoul.net/cloog/
+Description: Athena Project | Compiled for ARM64.
+ Generate code for scanning Z-polyhedra
+Tag: purpose::console
+Name: Cloog
+
+Package: com.mc.curl
+Version: 7.62.0-3
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.c-ares, com.mc.nghttp2, com.mc.libidn2, com.mc.libssh2, com.mc.gcrypt, com.mc.openssl, com.mc.zlib, com.mc.libmetalink, com.mc.libxml2, com.mc.xz | xz, com.mc.libexpat, com.mc.libiconv, com.mc.gettext, com.mc.libunistring, com.mc.gpg-error, ca-certificates
+Filename: ./Athena/com.mc.curl_7.62.0-3_iphoneos-arm.deb
+Size: 509816
+MD5sum: 41c5cb4d89ba526dcac7465c28b0e507
+SHA1: 517898cae3c1e1e551a844ffa0b4118ce03b96a8
+SHA256: a410bea26a26dbf9d4aed8708cb975c44c552757d31aaaa7768dddc8c980ed1f
+Section: Networking
+Priority: optional
+Homepage: https://curl.haxx.se/
+Description: Athena Project | Compiled for ARM64.
+ Get a file from an HTTP, HTTPS or FTP server, with curl compiled with almost everything (Like SCP/STFP support).
+Tag: purpose::console
+Name: cURL
+
+Package: com.mc.db
+Version: 18.1.25-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openssl
+Filename: ./Athena/com.mc.db_18.1.25-1_iphoneos-arm.deb
+Size: 1464640
+MD5sum: 4c5e6742b927da2fdcad1202e7ce1ea7
+SHA1: a8f00f9aef6f60776d0784f4639dc0f583d89d64
+SHA256: 1be49e85d1cca20c7b1d92cfc2554d9291c79bb01e07516ac3ae55e6a9ef6455
+Section: Data Storage
+Priority: optional
+Homepage: https://www.oracle.com/technology/products/berkeley-db/index.html
+Description: Athena Project | Compiled for ARM64.
+ High performance key/value database
+Tag: purpose::console
+Name: Berkeley DB
+
+Package: com.mc.dialog
+Version: 20181107-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses
+Filename: ./Athena/com.mc.dialog_20181107-1_iphoneos-arm.deb
+Size: 306068
+MD5sum: 7f4738ebdb853b8b1ca1b8954d42d65b
+SHA1: 70731767d6f2c67658ee1065947308c268992a85
+SHA256: 53df1a08ce6ddec1ef4b51d30f10b3a16d6c9aea20c25cb1f8c407093996c785
+Section: Utilities
+Priority: optional
+Homepage: https://invisible-island.net/dialog/
+Description: Athena Project | Compiled for ARM64.
+ Display user-friendly message boxes from shell scripts
+Tag: purpose::console
+Name: Dialog
+
+Package: com.mc.diffutils
+Version: 3.6-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.diffutils_3.6-1_iphoneos-arm.deb
+Size: 122896
+MD5sum: 50a019be4f5afae2b1f3bb52495c5510
+SHA1: b4091e3fa91e3d176b9e49acf2b3e43b4a1e40f7
+SHA256: d8e18552a726e2238277588018c8e28e14d1189add7d3c4b40ab0d36ce23f2fa
+Section: Utilities
+Priority: optional
+Homepage: https://www.gnu.org/s/diffutils/
+Description: Athena Project | Compiled for ARM64.
+ File comparison utilities
+Tag: purpose::console
+Name: Diffutils
+
+Package: com.mc.dnscrypt
+Version: 2.0.19
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.dnscrypt_2.0.19_iphoneos-arm.deb
+Size: 3789712
+MD5sum: da453cb7cff9ed77c100ae58984326de
+SHA1: 591765728a8bdda6aec6944389a88bd9c4609dc2
+SHA256: db02fc46ca2af2521ccff97c882bbdbf0038cea86cd613d628c69434659bafb7
+Section: Networking
+Priority: optional
+Homepage: https://dnscrypt.info/
+Description: Athena Project | Compiled for ARM64.
+ A flexible DNS proxy, with support for encrypted DNS protocols.
+ .
+ Start (as root):
+ dnscrypt-proxy -service start -config /etc/dnscrypt-proxy/dnscrypt-proxy.toml
+ Stop:
+ dnscrypt-proxy -service stop
+ Or:
+ dnscrypt-proxy -config /etc/dnscrypt-proxy/dnscrypt-proxy.toml &>/dev/null &
+ in a shell if that doesn't work.
+ .
+ Reinstall:
+ cd /etc/dnscrypt-proxy/
+ dnscrypt-proxy -service uninstall
+ dnscrypt-proxy -service install
+Tag: tag::console
+Name: DNSCrypt
+
+Package: com.mc.dropbear
+Version: 2018.76-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.dropbear_2018.76-2_iphoneos-arm.deb
+Size: 151804
+MD5sum: 8fd535ad4261a9dddffa8d741232f660
+SHA1: 7b7318e9067dc688266e86ee4c6a585a35debd3a
+SHA256: e2ffb8e1a703b4c866496f19d3af6342e888fb1a4a60d3c4296c6cb4869e3d1e
+Section: Networking
+Priority: optional
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Description: Athena Project | Compiled for ARM64.
+ Small SSH server/client for POSIX-based system
+Tag: purpose::console
+Name: Dropbear
+
+Package: com.mc.dsniff
+Version: 2.4-1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libnids, com.mc.openssl, com.mc.db, com.mc.libnet, com.mc.libpcap
+Filename: ./Athena/com.mc.dsniff_2.4-1-1_iphoneos-arm.deb
+Size: 73260
+MD5sum: c5fde551a7a93113ee4b49c7b879d7e4
+SHA1: 23bfe615e8798a2973e5db1eb7a4fd5606928719
+SHA256: 3c652088d8d19360ecfc40539f4f609f4137e6f8ab646d510985d516b73653fd
+Section: Networking
+Priority: optional
+Homepage: https://www.monkey.org/~dugsong/dsniff/
+Description: Athena Project | Compiled for ARM64.
+ Old collection of tools for network auditing and penetration testing
+Tag: purpose::console
+Name: dsniff
+
+Package: com.mc.emacs
+Version: 26.1-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libxml2, com.mc.ncurses, com.mc.gnutls, com.mc.zlib
+Filename: ./Athena/com.mc.emacs_26.1-2_iphoneos-arm.deb
+Size: 33117908
+MD5sum: 392c4486c1805fb6cd10ea8da0af60bf
+SHA1: d01c03bb41ebb2b8f05cf650e8147f9ea20cbe33
+SHA256: 838750282ecf4c0a64c06a163e62cead313822b99381ccf045dcfdce5de06690
+Section: Text Editors
+Priority: optional
+Homepage: https://www.gnu.org/software/emacs/
+Description: Athena Project | Compiled for ARM64.
+ GNU Emacs text editor
+Tag: purpose::console
+Name: emacs
+
+Package: com.mc.exiftool
+Version: 11.21-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.perl
+Filename: ./Athena/com.mc.exiftool_11.21-1_iphoneos-arm.deb
+Size: 1984232
+MD5sum: 5261f15370a2a885eb26c7606e1c26e5
+SHA1: 5de5c982a10699c298259174dacd0c738ecb9bca
+SHA256: aae9c42cdb0706b43b440ef256b8b1ce0aec81366b125c01502ff4d0f72707a5
+Section: Utilities
+Priority: optional
+Homepage: https://www.sno.phy.queensu.ca/~phil/exiftool/index.html
+Description: Athena Project | Compiled for ARM64.
+ Perl lib for reading and writing EXIF metadata
+Tag: purpose::console
+Name: ExifTool
+
+Package: com.mc.fdk-aac
+Version: 0.1.6-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.fdk-aac_0.1.6-1_iphoneos-arm.deb
+Size: 370892
+MD5sum: 50e175d977f5f33f96aa62687c663757
+SHA1: 9cdffb93c3fe544fd48b0cd0de9a1894f172316c
+SHA256: 78a5511ddfcbdc93269109ee3a50e21f597fcd2ea6ca060231f785097ac06984
+Section: Development
+Priority: optional
+Homepage: https://sourceforge.net/projects/opencore-amr/
+Description: Athena Project | Compiled for ARM64.
+ Standalone library of the Fraunhofer FDK AAC code from Android
+Tag: purpose::library
+Name: fdk-aac
+
+Package: com.mc.ffmpeg
+Version: 4.1-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openh264, com.mc.x265, com.mc.libvorbis, com.mc.libogg, com.mc.theora, com.mc.opus, com.mc.lame, com.mc.fdk-aac, com.mc.snappy, com.mc.xz | xz, com.mc.libiconv, com.mc.libssh, com.mc.openssl, com.mc.zlib, com.mc.libvpx, com.mc.x264
+Filename: ./Athena/com.mc.ffmpeg_4.1-2_iphoneos-arm.deb
+Size: 7946624
+MD5sum: 9ddae25b2584692de046650e574a38bb
+SHA1: 8a9aaddf370c294ade7cdcd40cbb4ead2876d16b
+SHA256: 3e9cb4d2815b00140b80e2889b12480cc38a14011fbacf7ca6baacbc4da22ca7
+Section: Multimedia
+Priority: optional
+Homepage: https://ffmpeg.org/
+Description: Athena Project | Compiled for ARM64.
+ Play, record, convert, and stream audio and video
+Tag: purpose::console
+Name: ffmpeg
+
+Package: com.mc.file
+Version: 5.35-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.file_5.35-1_iphoneos-arm.deb
+Size: 290328
+MD5sum: 6c86ab91e91d01de17ce06fb95fc5dc3
+SHA1: 8f19d1e941a981d5a88332df032063c258c0a2a8
+SHA256: 485ff5d75e22029dd777866a50a4635e3ddd17811992c57bd5cdc3a66d12b892
+Section: Utilities
+Priority: optional
+Homepage: https://www.darwinsys.com/file/
+Description: Athena Project | Compiled for ARM64.
+ Utility to determine file types, includes libmagic.
+Tag: purpose::console
+Name: File
+
+Package: com.mc.fish
+Version: 3.0.2-01
+Architecture: iphoneos-arm
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Depends: com.mc.pcre2, com.mc.gettext
+Filename: ./Athena/com.mc.fish_3.0.2-01_iphoneos-arm.deb
+Size: 1658868
+MD5sum: f54be0bfeed376ddc2e7be4ff375681e
+SHA1: 1299d0158318940e4193a9274234511cfd61e86c
+SHA256: 2ab5b50bd091294f421f2949a8c7bc39829a63c7093eb9868bc7f44ef3aba764
+Section: Terminal Support
+Priority: optional
+Homepage: https://fishshell.com
+Description: Athena Project | Compiled for ARM64.
+ User-friendly command-line shell for UNIX-like operating systems
+Name: fish
+Tags: purpose::console
+
+Package: com.mc.gcrypt
+Version: 1.8.4-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gpg-error
+Filename: ./Athena/com.mc.gcrypt_1.8.4-1_iphoneos-arm.deb
+Size: 370124
+MD5sum: db35eb683ce2a6d2feedcc0e65fd7a11
+SHA1: 50c4e8e384a459496c25e06914eef8329f9aeee9
+SHA256: cbd3df0ca17939e29f6dd5a992c447b376eb559c6c8ed7c251d384c1b0b64275
+Section: Security
+Priority: optional
+Homepage: https://gnupg.org/related_software/libgcrypt/
+Description: Athena Project | Compiled for ARM64.
+ Cryptographic library based on the code from GnuPG
+Tag: purpose::library
+Name: GNU Cryptography
+
+Package: com.mc.gdbm
+Version: 1.18.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext, com.mc.readline, com.mc.ncurses
+Filename: ./Athena/com.mc.gdbm_1.18.1-1_iphoneos-arm.deb
+Size: 115692
+MD5sum: 97d66e8ffd466254cba48e666ac892fd
+SHA1: 71fb7bd30e8cb84bc7ca25348bf25043d1350e71
+SHA256: 72d396c9c6fd1ea7ce4f609960fa05741df0f9f0ebaa676447e6866635e8816c
+Section: Data Storage
+Priority: optional
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Description: Athena Project | Compiled for ARM64.
+ GNU database manager
+Tag: purpose::library
+Name: GNU dbm
+
+Package: com.mc.geoipupdate
+Version: 3.1.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.curl
+Filename: ./Athena/com.mc.geoipupdate_3.1.1-1_iphoneos-arm.deb
+Size: 23160
+MD5sum: ea4b44640392da3a4f5ab82d20cdba1b
+SHA1: 851cf3a183c8ab899a0638c1a37bc438f0e74e0a
+SHA256: d85e07754b061788e8c7816c6ca5b4bca9f18f6fb56af0527b4ec3d732f4c668
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/maxmind/geoipupdate
+Description: Athena Project | Compiled for ARM64.
+ Automatic updates of GeoIP2 and GeoIP Legacy databases
+Tag: purpose::console
+Name: geoipupdate
+
+Package: com.mc.gettext
+Version: 0.19.8.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libxml2, com.mc.zlib, com.mc.xz | xz, com.mc.ncurses
+Filename: ./Athena/com.mc.gettext_0.19.8.1-1_iphoneos-arm.deb
+Size: 2234580
+MD5sum: fbe4745d6c530eb3a2a9176aa8d6575c
+SHA1: 36f9e33b1c6e99fcbc7ad5bb5113c3afe3fffaac
+SHA256: 0f78141de944ba9d52868c1609855110d30da6ca6e7eaa948ba4b4cbfd2d5bb0
+Section: Development
+Priority: optional
+Homepage: https://www.gnu.org/software/gettext/
+Description: Athena Project | Compiled for ARM64.
+ GNU internationalization (i18n) and localization (l10n) library
+Tag: purpose::library
+Name: Gettext
+
+Package: com.mc.glib
+Version: 2.58.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext, com.mc.libxml2, com.mc.libffi, com.mc.zlib, com.mc.libiconv
+Filename: ./Athena/com.mc.glib_2.58.1-1_iphoneos-arm.deb
+Size: 2423540
+MD5sum: bda02acec4f0c613fc5fd9fed70bd2e9
+SHA1: 7c54f532a497f660751aa08f46806b5323e6a810
+SHA256: 246815907c3e57871a7da6fd0bb00dda6247ae49dd5fae503ebd435229ac23f1
+Section: Development
+Priority: optional
+Homepage: https://developer.gnome.org/glib/
+Description: Athena Project | Compiled for ARM64.
+ Core application library for C
+Tag: purpose::library
+Name: Glib
+
+Package: com.mc.gmp
+Version: 6.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.gmp_6.1.2-1_iphoneos-arm.deb
+Size: 219068
+MD5sum: 7bf3af1ca9ca948b393024aefe2f2316
+SHA1: 13a8aaadd8b6a014213a34fc13d2caa31d27202b
+SHA256: 5cab9bdda7470e3ce4ee2db54c3a445eac7efa729f4b330f205e21c753ebbb6b
+Section: Development
+Priority: optional
+Homepage: https://gmplib.org/
+Description: Athena Project | Compiled for ARM64.
+ GNU multiple precision arithmetic library
+Tag: purpose::library
+Name: Gmp
+
+Package: com.mc.gnutls
+Version: 3.5.19-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext, com.mc.zlib, com.mc.p11-kit, com.mc.libffi, com.mc.libiconv, com.mc.libidn2, com.mc.libunistring, com.mc.libtasn1, com.mc.nettle, com.mc.gmp
+Filename: ./Athena/com.mc.gnutls_3.5.19-1_iphoneos-arm.deb
+Size: 1187216
+MD5sum: 340dd38f69c320bbd25d5dd7530a8c60
+SHA1: 3859aae55b3c69b25da542f47a90661c021fb5b4
+SHA256: abf6579d69998386a4c1ae6a4a72893e1caedc65e43b31cd61568283b95d2552
+Section: Security
+Priority: optional
+Homepage: https://gnutls.org/
+Description: Athena Project | Compiled for ARM64.
+ GNU Transport Layer Security (TLS) Library
+Tag: purpose::library
+Name: GnuTLS
+
+Package: com.mc.golang
+Version: 1.11.2-4
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.SDK
+Filename: ./Athena/com.mc.golang_1.11.2-4_iphoneos-arm.deb
+Size: 53928848
+MD5sum: 34e8270bde8ea50456a00a1102acbdab
+SHA1: c70abc39a110ba3e39fbfb1fc5ae2870cef23960
+SHA256: cc4d434a9e6657a7ae7e1ee695949f14d8c3b241bef8859c16c6a8549cbe719b
+Section: Scripting
+Priority: optional
+Homepage: https://golang.org
+Description: Athena Project | Compiled for ARM64.
+ Open source programming language to build simple/reliable/efficient software.
+ | Notes:
+ `/usr/local/bin/go` is a bash wrapper to set needed variables.
+ (Somethings will break calling scripts).
+ .
+ Golang is built statically and therefore is large (300mb warning!).
+ Make sure to not let dpkg/Cydia die when installing.
+ | TODO:
+ Patch go to default C{C,XX} and {C,LD}FLAGS to favorable values.
+ Edits can be found here: https://github.com/MCApollo/golang-arm64-darwin-jailbroken
+ | Update:
+ Fixed code-signing on go {build,install} binaries.
+Tag: purpose::console
+Name: Go
+
+Package: com.mc.gpg-error
+Version: 1.32-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.gpg-error_1.32-1_iphoneos-arm.deb
+Size: 90472
+MD5sum: 97868d96a70480ab06a7d6eee6732a1c
+SHA1: cc53414ea2040f6c8fc2362ad9a799ce091cff00
+SHA256: 77326900c9bf247cd09a64dc1225b63409ce64e061729655917e3f1e26bf30d4
+Section: Security
+Priority: optional
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Description: Athena Project | Compiled for ARM64.
+ GnuPG's error management library
+Tag: purpose::library
+Name: GnuPG Errors
+
+Package: com.mc.groff
+Version: 1.23.3-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.groff_1.23.3-1_iphoneos-arm.deb
+Size: 2288380
+MD5sum: 8f530b9806dc8e8fbfe72b334027abc9
+SHA1: 945a4b4d36646015ba8c70ce4be32c08869ecd16
+SHA256: 91e0f3e50a93923b6d20f58a228afd6d157e54e3495d36589462d1bd222f7932
+Section: Utilities
+Priority: optional
+Homepage: https://www.gnu.org/software/groff/
+Description: Athena Project | Compiled for ARM64.
+ GNU troff text-formatting system
+Tag: purpose::console
+Name: Groff
+
+Package: com.mc.httpry
+Version: 0.1.8-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libpcap
+Filename: ./Athena/com.mc.httpry_0.1.8-2_iphoneos-arm.deb
+Size: 15092
+MD5sum: 9f3ab52c25033b5027e7140e6482f82c
+SHA1: 38c0dc471788f773eb4f33f0c105c53e4fecdaf4
+SHA256: 34fc969f8089588f41a8e475ba3a9271988c85be8666136aa16d8f8e66afb28a
+Section: Networking
+Priority: optional
+Homepage: https://github.com/jbittel/httpry
+Description: Athena Project | Compiled for ARM64.
+ Packet sniffer for displaying and logging HTTP traffic
+Tag: purpose::console
+Name: httpry
+
+Package: com.mc.i2pd
+Version: 2.22.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.zlib, com.mc.openssl, com.mc.boost, com.mc.miniupnpc
+Filename: ./Athena/com.mc.i2pd_2.22.0-1_iphoneos-arm.deb
+Size: 716764
+MD5sum: f911ec7c19ad77ab78d2a3390f15127c
+SHA1: fc8e03a8d6ac7da1397ece3b21740a8b8fae636b
+SHA256: 38b0792f2b8c2706caed867a7ca116bb14ff49d69b342552d6eed03258667b1a
+Section: Networking
+Priority: optional
+Homepage: https://i2pd.website/
+Description: Athena Project | Compiled for ARM64.
+ Full-featured C++ implementation of I2P client
+Tag: purpose::console
+Name: I2pd
+
+Package: com.mc.iodine
+Version: 0.7.0-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.iodine_0.7.0-2_iphoneos-arm.deb
+Size: 65088
+MD5sum: 6e89b71e3df216c138621a894e8912ff
+SHA1: df8669f110e7382a26b4ee3f3733172794ab72c2
+SHA256: f0a835ba49248a31a3a3aaf8fe79bb04bf72f68f3e216b81e51438326895c590
+Section: Networking
+Priority: optional
+Homepage: http://code.kryo.se/iodine/
+Description: Athena Project | Compiled for ARM64.
+ Forward IPv4 traffic through DNS servers (IP over DNS)
+Tag: purpose::console
+Name: iodine
+
+Package: com.mc.isl
+Version: 0.20-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gmp
+Filename: ./Athena/com.mc.isl_0.20-1_iphoneos-arm.deb
+Size: 527452
+MD5sum: b2d812022c33771063cd030348c1e19b
+SHA1: 89a60c5550de88f259933f6e81fccec9836ab21a
+SHA256: 7d068d4edb9966f6bb145ac5577afcc3805b7cc411173b6c50f8f68042377cb3
+Section: Development
+Priority: optional
+Homepage: http://isl.gforge.inria.fr/
+Description: Athena Project | Compiled for ARM64.
+ Integer Set Library for the polyhedral model
+Tag: purpose::library
+Name: ISL
+
+Package: com.mc.jansson
+Version: 2.11-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.jansson_2.11-1_iphoneos-arm.deb
+Size: 25360
+MD5sum: 27a3bcf195121adc23c0f7cc0d1f12f4
+SHA1: 361b5b44f9d6d343e5522a23fd43e9e2bad3c9a2
+SHA256: 910cc2075e4b67c24f9714090f79f0b7c068e9d5c459abe331d5e333773e50b3
+Section: Development
+Priority: optional
+Homepage: http://www.digip.org/jansson/
+Description: Athena Project | Compiled for ARM64.
+ C library for encoding, decoding, and manipulating JSON
+Tag: purpose::library
+Name: Jansson
+
+Package: com.mc.jemalloc
+Version: 5.10-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.jemalloc_5.10-2_iphoneos-arm.deb
+Size: 620776
+MD5sum: 1295c5702796adb67d4caeab1b5cf2a3
+SHA1: f823ecfc9f0b3908480bfcade615a71a5619d184
+SHA256: 6b406737681fa9b32cc3778c244eed05730bc71023c1e926ba20f5beadd74b18
+Section: Development
+Priority: optional
+Homepage: http://jemalloc.net/
+Description: Athena Project | Compiled for ARM64.
+ malloc implementation emphasizing fragmentation avoidance
+Tag: purpose::library
+Name: jemalloc
+
+Package: com.mc.jq
+Version: 1.6-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.oniguruma
+Filename: ./Athena/com.mc.jq_1.6-1_iphoneos-arm.deb
+Size: 142124
+MD5sum: 4420032e5691517aaec3ce4eff92d984
+SHA1: 26ded6547bce5289ebced78e17877288032bf649
+SHA256: a4db4af0ef12328708726a8f1fc5e4168d20a8134caa930ffabf5225b335cc38
+Section: Utilities
+Priority: optional
+Homepage: https://stedolan.github.io/jq/
+Description: Athena Project | Compiled for ARM64.
+ Lightweight and flexible command-line JSON processor
+Tag: purpose::console
+Name: jq
+
+Package: com.mc.lame
+Version: 3.100-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses, com.mc.libiconv
+Filename: ./Athena/com.mc.lame_3.100-1_iphoneos-arm.deb
+Size: 230068
+MD5sum: 2f696626fee66cdaa7d5c51740d634c2
+SHA1: a9ab4f219285d6240f18e0131337444b359f430a
+SHA256: 88e339329b497e321e73bd505f16a9679c35efa9e376b4dd589a764055b90b96
+Section: Multimedia
+Priority: optional
+Homepage: https://lame.sourceforge.io/
+Description: Athena Project | Compiled for ARM64.
+ High quality MPEG Audio Layer III (MP3) encoder
+Tag: purpose::library
+Name: lame
+
+Package: com.mc.lftp
+Version: 4.8.4-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openssl, com.mc.zlib, com.mc.readline, com.mc.ncurses, com.mc.libdnet, com.mc.libiconv, com.mc.libidn2, com.mc.libunistring, com.mc.gettext
+Filename: ./Athena/com.mc.lftp_4.8.4-1_iphoneos-arm.deb
+Size: 942684
+MD5sum: 90550a1484a999de2645fd3c08c13bff
+SHA1: d363b16214b226e426e5671402a2861456b76e1a
+SHA256: 5fc6296d96fe8327c66424e67835ff6c475d75b1f2cd55c4c15f59b84c51e6d2
+Section: Networking
+Priority: optional
+Homepage: https://lftp.yar.ru/
+Description: Athena Project | Compiled for ARM64.
+ Sophisticated file transfer program
+Tag: purpose::console
+Name: lftp
+
+Package: com.mc.libatomic-ops
+Version: 7.6.6-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libatomic-ops_7.6.6-1_iphoneos-arm.deb
+Size: 72408
+MD5sum: dfff06d6c4c6adb5f48711632afcd33a
+SHA1: 3f34578e7ec8098d201bdc671d924d092a7c0e3f
+SHA256: 224f28d65ed501c81f3e010dd0a32ec322b6840124930032b9d5927f2809f774
+Section: Development
+Priority: optional
+Homepage: https://github.com/ivmai/libatomic_ops/blob/master/README.md
+Description: Athena Project | Compiled for ARM64.
+ Implementations for atomic memory update operations
+Tag: purpose::library
+Name: libatomic_ops
+
+Package: com.mc.libdnet
+Version: 1.12-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libdnet_1.12-1_iphoneos-arm.deb
+Size: 47800
+MD5sum: 1c45c6e7f0db6c316ef7ea1e23506811
+SHA1: 7e42ca0ea607324d4bef7bf9d71fc8ea4d08aa6c
+SHA256: c669840e72f94b230a2571039a42fd9f5c23bb637f4901d8e50c638414b6bf78
+Section: Development
+Priority: optional
+Homepage: https://github.com/dugsong/libdnet
+Description: Athena Project | Compiled for ARM64.
+ Portable low-level networking library
+Tag: purpose::library
+Name: libdnet
+
+Package: com.mc.libedit
+Version: 3.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses
+Filename: ./Athena/com.mc.libedit_3.1-1_iphoneos-arm.deb
+Size: 91920
+MD5sum: 9fbf452fe2eb4a79b78e12564eff6f5d
+SHA1: 81ff027228b61e63bbaa9b317b7d659190d5efd1
+SHA256: f183a3af29028a46ed2dca9696ed54e3f1c82ad08c5947a4222312d6d6071cfd
+Section: Development
+Priority: optional
+Homepage: https://thrysoee.dk/editline/
+Description: Athena Project | Compiled for ARM64.
+ BSD-style licensed readline alternative
+Tag: purpose::library
+Name: libedit
+
+Package: com.mc.libev
+Version: 4.24-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libev_4.24-1_iphoneos-arm.deb
+Size: 98420
+MD5sum: 9fd512fd67fec4f9b54b2af08e329fe5
+SHA1: f719ce5efb8bc6856209e723f532aae05f3e5367
+SHA256: d1318125f80694010a6a871a0e6172e3cdf4aaf20c11d2019860b9a7eca69bbb
+Section: Development
+Priority: optional
+Homepage: http://software.schmorp.de/pkg/libev.html
+Description: Athena Project | Compiled for ARM64.
+ Asynchronous event library.
+Tag: purpose::library
+Name: libev
+
+Package: com.mc.libevent
+Version: 2.1.8-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openssl
+Filename: ./Athena/com.mc.libevent_2.1.8-1_iphoneos-arm.deb
+Size: 225168
+MD5sum: ca838386695904775eb84d7e726bf05d
+SHA1: 3d9acafa4c1a5570c02395aa56d65d46a4ab6bd2
+SHA256: c270e2aa3f36d5fc138d19006bbe05010c38d44e8d6df0a9721844208d4983c4
+Section: Development
+Priority: optional
+Homepage: https://libevent.org/
+Description: Athena Project | Compiled for ARM64.
+ The other asynchronous event library
+Tag: purpose::library
+Name: libevent
+
+Package: com.mc.libexpat
+Version: 2.2.6-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libexpat_2.2.6-1_iphoneos-arm.deb
+Size: 80964
+MD5sum: a335629d3b18939bf991b8532e92dc7f
+SHA1: f45e6ff22387eec1a1b3912ad1e705dad5ffbb14
+SHA256: 1dc3f8e7784c89253f5207d5c6c644fd57fcc6b66602d50ebcf51d7533af74ef
+Section: Development
+Priority: optional
+Homepage: https://libexpat.github.io/
+Description: Athena Project | Compiled for ARM64.
+ XML 1.0 parser
+Tag: purpose::library
+Name: XML Parser Toolkit (Expat)
+
+Package: com.mc.libffi
+Version: 3.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libffi_3.2.1-1_iphoneos-arm.deb
+Size: 19152
+MD5sum: b2a2c58b78c1743aea1f26bcdddae0fe
+SHA1: 9e3edd08a334b695ba445e7c826246c2d666c34e
+SHA256: db22f97bd39b87c97a7eef552ea014c6d33e8af5b5f77fbca4ddcde6c58e97cd
+Section: Development
+Priority: optional
+Homepage: https://sourceware.org/libffi/
+Description: Athena Project | Compiled for ARM64.
+ Portable Foreign Function Interface library
+Tag: purpose::library
+Name: libffi
+
+Package: com.mc.libiconv
+Version: 1.15-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libiconv_1.15-2_iphoneos-arm.deb
+Size: 521128
+MD5sum: 5300cfd24418d81ccfe8830fbef58d32
+SHA1: 320deaac7e9786f5e50b5cddf0876c34112c851e
+SHA256: 56821626fd117a45fe0a839359f67ea86eb4cd8a2b56a432d37e3d1b4d309d6a
+Section: Development
+Priority: optional
+Homepage: https://www.gnu.org/software/libiconv/
+Description: Athena Project | Compiled for ARM64.
+ Conversion library
+Tag: purpose::library
+Name: libiconv
+
+Package: com.mc.libidn2
+Version: 2.0.5-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libiconv, com.mc.libunistring, com.mc.gettext
+Filename: ./Athena/com.mc.libidn2_2.0.5-1_iphoneos-arm.deb
+Size: 87212
+MD5sum: 0571e73f9f93cc00e596728e486b1f4c
+SHA1: eb462d6e116b0b0760879358e2740ec91e1bc381
+SHA256: 8343d34d9b54ad79adc477fdfd0c22206fa9d96e939400ae1ac684f805f46571
+Section: Development
+Priority: optional
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Athena Project | Compiled for ARM64.
+ International domain name library (IDNA2008, Punycode and TR46)
+Tag: purpose::library
+Name: libidn2
+
+Package: com.mc.libmaxminddb
+Version: 1.3.2-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libmaxminddb_1.3.2-1_iphoneos-arm.deb
+Size: 25316
+MD5sum: fe168909d73fbf3f020dfdbefe343cd3
+SHA1: 12d7ebf7094b15086cd468a0283988618ef395ee
+SHA256: b0b39b11651821a75c1c41eee7fb7db338c3bda4f2a31bd5976e03eabc5bb946
+Section: Development
+Priority: optional
+Homepage: https://github.com/maxmind/libmaxminddb
+Description: Athena Project | Compiled for ARM64.
+ C library for the MaxMind DB file format
+Tag: purpose::library
+Name: libmaxminddb
+
+Package: com.mc.libmetalink
+Version: 0.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libxml2, com.mc.libexpat
+Filename: ./Athena/com.mc.libmetalink_0.1.3-1_iphoneos-arm.deb
+Size: 23560
+MD5sum: c5498939ceef054daa3287456b742888
+SHA1: 8a66f93d11d77d499f0ceb7c6b787e0eb621469b
+SHA256: 73b97ebff88052c26a3c7cfe2b6c5e7b8691602c7af02919f79133af04254461
+Section: Development
+Priority: optional
+Homepage: https://launchpad.net/libmetalink/
+Description: Athena Project | Compiled for ARM64.
+ C library to parse Metalink XML files
+Tag: purpose::library
+Name: libmetalink
+
+Package: com.mc.libmpc
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.mpfr, com.mc.gmp
+Filename: ./Athena/com.mc.libmpc_1.1.0-1_iphoneos-arm.deb
+Size: 34048
+MD5sum: dbb9795adab0132021451680d94a6449
+SHA1: 6d9ec75b0a3d12a3ddb79d9c7ff8b917f640a7b0
+SHA256: f126418a1fa928a2e85f874cbd6d1a4efd86f6fc85a4b468c38a98dfab75123d
+Section: Development
+Priority: optional
+Homepage: http://www.multiprecision.org/mpc/
+Description: Athena Project | Compiled for ARM64.
+ C library for the arithmetic of high precision complex numbers
+Tag: purpose::library
+Name: libmpc
+
+Package: com.mc.libnet
+Version: 1.1.6-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libnet_1.1.6-2_iphoneos-arm.deb
+Size: 75324
+MD5sum: d0b326900cb0b96530925898c269a61f
+SHA1: ea4185714898af436563259d7e20761e92be9cf4
+SHA256: ecf00c077deaeb0e71aa2e2e73e676407523f6d4846c164b748faf2858181ff7
+Section: Development
+Priority: optional
+Homepage: https://github.com/sam-github/libnet
+Description: Athena Project | Compiled for ARM64.
+ C library for creating IP packets
+Tag: purpose::library
+Name: libnet
+
+Package: com.mc.libnids
+Version: 1.24-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.glib, com.mc.gettext, com.mc.libnet, com.mc.libpcap
+Filename: ./Athena/com.mc.libnids_1.24-1_iphoneos-arm.deb
+Size: 59136
+MD5sum: da6f31a569d65c1289911e7bfda963ea
+SHA1: 212fadca8a9c92ebc1a3f5323e61ba5264665607
+SHA256: dd201c764a34ea7916bfea54a10a63309298ae1187baa9a0782ce57ce5d4853f
+Section: Development
+Priority: optional
+Homepage: https://libnids.sourceforge.io/
+Description: Athena Project | Compiled for ARM64.
+ Implements E-component of network intrusion detection system
+Tag: purpose::library
+Name: libnids
+
+Package: com.mc.libogg
+Version: 1.3.3-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libogg_1.3.3-1_iphoneos-arm.deb
+Size: 181960
+MD5sum: 0792f3109e320212b788f6d96dea3d6e
+SHA1: 9de1418dfd4790e986061648083313077c5c448c
+SHA256: 6ac22c5299c21e2a5db0308f44d8b0475a053d7dc68d0fd25a6d85a0fea76410
+Section: Development
+Priority: optional
+Homepage: https://www.xiph.org/ogg/
+Description: Athena Project | Compiled for ARM64.
+ Ogg Bitstream Library
+Tag: purpose::library
+Name: ogg
+
+Package: com.mc.libpcap
+Version: 1.9.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libpcap_1.9.0-1_iphoneos-arm.deb
+Size: 188780
+MD5sum: 5f9a5a271b5648225e2176adeedf5cf8
+SHA1: e0caecc2fb69c2d9394bbbf36c2e18a2369fc712
+SHA256: c2d79c4589a4fa7a584e5e1160a3d2218f85aec48ec04403a32336cc0ec33ea5
+Section: Development
+Priority: optional
+Homepage: https://www.tcpdump.org/
+Description: Athena Project | Compiled for ARM64.
+ Portable library for network traffic capture
+Tag: purpose::library
+Name: libpcap
+
+Package: com.mc.libpg
+Version: 10.5-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.readline, com.mc.openssl
+Filename: ./Athena/com.mc.libpg_10.5-1_iphoneos-arm.deb
+Size: 1462412
+MD5sum: f09907697c53b45cb43ab965eec9afc8
+SHA1: 9b9d8def83cd124bead0a0628996a0e6d56441df
+SHA256: 22a4831ac690636f7855bd55c84f265bea49ebd8a1fe6029c743f7fa421607fd
+Section: Development
+Priority: optional
+Homepage: https://www.postgresql.org/
+Description: Athena Project | Compiled for ARM64.
+ Object-relational database system.
+ |
+ If you know anything about IPC/Shared memory usage (sys/shm.h) in iOS, please get in touch.
+ Postgresql seems like it needs a entitlement for shared memory and I cannot resolve it.
+Tag: purpose::library
+Name: libpg
+
+Package: com.mc.libpipeline
+Version: 1.5.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libpipeline_1.5.0-1_iphoneos-arm.deb
+Size: 36484
+MD5sum: f166a1f705a951c2eeaf7e050f98b388
+SHA1: 27f9be0133286a60326847f552976ab175fd60ac
+SHA256: b35ae37c4dea618641e5966f93ce49b9e0fe317b2e77efee4e9dfa3aa2a0f2f7
+Section: Development
+Priority: optional
+Homepage: http://libpipeline.nongnu.org/
+Description: Athena Project | Compiled for ARM64.
+ Library for manipulating pipelines of subprocesses
+Tag: purpose::library
+Name: libpipeline
+
+Package: com.mc.libpng
+Version: 1.6.35-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libpng_1.6.35-1_iphoneos-arm.deb
+Size: 199388
+MD5sum: df3c908f45d99cd82b61c0faeeab162c
+SHA1: a97925f64277b7e9b5e100d3821d7bf3c63d8969
+SHA256: 668cc2a6499d82326c7e8226732df3cc476fe3c57e6b33397e3342178eee1ca9
+Section: Development
+Priority: optional
+Homepage: http://www.libpng.org/pub/png/libpng.html
+Description: Athena Project | Compiled for ARM64.
+ Library for manipulating PNG images
+Tag: purpose::library
+Name: libpng
+
+Package: com.mc.libscrypt
+Version: 1.21-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libscrypt_1.21-1_iphoneos-arm.deb
+Size: 10248
+MD5sum: 6f1fd5887c74e51a7672d901c97a5f32
+SHA1: eb947c9ec488febdbd0bb251c6bded1e9ac9f96b
+SHA256: b5f58bfde23cf2fdae194f0886f57e652adbf167cd36650cf19751f23e1a140f
+Section: Development
+Priority: optional
+Homepage: https://lolware.net/libscrypt.html
+Description: Athena Project | Compiled for ARM64.
+ Library for scrypt
+Tag: purpose::library
+Name: libscrypt
+
+Package: com.mc.libsmi
+Version: 0.5.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libsmi_0.5.0-1_iphoneos-arm.deb
+Size: 2246956
+MD5sum: 742d33f923327a751999e7f6b14d4618
+SHA1: 1dc34683b3e2818afcceaf618c8a911de02f0eca
+SHA256: 6c05b7ee462e7d201864ee6ed34759c1113870d5893d11952fb7022c2a9c9ef7
+Section: Development
+Priority: optional
+Homepage: https://www.ibr.cs.tu-bs.de/projects/libsmi/
+Description: Athena Project | Compiled for ARM64.
+ Library to Access SMI MIB Information
+Tag: purpose::library
+Name: libsmi
+
+Package: com.mc.libssh
+Version: 0.8.5-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gcrypt
+Filename: ./Athena/com.mc.libssh_0.8.5-1_iphoneos-arm.deb
+Size: 216104
+MD5sum: 48a08214255e8ce5d263dbc4dc07405a
+SHA1: f7c153f075cb3891e5f7276616d49d1012107080
+SHA256: 3c87bfce66acb64842394e9d2d3e7b316d0a6119ff7e0b67d9e27ad7da9a306e
+Section: Development
+Priority: optional
+Homepage: https://www.libssh.org/
+Description: Athena Project | Compiled for ARM64.
+ C library SSHv1/SSHv2 client and server protocols
+Tag: purpose::library
+Name: libssh
+
+Package: com.mc.libssh2
+Version: 1.8.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gcrypt
+Filename: ./Athena/com.mc.libssh2_1.8.0-1_iphoneos-arm.deb
+Size: 119152
+MD5sum: 1784dc7ceacd6c95f7f509b6409aa547
+SHA1: f27e7c4efe9cbb247619e3c0aed1fd29665ed489
+SHA256: 12250baabf00ef67f930198d19c44fb4b433bdd9a3e0dc6b2b8b34357f8a53f7
+Section: Development
+Priority: optional
+Homepage: https://libssh2.org/
+Description: Athena Project | Compiled for ARM64.
+ C library implementing the SSH2 protocol
+Tag: purpose::library
+Name: libssh2
+
+Package: com.mc.libtasn1
+Version: 4.13-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libtasn1_4.13-1_iphoneos-arm.deb
+Size: 55232
+MD5sum: 73f9db93d12ae11659848a387074db74
+SHA1: 2d3f93efedf343a1ea5d2aa76857cad1d17b04fe
+SHA256: 877eb2068256864357c9d1f49c15e0b2c636deba6823dc5b483fd8e01cc32a61
+Section: Development
+Priority: optional
+Homepage: https://www.gnu.org/software/libtasn1/
+Description: Athena Project | Compiled for ARM64.
+ ASN.1 structure parser library
+Tag: purpose::library
+Name: libtasn1
+
+Package: com.mc.libtool
+Version: 2.4.6-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libtool_2.4.6-1_iphoneos-arm.deb
+Size: 297180
+MD5sum: e13091ca8b2d674da1569fcc9ab913d0
+SHA1: a284ea8d1d3f36657085986f8ebcb50fed679411
+SHA256: a37efe617fe2ba682c8d8dd85d751ec5cdf3c4c1bf2cf47ce70eea57ad2208e6
+Section: Utilities
+Priority: optional
+Homepage: https://www.gnu.org/software/libtool/
+Description: Athena Project | Compiled for ARM64.
+ Generic library support script, different of that of CC-tools.
+Tag: purpose::console
+Name: GNU Libtool
+
+Package: com.mc.libunistring
+Version: 0.9.10-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libunistring_0.9.10-1_iphoneos-arm.deb
+Size: 475544
+MD5sum: e49072fc7eeaea3b333348006ed7e902
+SHA1: 2c775ac304332404f764634c925ff9360125170e
+SHA256: 7fa4289385d1102c9885912a76782bc36123d355deaa2f5d35ebf06736181233
+Section: Development
+Priority: optional
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Athena Project | Compiled for ARM64.
+ C string library for manipulating Unicode strings
+Tag: purpose::library
+Name: libunistring
+
+Package: com.mc.libuv
+Version: 1.24.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libuv_1.24.0-1_iphoneos-arm.deb
+Size: 72704
+MD5sum: ef81d8aa6901dd31b8cf751245915090
+SHA1: df965f30d892b31a1c9b24b6b508558b2a9c0995
+SHA256: c48d010a142f10cfb48439a90c65fbe6904da33d0e2b5d0eaa770a6e304700f8
+Section: Development
+Priority: optional
+Homepage: https://github.com/libuv/libuv
+Description: Athena Project | Compiled for ARM64.
+ Multi-platform support library with a focus on asynchronous I/O
+Tag: purpose::library
+Name: libuv
+
+Package: com.mc.libvorbis
+Version: 1.3.6-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libogg
+Filename: ./Athena/com.mc.libvorbis_1.3.6-1_iphoneos-arm.deb
+Size: 294468
+MD5sum: f0f2e142b62d7176120d60fd728966ae
+SHA1: e8bd82fd5fc21fd636071992c2d49caadf618773
+SHA256: cacdb5c0c9bc7aca0e8b60fb8ee0f5b08bd5b74581f067adc5e6ff2f7e8951e0
+Section: Development
+Priority: optional
+Homepage: https://xiph.org/vorbis/
+Description: Athena Project | Compiled for ARM64.
+ Vorbis General Audio Compression Codec
+Tag: purpose::library
+Name: libvorbis
+
+Package: com.mc.libvpx
+Version: 1.7.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libvpx_1.7.0-1_iphoneos-arm.deb
+Size: 805836
+MD5sum: bfe95374ef22246e10a3205441630cf5
+SHA1: 8417b7762c8449a8ea551f6c786729855d5d1128
+SHA256: f4e64ed53b0961a671fd265a4e08eed541bd9c87cbef9ba49ec4c6e0b660e3ce
+Section: Development
+Priority: optional
+Homepage: https://www.webmproject.org/code/
+Description: Athena Project | Compiled for ARM64.
+ VP8/VP9 video codec
+Tag: purpose::library
+Name: libvpx
+
+Package: com.mc.libxml2
+Version: 2.9.8-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.zlib, com.mc.xz | xz, com.mc.readline, com.mc.ncurses
+Filename: ./Athena/com.mc.libxml2_2.9.8-1_iphoneos-arm.deb
+Size: 1049028
+MD5sum: 18d86311308e66ce699e8a05aa68db38
+SHA1: 0d5ac54d5bbd5342a3cd0d1684e6d660905042fd
+SHA256: ef1f2b7f4b0d365f0919707d17c586d90f4d629f1f05954e8f1a7ba9892466d2
+Section: Development
+Priority: optional
+Homepage: http://xmlsoft.org/
+Description: Athena Project | Compiled for ARM64.
+ GNOME XML library
+Tag: purpose::library
+Name: libxml2
+
+Package: com.mc.libxslt
+Version: 1.1.32-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libxml2, com.mc.xz | xz, com.mc.zlib
+Filename: ./Athena/com.mc.libxslt_1.1.32-1_iphoneos-arm.deb
+Size: 311356
+MD5sum: 84e7e4fb0399e2d4a280694abbc63346
+SHA1: 7358d316189477395845e930fa27214793cb91b2
+SHA256: 36fc86a49ce38e7eafcb0987414dbf7eb3b425e26fbcf6b8b6c3e7150bfa2b76
+Section: Development
+Priority: optional
+Homepage: http://xmlsoft.org/XSLT/
+Description: Athena Project | Compiled for ARM64.
+ C XSLT library for GNOME
+Tag: purpose::library
+Name: libxslt
+
+Package: com.mc.libyaml
+Version: 0.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.libyaml_0.2.1-1_iphoneos-arm.deb
+Size: 43924
+MD5sum: 2c210eb2440da99a20a128ba1610761c
+SHA1: 4cc5a1e2a5cc0394bb540c32bfe8ed6c3b39546b
+SHA256: 79fb21e6af0eae3e3a1469bc65c3c85a94f862e1a7a2578b9e8a99afb4ebba18
+Section: Development
+Priority: optional
+Homepage: https://github.com/yaml/libyaml
+Description: Athena Project | Compiled for ARM64.
+ YAML Parser
+Tag: purpose::library
+Name: libyaml
+
+Package: com.mc.lighttpd
+Version: 1.4.52-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openldap, com.mc.openssl, com.mc.libev, com.mc.pcre
+Filename: ./Athena/com.mc.lighttpd_1.4.52-1_iphoneos-arm.deb
+Size: 304536
+MD5sum: 2dfa7b460bdf8945976d99def362a086
+SHA1: cf04724c1aa2e4c64040a8f717ebceef6860e25c
+SHA256: 833fcd26b3c2e5dcc61e6dd6c6649839b5760293c304a916dfa935293694fd83
+Section: Networking
+Priority: optional
+Homepage: https://www.lighttpd.net/
+Description: Athena Project | Compiled for ARM64.
+ Small memory footprint, flexible web-server
+Tag: purpose::console
+Name: lighttpd
+
+Package: com.mc.lua
+Version: 5.3.5-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.readline
+Filename: ./Athena/com.mc.lua_5.3.5-1_iphoneos-arm.deb
+Size: 99316
+MD5sum: 6d1a7d2c32079d410fa203862aeed4cb
+SHA1: 29b5fa3e176c04d84870eb1054992caf1854d8bd
+SHA256: 14f60afd5435194a1692d6ed391fb3f78a329c76d32016603e7062f1f202a211
+Section: Scripting
+Priority: optional
+Homepage: Powerful, lightweight programming language
+Description: Athena Project | Compiled for ARM64.
+ Powerful, lightweight programming language
+Tag: purpose::console
+Name: lua
+
+Package: com.mc.m4
+Version: 1.4.18-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.m4_1.4.18-1_iphoneos-arm.deb
+Size: 107104
+MD5sum: 8ce595e274e6cf4820e68a5b40f3108b
+SHA1: 8056936e64af95edb8096491e35e37309cb4eaf6
+SHA256: b9cabffc6d5f66539a772153d40eb44ae5bf39e77c8b40fc7206b69c10c40da6
+Section: Scripting
+Priority: optional
+Homepage: https://www.gnu.org/software/m4
+Description: Athena Project | Compiled for ARM64.
+ Macro processing language
+Tag: purpose::console
+Name: M4
+
+Package: com.mc.make
+Version: 4.2.1-3
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext
+Filename: ./Athena/com.mc.make_4.2.1-3_iphoneos-arm.deb
+Size: 237408
+MD5sum: aed6bba296e0ecdc3997d5767de17920
+SHA1: edeac254e5ab2f60745c83456ddb3ab2b11a577a
+SHA256: a93d20c0f4cc94273acae6249d9ab68b12d84c56e7fac8dea933a3cf7ae52b29
+Section: Development
+Priority: optional
+Homepage: https://www.gnu.org/software/make/
+Description: Athena Project | Compiled for ARM64.
+ Utility for directing compilation
+Tag: purpose::console
+Name: GNU Make
+
+Package: com.mc.man-db
+Version: 2.8.4-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.groff, com.mc.zlib, com.mc.gdbm, com.mc.gettext, com.mc.libpipeline, com.mc.libiconv
+Filename: ./Athena/com.mc.man-db_2.8.4-2_iphoneos-arm.deb
+Size: 406192
+MD5sum: 549b83885359b28c7854463b608fd355
+SHA1: 6fd04e011add78d964122639c3847d69fea9d039
+SHA256: 8f5d7e9ad724dc7befd22929e50fe0eddc107240a50543601ced0588f3462140
+Section: Terminal Support
+Priority: optional
+Homepage: https://nongnu.org/man-db/
+Description: Athena Project | Compiled for ARM64.
+ Implementation of the standard Unix man page system
+Tag: purpose::console
+Name: Man
+
+Package: com.mc.masscan
+Version: 1.0.5-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libpcap
+Filename: ./Athena/com.mc.masscan_1.0.5-1_iphoneos-arm.deb
+Size: 148592
+MD5sum: 74a20622ddc9d5fda8ed88891395759a
+SHA1: b326a4e549c12e170f14f79de966b0a2c50ec9ba
+SHA256: 48060794cf07ad607d982118b45100987c3821d03ce4e45d8d0b00c2eae5493d
+Section: Networking
+Priority: optional
+Homepage: https://github.com/robertdavidgraham/masscan/
+Description: Athena Project | Compiled for ARM64.
+ TCP port scanner, scans entire Internet in under 5 minutes
+Tag: purpose::console
+Name: Masscan
+
+Package: com.mc.medusa
+Version: 2.2-7
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libpg, com.mc.libssh2, com.mc.gnutls, com.mc.openssl, com.mc.gcrypt
+Filename: ./Athena/com.mc.medusa_2.2-7_iphoneos-arm.deb
+Size: 164048
+MD5sum: e29da5e857b6215ec520c811e7013014
+SHA1: ba2753c517d006447b683d1a9dbb96eca47dd05b
+SHA256: bdcf859a32b73186525ee235b898445632d375cee42e12602eda4e125cb53402
+Section: Networking
+Priority: optional
+Homepage: http://foofus.net/?page_id=51
+Description: Athena Project | Compiled for ARM64.
+ speedy, massively parallel, modular, login brute-forcer
+Tag: purpose::console
+Name: Medusa
+
+Package: com.mc.megatools
+Version: 1.10.2-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.glib, com.mc.gettext, com.mc.openssl, com.mc.curl
+Filename: ./Athena/com.mc.megatools_1.10.2-1_iphoneos-arm.deb
+Size: 148840
+MD5sum: 983425a5952ca766b3ead243a0a3c58a
+SHA1: d56d2a9195a100f608c48766eaf59177ae3f3c4d
+SHA256: 4154d230adcfe18d229f63735b521632c16b5db101482b513789ee0345d51493
+Section: Networking
+Priority: optional
+Homepage: https://megatools.megous.com/
+Description: Athena Project | Compiled for ARM64.
+ Command-line client for Mega.co.nz
+Tag: purpose::console
+Name: Megatools
+
+Package: com.mc.metasploit-framework
+Version: 5.0.9
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openssl, com.mc.pkg-config, com.mc.libpg, com.mc.readline, com.mc.libxml2, com.mc.zlib, com.mc.libpcap, make, com.mc.SDK, com.mc.ncurses, com.mc.sqlite, com.mc.gmp, com.mc.ruby, com.mc.libxslt
+Filename: ./Athena/com.mc.metasploit-framework_5.0.9_iphoneos-arm.deb
+Size: 58132360
+MD5sum: a3173c76dbbf67527b017f118cea9574
+SHA1: ee4d5d1955744b480b3fe30d5beebef5640040e4
+SHA256: 2918d0bead74951adab254637a5055dfce221c5ced8f6ac7cf12f15f89dc7aca
+Section: Networking
+Priority: optional
+Homepage: https://github.com/rapid7/metasploit-framework
+Description: Athena Project | Compiled for ARM64.
+ The full stack of metasploit-framework
+ | Install as root:
+ `cd /opt/metasploit-framework-5.0.9/; ./install.sh`
+ Report any issues. (I'm probably forgetting dependenices.)
+Tag: purpose::console
+Name: MetaSploit
+
+Package: com.mc.midnight-commander
+Version: 4.8.21-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.slang, com.mc.libssh2, com.mc.zlib, com.mc.gcrypt, com.mc.gpg-error, com.mc.gcrypt, com.mc.glib, com.mc.libiconv, com.mc.gettext
+Filename: ./Athena/com.mc.midnight-commander_4.8.21-1_iphoneos-arm.deb
+Size: 1432468
+MD5sum: f9cfbbe9f58cdac4dd7be087896ac877
+SHA1: e6b89f3377d4b7f2123140fe89ea1f352edb47ad
+SHA256: bce068d84515a37b8aa0a9b80de6b14f05ab4e59cdd612dd31fef8ecb15bf62f
+Section: Utilities
+Priority: optional
+Homepage: https://www.midnight-commander.org/
+Description: Athena Project | Compiled for ARM64.
+ Terminal-based visual file manager.
+ | Note:
+ SHELL defaults to /bin/bash due to bash being the only fully working shell on iOS (for now).
+Tag: purpose::console
+Name: Midnight Commander
+
+Package: com.mc.miniupnpc
+Version: 2.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.miniupnpc_2.1-1_iphoneos-arm.deb
+Size: 40852
+MD5sum: a6624d8ef42da6a9a9c12453dc1aaa0e
+SHA1: 8f70fdcf68eccccf957bf347eb05d45b764e1fa1
+SHA256: 52897cb259404810ca6465cb974533f2a4367f31b8df4bd0be5123dc0784ee04
+Section: Development
+Priority: optional
+Homepage: https://miniupnp.tuxfamily.org
+Description: Athena Project | Compiled for ARM64.
+ UPnP IGD client library and daemon
+Tag: purpose::library
+Name: Miniupnpc
+
+Package: com.mc.mosh
+Version: 1.3.2-3
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses, com.mc.protobuf, com.mc.zlib
+Filename: ./Athena/com.mc.mosh_1.3.2-3_iphoneos-arm.deb
+Size: 341136
+MD5sum: 855e3bfa10402bb5acaf528b6ec89a52
+SHA1: 15ec6373e1c710b402328cc8a9bf9dea59a2ab32
+SHA256: 061fe50721ff12dcff8c10f48e020610c352057b89ad9a59324faf1a4cc8b4e4
+Section: Networking
+Priority: optional
+Homepage: https://mosh.org
+Description: Athena Project | Compiled for ARM64.
+ Remote terminal application
+Tag: purpose::console
+Name: Mosh
+
+Package: com.mc.mpfr
+Version: 4.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gmp
+Filename: ./Athena/com.mc.mpfr_4.0.1-1_iphoneos-arm.deb
+Size: 209164
+MD5sum: 5069f5df7114928059e76768f3b661e8
+SHA1: 28bb442ccb33b4f4c671ee819f59dfe70416689a
+SHA256: af63cb5087b31412da4f0ef4c91eb4b6b1adbb4cff36c45e249dd7670212d5c3
+Section: Development
+Priority: optional
+Homepage: https://www.mpfr.org/
+Description: Athena Project | Compiled for ARM64.
+ C library for multiple-precision floating-point computations
+Tag: purpose::library
+Name: mpfr
+
+Package: com.mc.nano
+Version: 3.2-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext, com.mc.zlib, com.mc.file, com.mc.ncurses
+Filename: ./Athena/com.mc.nano_3.2-1_iphoneos-arm.deb
+Size: 458612
+MD5sum: 20311cf6ef69d0ad23c766e654cc2208
+SHA1: c6bf16c94df84c46971a4b1b9e00047845dfc628
+SHA256: e613efde7422ded67f75982095f3d04767f6bc74dd36a91b2229e8ac74c477db
+Section: Text Editors
+Priority: optional
+Homepage: https://www.nano-editor.org/
+Description: Athena Project | Compiled for ARM64.
+ Free (GNU) replacement for the Pico text editor
+Tag: purpose::console
+Name: nano
+
+Package: com.mc.ncdu
+Version: 1.13-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses
+Filename: ./Athena/com.mc.ncdu_1.13-1_iphoneos-arm.deb
+Size: 35500
+MD5sum: b50fadc3de398d496daecd57ce5b251c
+SHA1: 7f4aadddb699c977080aa8c80473901a7aefae0b
+SHA256: 6449d0c6c749cc4f3024b97307fea5e2cefe9ea3e17ab0f31b00285fbcf21871
+Section: Utilities
+Priority: optional
+Homepage: https://dev.yorhel.nl/ncdu
+Description: Athena Project | Compiled for ARM64.
+ NCurses Disk Usage
+Tag: purpose::console
+Name: ncdu
+
+Package: com.mc.ncurses
+Version: 6.1-5
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.ncurses_6.1-5_iphoneos-arm.deb
+Size: 1106860
+MD5sum: 3331d0d2e841fd8d5a42f094cfa1d4fe
+SHA1: 042777ff6e94cf3b13cf99a7ae4f86697bd70e9f
+SHA256: 53c86ea35473a8e256c25f588a9d35430e18f5b1d3e911329688adb3a937e9d2
+Section: System
+Priority: optional
+Homepage: https://www.gnu.org/software/ncurses/
+Description: Athena Project | Compiled for ARM64.
+ Text-based UI library
+Tag: purpose::library
+Name: New Curses
+
+Package: com.mc.netcat
+Version: 0.7.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext
+Filename: ./Athena/com.mc.netcat_0.7.1-1_iphoneos-arm.deb
+Size: 24856
+MD5sum: fa1fbf3107ab9e01dbb648394dadd8d7
+SHA1: bdfa68547caddf020ae320db954a40d7f40fec30
+SHA256: 22523cd4b2241287c35b9c8f08cfda8ed1d37e5a59153da44b3128f42292fb98
+Section: Networking
+Priority: optional
+Homepage: https://netcat.sourceforge.io/
+Description: Athena Project | Compiled for ARM64.
+ Utility for managing network connections, this is not netcat-bsd!
+Tag: purpose::console
+Name: netcat
+
+Package: com.mc.nettle
+Version: 3.4-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gmp
+Filename: ./Athena/com.mc.nettle_3.4-1_iphoneos-arm.deb
+Size: 273016
+MD5sum: ae20e761efe434190621633a5590218b
+SHA1: e950ef802e1aeaf1e4c74c48be71cb1a3195bedf
+SHA256: 34011147d74213eba27a220120a3a353d7135ecdfdcf59fd182f578370b5e6ba
+Section: Security
+Priority: optional
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Description: Athena Project | Compiled for ARM64.
+ Low-level cryptographic library
+Tag: purpose::library
+Name: Nettle
+
+Package: com.mc.nghttp2
+Version: 1.34.0-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openssl, com.mc.boost, com.mc.jemalloc, com.mc.libxml2, com.mc.xz | xz, com.mc.libev, com.mc.c-ares, com.mc.jansson, com.mc.zlib
+Filename: ./Athena/com.mc.nghttp2_1.34.0-2_iphoneos-arm.deb
+Size: 716624
+MD5sum: 4d24f1101fa99a76577a7e09483aa4b4
+SHA1: 087006b357631e9f5d3ab04bb1b9e9173e4a4b38
+SHA256: d98ef416aecfe7658ef1a2d4544d8e3fb9917103aedec101cd9720e0343e191e
+Section: Networking
+Priority: optional
+Homepage: https://nghttp2.org/
+Description: Athena Project | Compiled for ARM64.
+ HTTP/2 C Library
+Tag: purpose::console
+Name: nghttp2
+
+Package: com.mc.nmap
+Version: 7.70-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openssl, com.mc.pcre, com.mc.libpcap, com.mc.zlib
+Filename: ./Athena/com.mc.nmap_7.70-1_iphoneos-arm.deb
+Size: 5176144
+MD5sum: f37e2914b8fc0c5110e8a330fdcfc7a4
+SHA1: d06c1e18d7cfa85c61ea53702b53d4815568ad55
+SHA256: 19f3d2b551ccdfd38596fbf38253dfcdf9457aa80f437335d2aaa51c845df029
+Section: Networking
+Priority: optional
+Homepage: https://nmap.org/
+Description: Athena Project | Compiled for ARM64.
+ Port scanning utility for large networks
+Tag: purpose::console
+Name: nmap
+
+Package: com.mc.nnn
+Version: 2.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses
+Filename: ./Athena/com.mc.nnn_2.0-1_iphoneos-arm.deb
+Size: 31972
+MD5sum: 4ef256fceb8d9dfedfb7759b779641ea
+SHA1: c21a97c31a8a8b92f275abed9ea9b6c84e6e187d
+SHA256: ec215b16e185d37e935ebfceb9b60ef0b2dfbba6fe95e17d84a313242f7df3dd
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/jarun/nnn
+Description: Athena Project | Compiled for ARM64.
+ Free, fast, friendly file browser
+Tag: purpose::console
+Name: nnn
+
+Package: com.mc.oniguruma
+Version: 6.9.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.oniguruma_6.9.0-1_iphoneos-arm.deb
+Size: 137324
+MD5sum: 6aed9df2da520c4bf18fb90087167158
+SHA1: a772c4fe5bc9ab7a008450566a646250d94f17a5
+SHA256: da5471fcd9e2cc9cd71ddf0c718eef24867ed26fd32abf8ad6010f00838930c0
+Section: Development
+Priority: optional
+Homepage: https://github.com/kkos/oniguruma/
+Description: Athena Project | Compiled for ARM64.
+ Regular expressions library
+Tag: purpose::library
+Name: oniguruma
+
+Package: com.mc.openh264
+Version: 1.8.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.openh264_1.8.0-1_iphoneos-arm.deb
+Size: 402776
+MD5sum: 1bf1b53f4868eb1da16fdc44945193a6
+SHA1: 2c4ac7c05f04b423b9eec0c7b7e934e055020839
+SHA256: 23136f6ef11ff2415cde6006dc81181f23c5c3f757cd2eb2f544d239f78a7cd3
+Section: Development
+Priority: optional
+Homepage: https://www.openh264.org/
+Description: Athena Project | Compiled for ARM64.
+ H.264 codec from Cisco
+Tag: purpose::library
+Name: openh264
+
+Package: com.mc.openldap
+Version: 2.4.46-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openssl
+Filename: ./Athena/com.mc.openldap_2.4.46-1_iphoneos-arm.deb
+Size: 934640
+MD5sum: cc5c7d2f73ed23485e027a3d15aaca3b
+SHA1: cdfd7b5a90d90616ce7e259864030f42f7dcfd41
+SHA256: 8284344bcf6cc19b5c80b2e64f801f71cdd5735dd3f59ef924f1259602c8210b
+Section: Networking
+Priority: optional
+Homepage: https://www.openldap.org/software/
+Description: Athena Project | Compiled for ARM64.
+ Open source suite of directory software
+Tag: purpose::console
+Name: openldap
+
+Package: com.mc.openpam
+Version: 20170430-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.openpam_20170430-1_iphoneos-arm.deb
+Size: 44012
+MD5sum: a8701da56306799993dcee4d01d7c488
+SHA1: 99a2b372d7c035ca51fa0306485387c8de609cba
+SHA256: 02dbfbc54ef4802a881ae1d2e619c53ea3322e2334d528fccecd4774709ff12f
+Section: Networking
+Priority: optional
+Homepage: https://www.openpam.org/
+Description: Athena Project | Compiled for ARM64.
+ open source PAM library
+Tag: purpose::library
+Name: OpenPAM
+
+Package: com.mc.openssl
+Version: 1.1.1-4
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg, ca-certificates
+Filename: ./Athena/com.mc.openssl_1.1.1-4_iphoneos-arm.deb
+Size: 2635500
+MD5sum: af764ed3f2367e42df43b94d2200da36
+SHA1: 9430ec83d062368de3f20a51a67edbcaac46d331
+SHA256: e7cb0d00be6d8d5e83180c39635d16d21f89af77fe2ed6c897f4713fb9660e4f
+Section: Networking
+Priority: optional
+Homepage: https://openssl.org/
+Description: Athena Project | Compiled for ARM64.
+ SSL/TLS cryptography library
+Tag: purpose::library
+Name: OpenSSL
+
+Package: com.mc.opus
+Version: 1.3-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.opus_1.3-1_iphoneos-arm.deb
+Size: 330912
+MD5sum: 53c1c7d4a8a26f7678c30bfe38db3be0
+SHA1: cc846d525e81e8e75126d987aab76d609085ab60
+SHA256: 74bf0f063c1b91289e899dda91d8ca9d1dfdc5c9533f160efef7eac9031b49bb
+Section: Development
+Priority: optional
+Homepage: https://www.opus-codec.org/
+Description: Athena Project | Compiled for ARM64.
+ Audio codec
+Tag: purpose::library
+Name: opus
+
+Package: com.mc.p11-kit
+Version: 0.23.14-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext, com.mc.libffi
+Filename: ./Athena/com.mc.p11-kit_0.23.14-1_iphoneos-arm.deb
+Size: 395084
+MD5sum: a681c7010693ae2ac73dc5dd0faa6eb9
+SHA1: f5e7d43a285987b75e46e96ecb8f3677a789fb24
+SHA256: 4c5cd4bd1d6b4d93e98edaa9e4523723058eb6901a883a0441864160a497516f
+Section: Development
+Priority: optional
+Homepage: https://p11-glue.freedesktop.org
+Description: Athena Project | Compiled for ARM64.
+ Library to load and enumerate PKCS#11 modules
+Tag: purpose::library
+Name: P11-Kit
+
+Package: com.mc.pcre
+Version: 8.42-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.readline
+Filename: ./Athena/com.mc.pcre_8.42-1_iphoneos-arm.deb
+Size: 712896
+MD5sum: 0095e9939b551713447b73e7652cbd65
+SHA1: 78cc5dc20fa8bb24a29298563cc4633618fd9801
+SHA256: 83530db6ce1018338aad6ba192c7bd617ca7eb2222b8f4ad9ec7d349f9a7d102
+Section: Development
+Priority: optional
+Homepage: https://www.pcre.org/
+Description: Athena Project | Compiled for ARM64.
+ A older perl compatible regular expressions library
+Tag: purpose::library
+Name: pcre
+
+Package: com.mc.pcre2
+Version: 10.32-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.readline
+Filename: ./Athena/com.mc.pcre2_10.32-1_iphoneos-arm.deb
+Size: 702396
+MD5sum: 810450f4e7bc6a6e87d33ab212f06dcc
+SHA1: 0a1758f6b4788947132d12cb34c20dfdc96d6145
+SHA256: d843f076253fed850bb46b744d2fff89b59cfba6ba3fc9855e8da7c4955582e8
+Section: Development
+Priority: optional
+Homepage: https://www.pcre.org/
+Description: Athena Project | Compiled for ARM64.
+ Perl compatible regular expressions library with a new API
+Tag: purpose::library
+Name: pcre2
+
+Package: com.mc.perl
+Version: 5.29.5-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.perl_5.29.5-1_iphoneos-arm.deb
+Size: 11055056
+MD5sum: d6a1d10439c50aa60e7a25e2a698e9cb
+SHA1: d5381c4b907bc2df9eb0388169015b610410f3e2
+SHA256: 4ff57a6a3fb1acd08811b04395170c29999467d186b3c7e98fbcc08274f1d68b
+Section: Scripting
+Priority: optional
+Homepage: https://www.perl.org/
+Description: Athena Project | Compiled for ARM64.
+ Highly capable, feature-rich programming language
+Tag: purpose::console
+Name: Perl
+
+Package: com.mc.pkg-config
+Version: 0.29.2-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext, com.mc.libiconv, com.mc.glib
+Filename: ./Athena/com.mc.pkg-config_0.29.2-1_iphoneos-arm.deb
+Size: 31656
+MD5sum: be648a7bc09dde071a79f0631bed0483
+SHA1: a4a1ee0d39ab0d4d5a804abbd19b0fc3728a0aa5
+SHA256: 78a836d71402282f92eba50ebd94942758b139c7678524612d7aa2dbc8d22734
+Section: Utilities
+Priority: optional
+Homepage: https://freedesktop.org/wiki/Software/pkg-config/
+Description: Athena Project | Compiled for ARM64.
+ Manage compile and link flags for libraries
+Tag: purpose::console
+Name: PkgConfig
+
+Package: com.mc.protobuf
+Version: 3.6.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.protobuf_3.6.1-1_iphoneos-arm.deb
+Size: 2313812
+MD5sum: caa50c118dfd132292c3b968df688d52
+SHA1: b12f4a4d75186dfc8384ef0221f0f2d2b80879de
+SHA256: 2feca3447acbea5a4e0e9d86aa7b474dfe43f22fb9925b8d58d7d61e818e115c
+Section: Development
+Priority: optional
+Homepage: https://github.com/protocolbuffers/protobuf/
+Description: Athena Project | Compiled for ARM64.
+ Protocol buffers (Google's data interchange format)
+Tag: purpose::library
+Name: Protobuf
+
+Package: com.mc.python2
+Version: 2.7.15-6
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.zlib, com.mc.openssl, com.mc.sqlite, com.mc.readline, com.mc.libffi, com.mc.ncurses
+Filename: ./Athena/com.mc.python2_2.7.15-6_iphoneos-arm.deb
+Size: 12787312
+MD5sum: ae62097fd3935004f5acc5ce72c6c746
+SHA1: 18017d7f1f9fe96d4fee11aedf7b9374b0b42841
+SHA256: b89a2485e536baa44edaf57578a3a71c0a6ba70b0801e16a55d04d77731a7a26
+Section: Scripting
+Priority: optional
+Homepage: https://www.python.org/
+Description: Athena Project | Compiled for ARM64.
+ Interpreted, interactive, object-oriented programming language.
+ | Notes pip:
+ Install the 'SDK Installer / On Device Compilier' package.
+ `python2 -m ensurepip` to install pip2.7
+ | Update:
+ Fix datetime: _PyTime_DoubleToTimet undefined
+Tag: purpose::console
+Name: Python@2.7
+
+Package: com.mc.python3
+Version: 3.7.1-8
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.zlib, com.mc.openssl, com.mc.sqlite, com.mc.readline, com.mc.libffi, com.mc.ncurses, com.mc.gettext
+Filename: ./Athena/com.mc.python3_3.7.1-8_iphoneos-arm.deb
+Size: 17607444
+MD5sum: 1fe942467b38c42fbc14f25bd181017f
+SHA1: 6b6d3b54019c86c9652db8b50c92f80092b89f5e
+SHA256: dd8487cfc905e63d47ca61c204adc945a68b41e8b356f2754bd8d439f6959f4e
+Section: Scripting
+Priority: optional
+Homepage: https://www.python.org/
+Description: Athena Project | Compiled for ARM64.
+ Interpreted, interactive, object-oriented programming language.
+ | Notes:
+ PIP3-SUPPORT: Install the "SDK Installer / On Device Compiler" package, then run `python3 -m ensurepip`, restart your shell.
+ .
+ Update: Removed os.sendfile due to crash caused by sendfile().
+ Update: Run `/usr/local/lib/python3.7/install_certificates.command` to install ssl certs.
+Tag: purpose::console
+Name: Python@3.7
+
+Package: com.mc.ranger
+Version: 1.9.2-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.python3
+Filename: ./Athena/com.mc.ranger_1.9.2-1_iphoneos-arm.deb
+Size: 302396
+MD5sum: fe46302510e94d7c7d83aa234d9b6ae6
+SHA1: a17d3881f43593561d3781f18807ef049624fad9
+SHA256: 85f73194ddeccce83e8ff9e24935eb006dae6904073b7ddd431d2caa1d258c36
+Section: Utilities
+Priority: optional
+Homepage: https://ranger.github.io
+Description: Athena Project | Compiled for ARM64.
+ File browser
+Tag: purpose::console
+Name: Ranger
+
+Package: com.mc.rclone
+Version: 1.45
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.rclone_1.45_iphoneos-arm.deb
+Size: 6175756
+MD5sum: a092018d244f2112d5a123630adca230
+SHA1: 8b5381124db3fa6a2d99d308908f506a7762ef28
+SHA256: dfe801575398821e46e49bbbef9d4875086f5ff6e912d28bd094bb6bdff7117c
+Section: Networking
+Priority: optional
+Homepage: https://rclone.org/
+Description: Athena Project | Compiled for ARM64.
+ Rsync for cloud storage
+Tag: purpose::console
+Name: rclone
+
+Package: com.mc.readline
+Version: 7.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses
+Filename: ./Athena/com.mc.readline_7.0-1_iphoneos-arm.deb
+Size: 157888
+MD5sum: a17436d678e4872e4445f3eed839c70d
+SHA1: 24b73d6e65e49991b41c874b554b8913794a75c8
+SHA256: 96719a0e5c060a73cadf0a2560903e91ac95afd91c38a51b1d63e3634a3660ca
+Section: Development
+Priority: optional
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Description: Athena Project | Compiled for ARM64.
+ Library for command-line editing
+Tag: purpose::library
+Name: readline
+
+Package: com.mc.ruby
+Version: 2.5.3-3
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gmp, com.mc.openssl, com.mc.zlib, com.mc.gdbm, com.mc.readline, com.mc.ncurses
+Filename: ./Athena/com.mc.ruby_2.5.3-3_iphoneos-arm.deb
+Size: 5363752
+MD5sum: eeb68c9a2c58ea5d0d6d9f0bd8939648
+SHA1: 67d84176183c465eb28660ffe5a6e91cb215de9b
+SHA256: cc5bba466baa3890cd0587d38d32517e6ec1bf345683b15c31cb54d40d376c53
+Section: Scripting
+Priority: optional
+Homepage: https://www.ruby-lang.org/
+Description: Athena Project | Compiled for ARM64.
+ Powerful, clean, object-oriented scripting language
+ | Notes (Gems):
+ try_with_sh has been fixed- bash scripts "can" be ran.
+ Signing libs/binaries:
+ ldid -S/usr/local/lib/ruby/x.ent </path/to/file>
+ .
+ Mass-signing libs example:
+ `find /usr/local/lib/ruby/gems/2.5.0/ -iname '*.bundle' -o -iname '*.dylib' -o -iname '*.so' -exec ldid -S/usr/local/lib/ruby/x.ent {} \;`
+ .
+ Please provide input if a script to autosign everything would be nice.
+ There's not really a good way find where to autosign libs & friend (BS'ing code in ruby is hard).
+Tag: purpose::console
+Name: Ruby
+
+Package: com.mc.slang
+Version: 2.3.1a-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libpng, com.mc.pcre, com.mc.oniguruma, com.mc.libiconv
+Filename: ./Athena/com.mc.slang_2.3.1a-1_iphoneos-arm.deb
+Size: 705600
+MD5sum: 8f2b09777a736631d61e86f5b84c041f
+SHA1: 52d02560c06179c9df05b00168cf2d4514455778
+SHA256: b750f601f92a33a693c0d54750d496aaa12258ca8bf0a675f72774fc0203df55
+Section: Development
+Priority: optional
+Homepage: https://www.jedsoft.org/slang/
+Description: Athena Project | Compiled for ARM64.
+ Library for creating multi-platform software
+Tag: purpose::library
+Name: SLang
+
+Package: com.mc.snappy
+Version: 1.1.7-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.snappy_1.1.7-1_iphoneos-arm.deb
+Size: 30108
+MD5sum: 0464bbdf8bef610682f60f6842120091
+SHA1: 87a201a191ca646fc64e68d7a5966551457c9525
+SHA256: bb30ca88f04db68dac1c407c1ff255495cc8bbe566759bc87744d4ffa043f371
+Section: Development
+Priority: optional
+Homepage: https://google.github.io/snappy/
+Description: Athena Project | Compiled for ARM64.
+ Compression/decompression library aiming for high speed
+Tag: purpose::library
+Name: snappy
+
+Package: com.mc.sqlite
+Version: 3.25.2-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses, com.mc.readline
+Filename: ./Athena/com.mc.sqlite_3.25.2-1_iphoneos-arm.deb
+Size: 783772
+MD5sum: 213fa7fdb82ce48fae51d763bf419158
+SHA1: 99930e325c251c9a553123bd676e413cb3dafcbc
+SHA256: 121c69e0448575c6b1304c4d11ef7617f3af92355e6727db853028bedf24b334
+Section: Utilities
+Priority: optional
+Homepage: https://sqlite.org/
+Description: Athena Project | Compiled for ARM64.
+ Command-line interface for SQLite
+Tag: purpose::console
+Name: sqlite
+
+Package: com.mc.sstp-client
+Version: 1.0.12-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libevent, com.mc.openssl
+Filename: ./Athena/com.mc.sstp-client_1.0.12-2_iphoneos-arm.deb
+Size: 46260
+MD5sum: 80afd1aea20e377b9fc5cd5471d44787
+SHA1: d1fa48832942029141ac302f526e5b1f7d25800d
+SHA256: cbff9a20b5cb23cb816c0a3d3722fa7eda91f081a77a9e42475d967007266c7d
+Section: Networking
+Priority: optional
+Homepage: https://sstp-client.sourceforge.io/
+Description: Athena Project | Compiled for ARM64.
+ SSTP (Microsofts Remote Access Solution for PPP over SSL) client
+Tag: purpose::console
+Name: SSTP-Client
+
+Package: com.mc.switchlan
+Version: 0.1.0-f62bf0
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libpcap
+Filename: ./Athena/com.mc.switchlan_0.1.0-f62bf0_iphoneos-arm.deb
+Size: 260708
+MD5sum: c0ee7c763f72977a6801ab25fcff5f08
+SHA1: 01dbaaefa2d5f3dd93235823df41ef9a60d4ae94
+SHA256: 2460e3dd826d9691f3cb93b87eb6123a01fa7ca7500dfeace22c876ecae89c0d
+Section: Networking
+Priority: optional
+Homepage: https://github.com/spacemeowx2/switch-lan-play
+Description: Athena Project | Compiled for ARM64.
+ Make you and your friends play switch games like in a LAN, WIP
+Tag: purpose::console
+Name: Switch-lan-play
+
+Package: com.mc.tcpdump
+Version: 4.9.2-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openssl, com.mc.libpcap, com.mc.libsmi
+Filename: ./Athena/com.mc.tcpdump_4.9.2-1_iphoneos-arm.deb
+Size: 309056
+MD5sum: 07d4336c9a144ddccd5777d2c06bf577
+SHA1: dda420688df80c9caf05f45b86b3b451cee5b17c
+SHA256: f1833e8465de15acc933808f896b182becfc9d6459cd49cd24c1f8f87b555bf6
+Section: Networking
+Priority: optional
+Homepage: https://www.tcpdump.org/
+Description: Athena Project | Compiled for ARM64.
+ Command-line packet analyzer
+Tag: purpose::console
+Name: tcpdump
+
+Package: com.mc.tcpflow
+Version: 1.5.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libpcap, com.mc.libexpat, com.mc.sqlite, com.mc.openssl, com.mc.zlib
+Filename: ./Athena/com.mc.tcpflow_1.5.0-1_iphoneos-arm.deb
+Size: 187028
+MD5sum: c3618fe38daae3bc949d264c969ab14b
+SHA1: 14cc91ea056b40e59c33bc53bb0a82f8e988266b
+SHA256: af64eb43672f35f9f60813fb9dc1fcc6009180ec9ce8654f072573eb4d17c02c
+Section: Networking
+Priority: optional
+Homepage: https://github.com/simsong/tcpflow
+Description: Athena Project | Compiled for ARM64.
+ TCP flow recorder
+Tag: purpose::console
+Name: tcpflow
+
+Package: com.mc.tcpreplay
+Version: 4.3.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libpcap, com.mc.libdnet, com.mc.gettext
+Filename: ./Athena/com.mc.tcpreplay_4.3.0-1_iphoneos-arm.deb
+Size: 250652
+MD5sum: c51a67a48b4e09df0580e474ba08d2f2
+SHA1: 68dac5238e1f689ad3fde840104954c882d09966
+SHA256: 13555bda4ef0a12533275bb0453741f5cccbb0e02878f054bc3c3932148eb1e4
+Section: Networking
+Priority: optional
+Homepage: https://tcpreplay.appneta.com/
+Description: Athena Project | Compiled for ARM64.
+ Replay saved tcpdump files at arbitrary speeds
+Tag: purpose::console
+Name: tcpreplay
+
+Package: com.mc.tcsh
+Version: 6.20.00
+Architecture: iphoneos-arm
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Filename: ./Athena/com.mc.tcsh_6.20.00_iphoneos-arm.deb
+Size: 325680
+MD5sum: 4aeffd8844b211d203911bb6cab1eb9f
+SHA1: cd205989b039c7bb4bc7f06d9e598ca4f0b66ad8
+SHA256: 79181c32ca59735aeb4ad3bfd0e76061a8b47b1a0088804fdaf182852489b54d
+Section: Terminal Support
+Priority: optional
+Homepage: https://web.archive.org/web/20170609182511/www.tcsh.org/Home
+Description: Athena Project | Compiled for ARM64.
+ Enhanced, fully compatible version of the Berkeley C shell
+Name: tcsh
+Tags: purpose::console
+
+Package: com.mc.thc-hydra
+Version: 8.6
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses, com.mc.openssl, com.mc.pcre, com.mc.libssh
+Filename: ./Athena/com.mc.thc-hydra_8.6_iphoneos-arm.deb
+Size: 225724
+MD5sum: 5da0eb7cedcd64b5ae5ffbfca28090d0
+SHA1: 6ef90f953a3e4ae5ac600ca09cd045fa818305b8
+SHA256: a5310aad7d0c5fe054e579a7ead342fa375dbfcb6814e63e4aaf795bcd4e79b7
+Section: Networking
+Priority: optional
+Homepage: https://github.com/vanhauser-thc/thc-hydra
+Description: Athena Project | Compiled for ARM64.
+ Network logon cracker which supports many services
+Tag: purpose::console
+Name: THC-Hydra
+
+Package: com.mc.theora
+Version: 1.1.1-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libogg
+Filename: ./Athena/com.mc.theora_1.1.1-1_iphoneos-arm.deb
+Size: 283916
+MD5sum: 7e25f849f8a635f27f4bf6f03a6c18f9
+SHA1: aabb0cc8bbc96543afb95663f7e8812ebdcaa3ac
+SHA256: 2c13c4d74f63202d15d07e96b12970ba67c8aac9a338e452f3ac0cd0e27d3381
+Section: Development
+Priority: optional
+Homepage: https://www.theora.org/
+Description: Athena Project | Compiled for ARM64.
+ Open video compression format
+Tag: purpose::library
+Name: libtheora
+
+Package: com.mc.tmux
+Version: 2.8-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses, com.mc.utf8proc, com.mc.libevent
+Filename: ./Athena/com.mc.tmux_2.8-1_iphoneos-arm.deb
+Size: 208160
+MD5sum: 7106fa0dac552bc1a0605dc6a68b88e5
+SHA1: acd4c40b44d5121230f8981a878cb5e6966aac24
+SHA256: 548d1218d22c6ac6b0efe32a707de79ab2fe4869f3bc50de8591c526a66d5ea7
+Section: Terminal Support
+Priority: optional
+Homepage: https://tmux.github.io/
+Description: Athena Project | Compiled for ARM64.
+ Terminal multiplexer
+Tag: purpose::console
+Name: tmux
+
+Package: com.mc.tor
+Version: 0.3.4.9-5.1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libscrypt, com.mc.xz | xz, com.mc.libevent, com.mc.openssl, com.mc.zlib
+Filename: ./Athena/com.mc.tor_0.3.4.9-5.1_iphoneos-arm.deb
+Size: 2113312
+MD5sum: bbc19ff1adfa82e951ed9511afc6f2e2
+SHA1: 2ef5c28706074fa5ee2849e68f127388010bccc8
+SHA256: a807b9149aa8ff59e0d100be81dcf5846b5c65f66c090bb8b800f24b629f9d72
+Section: Networking
+Priority: optional
+Homepage: https://www.torproject.org/
+Description: Athena Project | Compiled for ARM64.
+ Anonymizing overlay network for TCP
+ | Notes:
+ Install plutil (sbingner's repo), awk, and grep for the LaunchDaemon.
+ | Tips:
+ Your user agent is still "iOS XXX", don't try to be a l33t hacker.
+ .
+ Google "iOS socks setup"; You can try a app or hosting the .pac file in /etc/tor/ (Wifi -> Proxy Settings)
+ .
+ Tor will listen on 127.0.0.1:9050 (Change 127.0.0.1 to 0.0.0.0 in your config to share the proxy)
+Tag: purpose::console
+Name: Tor
+
+Package: com.mc.transmission
+Version: 2.94-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libevent, com.mc.curl, com.mc.c-ares, com.mc.nghttp2, com.mc.libidn2, com.mc.libiconv, com.mc.gettext, com.mc.libunistring, com.mc.libssh2, com.mc.gcrypt, com.mc.gpg-error, com.mc.openssl, com.mc.zlib
+Filename: ./Athena/com.mc.transmission_2.94-1_iphoneos-arm.deb
+Size: 755464
+MD5sum: dc866029da5cbc92f81af9c4300d2076
+SHA1: 3b9f1813e3929a59e70b4022fc25d0d4e7ef60b6
+SHA256: 23cebdf88779e6c5e2282c56caf7005b7ad567c290f2d68d02e6b5d90be07e89
+Section: Networking
+Priority: optional
+Homepage: https://www.transmissionbt.com/
+Description: Athena Project | Compiled for ARM64.
+ Lightweight BitTorrent client
+Tag: purpose::console
+Name: Transmission
+
+Package: com.mc.utf8proc
+Version: 2.2.6-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.utf8proc_2.2.6-1_iphoneos-arm.deb
+Size: 54252
+MD5sum: 1ac8ee33b4e8835914eb3b762e7484a6
+SHA1: baad2525abaf6f402a88ffa54cc1d0e7cb78eeb7
+SHA256: 47cbe3e0550977db96a6820ec6009f92cd95535cac4341302fcf60c2f0e68846
+Section: Development
+Priority: optional
+Homepage: https://juliastrings.github.io/utf8proc/
+Description: Athena Project | Compiled for ARM64.
+ Clean C library for processing UTF-8 Unicode data
+Tag: purpose::library
+Name: utf8proc
+
+Package: com.mc.vim
+Version: 8.1.0550-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.ncurses, com.mc.libiconv, com.mc.gettext, com.mc.lua, com.mc.perl, com.mc.ruby, com.mc.gmp, com.mc.python3
+Filename: ./Athena/com.mc.vim_8.1.0550-2_iphoneos-arm.deb
+Size: 7504292
+MD5sum: 43f872b9698dbd1452657eab7554452d
+SHA1: 0f77639e9306515f8015b54e8ebe1bdcd879394b
+SHA256: 6af46163dd1d63aaa9e88b9476377f987244303548f8fc540516914ea4c0b220
+Section: Text Editors
+Priority: optional
+Homepage: https://www.vim.org/
+Description: Athena Project | Compiled for ARM64.
+ Vi 'workalike' with many additional features
+ | Notes:
+ python3interp, rubyinterp, perlinterp, luainterp have been compilied in. Beware the size of those dependencies.
+ Please stick with your maintainer's Vim if this is a concern.
+Tag: purpose::console
+Name: Vi IMproved
+
+Package: com.mc.vsftpd
+Version: 3.0.3-3
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.openssl
+Filename: ./Athena/com.mc.vsftpd_3.0.3-3_iphoneos-arm.deb
+Size: 63560
+MD5sum: 18e33041df00b101e4c8a347c92b817c
+SHA1: 066a42cf2d856b0034af0010c3f8cfabc7ce8f4a
+SHA256: b8f84bb02eb63059b236c5d45d56f71a9d90687bddcd23fc2515f36e44b76374
+Section: Networking
+Priority: optional
+Homepage: https://security.appspot.com/vsftpd.html
+Description: Athena Project | Compiled for ARM64.
+ Secure FTP server for UNIX
+Tag: purpose::console
+Name: vsftpd
+
+Package: com.mc.wget
+Version: 1.19.5-6
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.gettext, com.mc.libunistring, com.mc.c-ares, com.mc.pcre, com.mc.libmetalink, com.mc.openssl, com.mc.zlib, ca-certificates
+Filename: ./Athena/com.mc.wget_1.19.5-6_iphoneos-arm.deb
+Size: 608704
+MD5sum: 7699e7eff3eede51be119eb17d4d7541
+SHA1: 9b8038ee599e44252eef3429bb9e0d5c8d4efd59
+SHA256: a098d51343c5161508e4a0965720a858878027cc3ca2a0cbad10df74a5ce8ed6
+Section: Networking
+Priority: optional
+Homepage: https://www.gnu.org/software/wget/
+Description: Athena Project | Compiled for ARM64.
+ Internet file retriever
+Tag: purpose::console
+Name: wget
+
+Package: com.mc.whois
+Version: 5.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.libiconv, com.mc.libidn2
+Filename: ./Athena/com.mc.whois_5.4.0-1_iphoneos-arm.deb
+Size: 52904
+MD5sum: c15d9649d174d50fff3eb73a58c2c810
+SHA1: 006e7e125f01ab8f8e16bf4efc943e2a6176e4e3
+SHA256: 3d10ac72d8684d60506012ba8d9be3d5a4dab3cc4ffab71ab6582521735786de
+Section: Networking
+Priority: optional
+Homepage: https://packages.debian.org/sid/whois
+Description: Athena Project | Compiled for ARM64.
+ Lookup tool for domain names and other internet resources
+Tag: purpose::console
+Name: WhoIs
+
+Package: com.mc.wireshark
+Version: 2.6.4-3
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.nghttp2, com.mc.libxml2, com.mc.xz | xz, com.mc.glib, com.mc.libpcap, com.mc.c-ares, com.mc.gcrypt, com.mc.gpg-error, com.mc.gnutls, com.mc.p11-kit, com.mc.libffi, com.mc.libidn2, com.mc.libiconv, com.mc.libunistring, com.mc.nettle, com.mc.libtasn1, com.mc.gettext, com.mc.gmp, com.mc.zlib, com.mc.libsmi, com.mc.libssh
+Filename: ./Athena/com.mc.wireshark_2.6.4-3_iphoneos-arm.deb
+Size: 15806304
+MD5sum: e9071d0033f7cf52df846c9e79af45de
+SHA1: 2b2b53f45953a985547719543fc5390ca7bd7b63
+SHA256: 9d95a2625f9e6c70015d832c62e4381e407a8073d6b54558fa9bb91596ce0e99
+Section: Networking
+Priority: optional
+Homepage: https://www.wireshark.org
+Description: Athena Project | Compiled for ARM64.
+ COMMAND (not Graphical!) network analyzer and capture tool.
+ Experimental build, without qt and only features t-shark.
+ Lua support omitted due wireshark still using a old version.
+Name: WireShark
+
+Package: com.mc.x264
+Version: 0.155.2917-0a84d98-2
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.x264_0.155.2917-0a84d98-2_iphoneos-arm.deb
+Size: 639924
+MD5sum: 522b4a39232559e326f73e6a2aecd3ec
+SHA1: be541ce8ede70472bb7194fc955d0c559430abf7
+SHA256: 735979ce1d823597bd9565c5132bf15d8d413263840b49d0bacf3f1c00eb2e19
+Section: Multimedia
+Priority: optional
+Homepage: https://www.videolan.org/developers/x264.html
+Description: Athena Project | Compiled for ARM64.
+ H.264/AVC encoder
+ | Update: Recompile for 8-bit
+Tag: purpose::library
+Name: x264
+
+Package: com.mc.x265
+Version: 2.9-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.x265_2.9-1_iphoneos-arm.deb
+Size: 557316
+MD5sum: b6e8919cf97c5fc926f6d0a8f67f467f
+SHA1: a1c2a0df61f1ff4f25f177a14f79cb550e6fc5ba
+SHA256: ad253f861ab469c2d2b06cfb077d2e06ee177f9c941154f2f955ede183237d4c
+Section: Multimedia
+Priority: optional
+Homepage: http://x265.org
+Description: Athena Project | Compiled for ARM64.
+ H.265/HEVC encoder
+Tag: purpose::library
+Name: x265
+
+Package: com.mc.xvidcore
+Version: 1.3.5-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.xvidcore_1.3.5-1_iphoneos-arm.deb
+Size: 199092
+MD5sum: 3fd7bca12e0ff59e7a5dafc76c749731
+SHA1: 1bebc3c36a2be1c7457f8154ad87e55aee470569
+SHA256: 4d1df412f82b93c8982ec67a7558c475d1a0ca275a660392e7d6f4d8dc909479
+Section: Development
+Priority: optional
+Homepage: https://labs.xvid.com/
+Description: Athena Project | Compiled for ARM64.
+ High-performance, high-quality MPEG-4 video library
+Tag: purpose::library
+Name: xvidcore
+
+Package: com.mc.xz
+Version: 5.2.4-9
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Conflicts: xz
+Replaces: lzma (<< 1:0)
+Filename: ./Athena/com.mc.xz_5.2.4-9_iphoneos-arm.deb
+Size: 196728
+MD5sum: 620c692c48c7aa73b9f7b5fe55092256
+SHA1: 08bc3c94bf55d83cdb6015b2df0956315f91fff3
+SHA256: 88876188b7eafce29f4364f9db8199dfa6041880e1433427596060f6c735af8c
+Section: Archiving
+Priority: optional
+Homepage: https://tukaani.org/xz/
+Description: Athena Project | Compiled for ARM64.
+ General-purpose data compression with high compression ratio
+Tag: purpose::console
+Name: XZ Utils
+
+Package: com.mc.youtube-dl
+Version: 2018.12.9-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Depends: com.mc.python3
+Filename: ./Athena/com.mc.youtube-dl_2018.12.9-1_iphoneos-arm.deb
+Size: 1806724
+MD5sum: 661e66b67b8f51f6a54e89af8fe54524
+SHA1: b4e57d11861450fd6a2a53765132a900f40b61f8
+SHA256: be53717f29e82a39f8081a4c5b6a170e392c4eb9b7b8cf6e120407ffa55d42f9
+Section: Utilities
+Priority: optional
+Homepage: https://rg3.github.io/youtube-dl/
+Description: Athena Project | Compiled for ARM64.
+ Download YouTube videos from the command-line
+Tag: purpose::console
+Name: Youtube-dl
+
+Package: com.mc.zlib
+Version: 1.2.11-1
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Filename: ./Athena/com.mc.zlib_1.2.11-1_iphoneos-arm.deb
+Size: 76868
+MD5sum: 573a74b0f6043636e3b81dd5fa756277
+SHA1: 43083886dcdd68a32aaae6b0c52a10dc472757c0
+SHA256: d11312f7d2b16f77422ca92d28f84accbe54a63c4393385d1aaeb1ef9e655c04
+Section: Archiving
+Priority: optional
+Homepage: https://zlib.net/
+Description: Athena Project | Compiled for ARM64.
+ General-purpose lossless data-compression library
+Tag: purpose::library
+Name: zlib
+
+Package: com.mc.zsh
+Version: 5.7.1-01
+Architecture: iphoneos-arm
+Maintainer: MCApollo <34170230+MCApollo@users.noreply.github.com>
+Depends: com.mc.ncurses, com.mc.pcre
+Filename: ./Athena/com.mc.zsh_5.7.1-01_iphoneos-arm.deb
+Size: 1755300
+MD5sum: 019c1af6ff681132cbbf92ee34b6205d
+SHA1: ee507c1e7da58b85157ed801a8824d75fea6ebda
+SHA256: 32768d59abe0a671fef83bc87dc7a2b24c23eed9d80a4ffde3819db79bcac899
+Section: Terminal Support
+Priority: optional
+Homepage: https://www.zsh.org/
+Description: Athena Project | Compiled for ARM64.
+ UNIX shell (command interpreter)
+Name: zsh
+Tags: purpose::console
+
+Package: mc.v2
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Apollo <34170230+MCApollo@users.noreply.github.com>
+Pre-Depends: dpkg
+Conflicts: com.mc.3proxy, com.mc.MetaSploitFrameWork, com.mc.aria2, com.mc.arp-spoof, com.mc.arpscan, com.mc.autoconf, com.mc.automake, com.mc.autossh, com.mc.axel, com.mc.bash-completion, com.mc.bc, com.mc.berkeleydb, com.mc.bind, com.mc.bzip2, com.mc.c-ares, com.mc.ciscoexploit, com.mc.cmake, com.mc.cmartix, com.mc.cowsay, com.mc.cpio, com.mc.daq, com.mc.dsniff, com.mc.ettercap, com.mc.ev, com.mc.expat, com.mc.fdk-aac, com.mc.ffmpeg, com.mc.figlet, com.mc.fish, com.mc.gettext, com.mc.giflib, com.mc.glib, com.mc.golang, com.mc.googlelibpam, com.mc.gperf, com.mc.groff, com.mc.httrack, com.mc.image-exiftool, com.mc.imagemagick, com.mc.jq, com.mc.lame, com.mc.leptonica, com.mc.lftp, com.mc.libdnet, com.mc.libevent-2.0.22, com.mc.libffi, com.mc.libfragmentzip, com.mc.libiconv, com.mc.libidn, com.mc.libjpeg, com.mc.libnids, com.mc.libogg, com.mc.libpcap, com.mc.libpipeline-1.5.0, com.mc.libpng, com.mc.libsodium, com.mc.libssh, com.mc.libssh2, com.mc.libunistring, com.mc.libuuid, com.mc.libuv, com.mc.libvncServer, com.mc.libvorbis, com.mc.libvpx, com.mc.libxml, com.mc.libxslt, com.mc.libzip, com.mc.lighttpd, com.mc.lynx, com.mc.m4, com.mc.man-db-2.8.3, com.mc.masscan, com.mc.medusa, com.mc.megatools, com.mc.midnightcommander, com.mc.mosh, com.mc.nano, com.mc.nanosyntax, com.mc.nbtscan, com.mc.nc, com.mc.ncdu, com.mc.ncftp, com.mc.nikto2, com.mc.nload, com.mc.nmap, com.mc.node, com.mc.oniguruma, com.mc.openjpeg, com.mc.openpam, com.mc.opus, com.mc.p0f, com.mc.p7zip, com.mc.pbz, com.mc.pcre, com.mc.pcre2, com.mc.php, com.mc.pipes, com.mc.pirni, com.mc.pkg-config, com.mc.postgresql, com.mc.protobuf, com.mc.python3.6, com.mc.qrencode, com.mc.rclone, com.mc.readline, com.mc.ruby, com.mc.sl, com.mc.slang, com.mc.snort, com.mc.sqlite, com.mc.sqlmap, com.mc.tcpdump, com.mc.tesseract, com.mc.thc-hydra, com.mc.tiff, com.mc.tmux, com.mc.tor, com.mc.utillinux, com.mc.vim, com.mc.x265, com.mc.xar, com.mc.xxd, com.mc.zlib, com.mc.zork1, com.mc.zsh, com.nerdglasses.BillyEllisRadare2, python
+Filename: ./Athena/mc.v2_1.0_iphoneos-arm.deb
+Size: 27140
+MD5sum: 56f8eb67668105654e4da685a5023252
+SHA1: b0d9e9573b6044d64f4316995a92e81f02a614b9
+SHA256: 426831d7a35336f2d1208bda53b07401325f035f49cfaf454e376a822f1fc4eb
+Section: README
+Description: Remove everything.
+ Old package can found at: https://github.com/MCApollo/Archive
+ I promise to get everything back to par, just give time.
+ This /should/ remove all old packages.
+Name: MCApollo's "Forget Me Shot."
+
