@@ -59,3 +59,19 @@ Section: Development
 Description: Portable ASCII art graphics library
 Name: aalib
 
+Package: io.mc.aamath
+Version: 0.3-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 196
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses, io.mc.readline
+Filename: ./Athena/aamath_0.3-4_iphoneos-arm.deb
+Size: 39526
+MD5sum: f94fd959e8ab752ace52ef3f8e254e18
+SHA1: 1015629c7a4f43cf0dfdbaf7cbf7441b9bc69982
+SHA256: c12e0a39a2b342ff3fb147005224706bee0692419972e5d171aea501b0de5f9a
+Section: Utilities
+Description: Renders mathematical expressions as ASCII art
+Name: aamath
+
