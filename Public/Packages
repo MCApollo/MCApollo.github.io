@@ -1130,3 +1130,18 @@ Section: Development
 Description: Perl compatible regular expressions library
 Name: pcre
 
+Package: io.mc.pcre2
+Version: 10.33-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2288
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/pcre2_10.33-1_iphoneos-arm.deb
+Size: 412488
+MD5sum: 922ca8273683fd355956663d0163305f
+SHA1: 8352b0e6c2b44f08afdf7684adfc96c433ec1438
+SHA256: 894552045ee6e9e3c0c307e8d402c847120b09dc493548c9f7d2f4d38e0567fe
+Section: Development
+Description: Perl compatible regular expressions library with a new API
+Name: pcre2
+
