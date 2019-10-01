@@ -1273,3 +1273,19 @@ Section: Utilities
 Description: Validating, recursive, caching DNS resolver
 Name: unbound
 
+Package: io.mc.usbmuxd
+Version: 1.0.10-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libimobiledevice, io.mc.libplist, io.mc.libusb, io.mc.libusbmuxd
+Filename: ./Athena/usbmuxd_1.0.10-2_iphoneos-arm.deb
+Size: 26876
+MD5sum: 3c42c812f058aec7d5263e1ddeabc7d5
+SHA1: 7710af788ed21b6f2ed484fd925201d60e9d026f
+SHA256: 321b1b3726b6fd6abcd3d3afe5b992a3b5db738a511a67badb76f70cb3386a0b
+Section: Utilities
+Description: USB multiplexor daemon for iPhone and iPod Touch devices
+Name: usbmuxd
+
