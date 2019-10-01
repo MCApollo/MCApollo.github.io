@@ -1160,3 +1160,19 @@ Section: Development
 Description: Low-level library for pixel manipulation
 Name: pixman
 
+Package: io.mc.readline
+Version: 8.0.0-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 560
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses
+Filename: ./Athena/readline_8.0.0-3_iphoneos-arm.deb
+Size: 147724
+MD5sum: a7d9a3dddc11b0a1a036d00f6de85bd9
+SHA1: 52f656f09d6e68c50656ecb9d52fa8759ab4eb5a
+SHA256: e6bef6d250fd34906694b4e9ceaabd74dd34f12c7c1ed49a9335ae4df7caedbd
+Section: Utilities
+Description: Library for command-line editing
+Name: readline
+
