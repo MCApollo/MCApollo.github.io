@@ -107,3 +107,18 @@ Section: Utilities
 Description: ARP scanning and fingerprinting tool
 Name: arp-scan
 
+Package: io.mc.aspell
+Version: 0.60.7-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 332400
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/aspell_0.60.7-1_iphoneos-arm.deb
+Size: 87643698
+MD5sum: a1991f3a3dac215d45fcbc33356ef209
+SHA1: 62128bda970b8378e79ef0d6edb9dd129405b98d
+SHA256: 8451797a585f7ebe23cf26ca08c66a42a0920df641b7e44c5ffdb2dab96db40d
+Section: Utilities
+Description: Spell checker with better logic than ispell
+Name: aspell
+
