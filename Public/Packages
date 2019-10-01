@@ -358,3 +358,18 @@ Section: Utilities
 Description: GNU database manager
 Name: gdbm
 
+Package: io.mc.geoip
+Version: 1.6.12-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 364
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/geoip_1.6.12-1_iphoneos-arm.deb
+Size: 64246
+MD5sum: 9dc98e800bb435f818493466d4d9729c
+SHA1: 18fffe99ee276675c94c03e48ddb81e9163f6cb8
+SHA256: 8e3dab504f531f06cfb869205113b170909952a4b81d3de062e9cbbcdec6f18b
+Section: Development
+Description: This library is for the GeoIP Legacy format (dat)
+Name: geoip
+
