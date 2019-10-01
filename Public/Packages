@@ -665,3 +665,19 @@ Section: Development
 Description: International domain name library
 Name: libidn
 
+Package: io.mc.libidn2
+Version: 2.2.0-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 272
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.gettext, io.mc.libunistring
+Filename: ./Athena/libidn2_2.2.0-2_iphoneos-arm.deb
+Size: 60862
+MD5sum: 62b5100957f4ef2f11e1650da6cbccab
+SHA1: 0cbd4fc9b2af65c3e3dd958e50882adea06c965e
+SHA256: b80939b66c19547d3d272ba544fe864510356c5239e51213848e20cc57b0ce01
+Section: Development
+Description: International domain name library (IDNA2008, Punycode and TR46)
+Name: libidn2
+
