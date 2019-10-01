@@ -280,3 +280,19 @@ Section: Utilities
 Description: Display user-friendly message boxes from shell scripts
 Name: dialog
 
+Package: io.mc.ettercap
+Version: 0.8.3-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3848
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.curl, io.mc.geoip, io.mc.libnet, io.mc.libpcap, io.mc.ncurses, io.mc.openssl, io.mc.pcre
+Filename: ./Athena/ettercap_0.8.3-4_iphoneos-arm.deb
+Size: 691384
+MD5sum: 579fd44b90690fe7f52dc15f7248b1ca
+SHA1: 6b78cc7961dbe64fe64e3308bd41ced6b47d017b
+SHA256: dca39b3c3c1ef9683869d498494ab9177a2af97f7cb7b04084426a3ad99c104b
+Section: Utilities
+Description: Multipurpose sniffer/interceptor/logger for switched LAN
+Name: ettercap
+
