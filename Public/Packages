@@ -1115,3 +1115,18 @@ Section: Utilities
 Description: Library to load and enumerate PKCS#11 modules
 Name: p11-kit
 
+Package: io.mc.pcre
+Version: 8.43-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2044
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/pcre_8.43-1_iphoneos-arm.deb
+Size: 367994
+MD5sum: 0a19e9b670a44c38eb5131430b40bec1
+SHA1: 5b580c4f8530476dab3c86daaf8ac968faf1e205
+SHA256: 972d4ed90450cb697835329e3b9f76af6290270ed5e7ef6ae61c7215df6f7003
+Section: Development
+Description: Perl compatible regular expressions library
+Name: pcre
+
