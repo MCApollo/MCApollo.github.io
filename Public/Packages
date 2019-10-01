@@ -1084,3 +1084,18 @@ Section: Development
 Description: SSL/TLS cryptography library
 Name: openssl
 
+Package: io.mc.openssl-1.1
+Version: 1.1.1c-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 5296
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/openssl@1.1_1.1.1c-1_iphoneos-arm.deb
+Size: 1488300
+MD5sum: 642459337baff91a25fffab3072b7c37
+SHA1: 8ec7b2df321744f4891f8560579240e92dfef80a
+SHA256: 6f193edbd4afaf2c99af4c13bf258a2d54cd13fe8953e4fab0b48ec0f815d489
+Section: Utilities
+Description: Cryptography and SSL/TLS Toolkit
+Name: openssl@1.1
+
