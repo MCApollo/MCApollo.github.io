@@ -419,3 +419,18 @@ Section: Development
 Description: Core application library for C
 Name: glib
 
+Package: io.mc.gmp
+Version: 6.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 704
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/gmp_6.1.2-1_iphoneos-arm.deb
+Size: 209912
+MD5sum: fb3744fc310aef938ce934eafe1e35b0
+SHA1: fea0f8f43cd8e1d037dcf50368af91b1651c22db
+SHA256: 8ef9d981342e6c53801353d7f20a39d0f3d938865ec87024b77721fa8501472b
+Section: Development
+Description: GNU multiple precision arithmetic library
+Name: gmp
+
