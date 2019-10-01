@@ -865,3 +865,18 @@ Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
 
+Package: io.mc.libxml2
+Version: 2.9.9-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2088
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libxml2_2.9.9-1_iphoneos-arm.deb
+Size: 540462
+MD5sum: d3609e1d94c7cbb325d229b0faa05338
+SHA1: ea53bc7461abc224b468a05cc05eb3aad7b7afec
+SHA256: f961f38365921236e63bdecac78e2600ec6d600b314d641eb5369f6e773911c3
+Section: Development
+Description: GNOME XML library
+Name: libxml2
+
