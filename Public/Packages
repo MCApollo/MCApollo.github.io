@@ -834,3 +834,18 @@ Section: Development
 Description: C string library for manipulating Unicode strings
 Name: libunistring
 
+Package: io.mc.libusb
+Version: 1.0.23-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 220
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libusb_1.0.23-1_iphoneos-arm.deb
+Size: 49306
+MD5sum: a950da53871db29576ab1fe6e1b01e14
+SHA1: c5561b7492ec1d499b8ff2366ced69d1eb807c7b
+SHA256: f2c52506f21735c5746afb599b260db38a1039ff8ab078f5e5030a92815af97b
+Section: Utilities
+Description: Library for USB device access
+Name: libusb
+
