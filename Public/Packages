@@ -1145,3 +1145,18 @@ Section: Development
 Description: Perl compatible regular expressions library with a new API
 Name: pcre2
 
+Package: io.mc.pixman
+Version: 0.38.4-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 496
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/pixman_0.38.4-1_iphoneos-arm.deb
+Size: 129688
+MD5sum: f602d229491ccb93c0720896939ebedc
+SHA1: a592088b442b2d1c85a1d0c99952ea6ba16440f2
+SHA256: 8a5412bc313651f4522fb972b3277aadf794360ab36c37675eba1233137d102d
+Section: Development
+Description: Low-level library for pixel manipulation
+Name: pixman
+
