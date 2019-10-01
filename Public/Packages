@@ -974,3 +974,19 @@ Section: Development
 Description: Text-based UI library
 Name: ncurses
 
+Package: io.mc.nettle
+Version: 3.4.1-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1244
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.gmp
+Filename: ./Athena/nettle_3.4.1-3_iphoneos-arm.deb
+Size: 282010
+MD5sum: 9cc5e7850c1d92ff44290d16887aaed4
+SHA1: 7894d6ac90aa87b6581f4ba9cfddcd1b562c898b
+SHA256: 249fe46a2673d990596a10cba82ea882bde3213d908984d38bc5e6439a1cec38
+Section: Development
+Description: Low-level cryptographic library
+Name: nettle
+
