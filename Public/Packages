@@ -373,3 +373,18 @@ Section: Development
 Description: This library is for the GeoIP Legacy format (dat)
 Name: geoip
 
+Package: io.mc.gettext
+Version: 0.20.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 5372
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/gettext_0.20.1-1_iphoneos-arm.deb
+Size: 1396874
+MD5sum: ee7f7402292893241626c7c33dd07864
+SHA1: c21a9d9e730e28881863d1add283b15dcd1d4875
+SHA256: a51704863a50c5b4ccc70569bc011fa718441dd614a9547ee66e78bd0238a132
+Section: Development
+Description: GNU internationalization (i18n) and localization (l10n) library
+Name: gettext
+
