@@ -232,3 +232,19 @@ Section: Utilities
 Description: Get a file from an HTTP, HTTPS or FTP server
 Name: curl
 
+Package: io.mc.cyrus-sasl
+Version: 2.1.27-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1048
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openssl
+Filename: ./Athena/cyrus-sasl_2.1.27-2_iphoneos-arm.deb
+Size: 139260
+MD5sum: 2019ad4612aeb209b09776ff1dff516d
+SHA1: e7edc4cb05b379e2af195fb2b2277da506d71964
+SHA256: 4297b15f19441e6612be177c874d8b78ee46a1b4fbfdff59a6026cd262eb9a4e
+Section: Developer
+Description: Authentication abstraction library.
+Name: Cryus-sasl
+
