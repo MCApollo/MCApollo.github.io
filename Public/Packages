@@ -712,3 +712,18 @@ Section: Development
 Description: C library for creating IP packets
 Name: libnet
 
+Package: io.mc.libpcap
+Version: 1.9.0-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 872
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libpcap_1.9.0-2_iphoneos-arm.deb
+Size: 146762
+MD5sum: d114150385d88581e89ef72b9e809069
+SHA1: 662abdf15434aaecf049cd720575113e2c9c5928
+SHA256: d48ac0febeab4672fcd637b32da90514e860576fb7da86aca82cee151202b1b2
+Section: Development
+Description: Portable library for network traffic capture
+Name: libpcap
+
