@@ -43,3 +43,19 @@ Section: Utilities
 Description: AAC-supporting version of mp3gain
 Name: aacgain
 
+Package: io.mc.aalib
+Version: 1.4rc5-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 372
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses
+Filename: ./Athena/aalib_1.4rc5-2_iphoneos-arm.deb
+Size: 43154
+MD5sum: 87fd179ed98caff0501f09a7532314d3
+SHA1: 3391dd179c7bbf4863d26ea2785b7c9e8801cd5c
+SHA256: be499eae7556b1b04f11812c87b4f1ff089206f1412ae01a075abe19302627ba
+Section: Development
+Description: Portable ASCII art graphics library
+Name: aalib
+
