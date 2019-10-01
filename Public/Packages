@@ -1289,3 +1289,19 @@ Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
 
+Package: io.mc.webp
+Version: 1.0.3-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1300
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.jpeg, io.mc.libpng, io.mc.libtiff
+Filename: ./Athena/webp_1.0.3-3_iphoneos-arm.deb
+Size: 257582
+MD5sum: bc118dcc72c27274b32b139c2c58c737
+SHA1: 7e41ac065d862ae5ae5791ec4db154ebd430df7d
+SHA256: 00c8e9883c835bd6fd81e092cbcf7c2a101661c43bb6ac886ae2c249d1d7817b
+Section: Utilities
+Description: Image format providing lossless and lossy compression for web images
+Name: webp
+
