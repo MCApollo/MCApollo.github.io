@@ -1022,3 +1022,19 @@ Section: Networking
 Description: Port scanning utility for large networks
 Name: nmap
 
+Package: io.mc.node
+Version: 12.9.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 53168
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.c-ares, io.mc.nghttp2, io.mc.openssl-1.1
+Filename: ./Athena/node_12.9.0-1_iphoneos-arm.deb
+Size: 8173342
+MD5sum: 62dcdd47d862ce47ca714b3e844f3ab0
+SHA1: 3016370ebb04aaf6a17c32fc066a014614939062
+SHA256: 568597ba1e2b02394688000758a03b3aae208ed5c74f944076ef1a228538038b
+Section: Networking
+Description: Platform built on V8 to build network applications
+Name: node
+
