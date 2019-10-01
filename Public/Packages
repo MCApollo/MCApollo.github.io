@@ -927,3 +927,19 @@ Section: Development
 Description: Real-time data compression library
 Name: lzo
 
+Package: io.mc.megatools
+Version: 1.10.2-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1436
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.curl, io.mc.glib, io.mc.openssl
+Filename: ./Athena/megatools_1.10.2-2_iphoneos-arm.deb
+Size: 128866
+MD5sum: d12a09d70ccf421d281330cf8210b54e
+SHA1: 5ed2475e8fb49a2dbe98abce69e91d793d2bb946
+SHA256: b1c25ff3087e9867bbd886c04d665331fcea1c8cfb5fc7b4b67483d53a5f36a0
+Section: Utilities
+Description: Command-line client for Mega.co.nz
+Name: megatools
+
