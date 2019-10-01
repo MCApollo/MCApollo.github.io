@@ -1257,3 +1257,19 @@ Section: Networking
 Description: Anonymizing overlay network for TCP
 Name: tor
 
+Package: io.mc.unbound
+Version: 1.9.2-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libevent, io.mc.openssl
+Filename: ./Athena/unbound_1.9.2-2_iphoneos-arm.deb
+Size: 644
+MD5sum: 0e6658bb0f7a8df761daf8427c870637
+SHA1: 090c826ac08b44306235b1d31c6568a79cc71551
+SHA256: 9d6d9d42b7c665afe5f29f2013e468aa102e76eafc440973f414e0e57d46b7e6
+Section: Utilities
+Description: Validating, recursive, caching DNS resolver
+Name: unbound
+
