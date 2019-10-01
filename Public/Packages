@@ -327,3 +327,19 @@ Section: Utilities
 Description: XML-based font configuration API for X Windows
 Name: fontconfig
 
+Package: io.mc.freetype
+Version: 2.10.1-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1604
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpng
+Filename: ./Athena/freetype_2.10.1-2_iphoneos-arm.deb
+Size: 407776
+MD5sum: a4618e44137fca22110d11f2fdbe7971
+SHA1: df71d898fa946e4f72e746479256af0e0d8d9462
+SHA256: 4ba429f655b538978114a3c1f03300619db548e4a25b46a0702d7372467f3376
+Section: Development
+Description: Software library to render fonts
+Name: freetype
+
