@@ -757,3 +757,18 @@ Section: Utilities
 Description: Library for manipulating PNG images
 Name: libpng
 
+Package: io.mc.libscrypt
+Version: 1.21-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 68
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libscrypt_1.21-2_iphoneos-arm.deb
+Size: 10678
+MD5sum: 525c2e2815f0dc13db5b2a3f9e669788
+SHA1: 21f8a0f689928d2d955c4fb4debd2e901cea93cb
+SHA256: 660d5c04d5d2faee52f100d9eda058c4b62caf0369158e5fd788f6f04ee61e4b
+Section: Utilities
+Description: Library for scrypt
+Name: libscrypt
+
