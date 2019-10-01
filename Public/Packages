@@ -1321,3 +1321,18 @@ Section: Utilities
 Description: Internet file retriever
 Name: wget
 
+Package: io.mc.xz
+Version: 5.2.4-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 728
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/xz_5.2.4-1_iphoneos-arm.deb
+Size: 132574
+MD5sum: 3be3e58263a4d94d6f18d221eabb1a7e
+SHA1: 05cf89b2f4102af640ca230b11b422e8d363f4da
+SHA256: 1973309f2403a20a50e6429315e1348d617a67362bf800fa8ec4a327a4c287d8
+Section: Utilities
+Description: General-purpose data compression with high compression ratio
+Name: xz
+
