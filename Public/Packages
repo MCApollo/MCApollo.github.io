@@ -481,3 +481,19 @@ Section: Utilities
 Description: Command-line oriented TCP/IP packet assembler/analyzer
 Name: hping
 
+Package: io.mc.httpry
+Version: 0.1.8-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 80
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpcap
+Filename: ./Athena/httpry_0.1.8-2_iphoneos-arm.deb
+Size: 13968
+MD5sum: 2e25e4aba3692f84fdf7eadac4b7940b
+SHA1: 29043878827e933621d30c482c9e38dd4263b88e
+SHA256: 37affdfed629f9c95b7f271acfd7e6c5b8c10e637c5e8305babf4c749be8c92b
+Section: Utilities
+Description: Packet sniffer for displaying and logging HTTP traffic
+Name: httpry
+
