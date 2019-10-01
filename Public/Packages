@@ -1208,3 +1208,20 @@ Section: Utilities
 Description: Command-line interface for SQLite
 Name: sqlite
 
+Package: io.mc.sshpass
+Version: 1.06-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 56
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssh
+Filename: ./Athena/sshpass_1.06-1_iphoneos-arm.deb
+Size: 5478
+MD5sum: b3256ba6d860ec74f4cf2fd847fd8653
+SHA1: 18d8f4766a68f7baa3070ae4a7440d75fcb5eb2e
+SHA256: b7a7bc832442dc0afd0a59dc6eae480483fbf9ca30560ebb46606e5dcee427b5
+Section: Networking
+Priority: optional
+Description: Non-interactive ssh password authentication
+Name: sshpass
+
