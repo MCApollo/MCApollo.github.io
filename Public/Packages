@@ -1038,3 +1038,18 @@ Section: Networking
 Description: Platform built on V8 to build network applications
 Name: node
 
+Package: io.mc.oniguruma
+Version: 6.9.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 632
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/oniguruma_6.9.3-1_iphoneos-arm.deb
+Size: 137548
+MD5sum: c0857b6016417e5c401002a2f75d0ff8
+SHA1: 56422f7df2e83f594d4782afd19b4a59be930b44
+SHA256: 3dc3870f17878df8e57b0d98a059fae0d887ef3a41a8a0bc5d8583a2fe851029
+Section: Development
+Description: Regular expressions library
+Name: oniguruma
+
