@@ -388,3 +388,18 @@ Section: Development
 Description: GNU internationalization (i18n) and localization (l10n) library
 Name: gettext
 
+Package: io.mc.giflib
+Version: 5.1.4-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 528
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/giflib_5.1.4-2_iphoneos-arm.deb
+Size: 46772
+MD5sum: 1de882dbabde64cf3a822f3be8e1c082
+SHA1: 4ce442f9c1be8e05ac57b5a3c8c0c2f73752adfe
+SHA256: a46ceea6e0a4b6835bc866aed83089b145e0b98ea757549f24992fee4fae221f
+Section: Utilities
+Description: Library and utilities for processing GIFs
+Name: giflib
+
