@@ -28,3 +28,18 @@ Section: Utilities
 Description: Library for decoding ATSC A/52 streams (AKA 'AC-3')
 Name: a52dec
 
+Package: io.mc.aacgain
+Version: 1.8-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 920
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/aacgain_1.8-1_iphoneos-arm.deb
+Size: 316746
+MD5sum: 6d978f5c104bb3242e432f99a76427b6
+SHA1: 98634ae11973dbca4e11ddce54d523a8b65d83da
+SHA256: c8e3c2b6ce3e1b221efe3492cf5ba5e1922d0652f155a150e4246fc793ed80bb
+Section: Utilities
+Description: AAC-supporting version of mp3gain
+Name: aacgain
+
