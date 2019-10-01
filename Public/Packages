@@ -465,3 +465,19 @@ Section: Utilities
 Description: OpenType text shaping engine
 Name: harfbuzz
 
+Package: io.mc.hping
+Version: 3.20051105-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 200
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpcap
+Filename: ./Athena/hping_3.20051105-2_iphoneos-arm.deb
+Size: 56654
+MD5sum: 551fe1e00a4c41cfb0a1a7b2f0f58ad5
+SHA1: 488f544014dd6495b80d5e9eae40840079d1f87a
+SHA256: e5f6652ed9ebde89f4985417f1f6370c8eff131dc641420eeaf2666dfa9093a7
+Section: Utilities
+Description: Command-line oriented TCP/IP packet assembler/analyzer
+Name: hping
+
