@@ -803,3 +803,19 @@ Section: Development
 Description: ASN.1 structure parser library
 Name: libtasn1
 
+Package: io.mc.libtiff
+Version: 4.0.10-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1712
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.jpeg
+Filename: ./Athena/libtiff_4.0.10-2_iphoneos-arm.deb
+Size: 273272
+MD5sum: c7191ddac89ccaa70bbeeea98561021d
+SHA1: 57450eb09adb874bd13343c673cd76cb83478c09
+SHA256: bd51b273d942e64ffc2d38376eefe6ffd4ca22d9ddec0122e6a914f2ecc43f8b
+Section: Development
+Description: TIFF library and utilities
+Name: libtiff
+
