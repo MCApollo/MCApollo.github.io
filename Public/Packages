@@ -75,3 +75,19 @@ Section: Utilities
 Description: Renders mathematical expressions as ASCII art
 Name: aamath
 
+Package: io.mc.aria2
+Version: 1.34.0-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3248
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libssh2, io.mc.libxml2, io.mc.openssl
+Filename: ./Athena/aria2_1.34.0-2_iphoneos-arm.deb
+Size: 787844
+MD5sum: bfcf0da25fc3d00b132d4506f8f7dbb4
+SHA1: c23b6e89f5901cc55a22d1022e61256a53927628
+SHA256: 3d1ed1771b677f8c0510c0d7a3d607209579a531a154264ed7ce193fee6b7520
+Section: Utilities
+Description: Download with resuming and segmented downloading
+Name: aria2
+
