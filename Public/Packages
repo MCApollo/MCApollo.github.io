@@ -185,3 +185,18 @@ Section: Utilities
 Description: Generate and apply patches to binary files
 Name: bsdiff
 
+Package: io.mc.c-ares
+Version: 1.15.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 152
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/c-ares_1.15.0-1_iphoneos-arm.deb
+Size: 33326
+MD5sum: ea1f6db7ef3ce90d0d31d3e2fa36723a
+SHA1: 7765dfead1770df58b4432738936c3960e8228a7
+SHA256: fee9f8c25a92f07b3992d05e6ce37c5dd58b7bbaa8c137b387c6aa40b855b75a
+Section: Development
+Description: Asynchronous DNS library
+Name: c-ares
+
