@@ -1241,3 +1241,19 @@ Section: Utilities
 Description: Command-line packet analyzer
 Name: tcpdump
 
+Package: io.mc.tor
+Version: 0.4.1.5-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 11204
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libevent, io.mc.libscrypt, io.mc.openssl, io.mc.xz
+Filename: ./Athena/tor_0.4.1.5-3_iphoneos-arm.deb
+Size: 1985844
+MD5sum: ed469b4c3d00199e7c03927c7cd22807
+SHA1: c5df59d6d2bddae317a637355c0df03fcc8162de
+SHA256: 951dfd4fba48e2fcf9e28bdd3890a336b79b1d0181c644cc4fcfaa3dc95331a0
+Section: Networking
+Description: Anonymizing overlay network for TCP
+Name: tor
+
