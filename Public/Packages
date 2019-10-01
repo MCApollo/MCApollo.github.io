@@ -497,3 +497,18 @@ Section: Utilities
 Description: Packet sniffer for displaying and logging HTTP traffic
 Name: httpry
 
+Package: io.mc.icu4c
+Version: 64.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 38416
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/icu4c_64.2-1_iphoneos-arm.deb
+Size: 9237702
+MD5sum: 8c371eee97d2023cf392f9ac0af5c40a
+SHA1: 64cc5046c82cca3d7eeebf5a9ffc83b07c9ceb1c
+SHA256: 696ba97fdc8d429d5c91cebd462b93ab006ff6a2f2260bb8f215d3e3d737a98a
+Section: Utilities
+Description: C/C++ and Java libraries for Unicode and globalization
+Name: icu4c
+
