@@ -13,3 +13,18 @@ Section: Utilities
 Description: Any-to-PostScript filter
 Name: a2ps
 
+Package: io.mc.a52dec
+Version: 0.7.4-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 216
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/a52dec_0.7.4-1_iphoneos-arm.deb
+Size: 29362
+MD5sum: af5b37786da38209939fae79a6c8da53
+SHA1: e08b73466d8fc427b2178c7ce378dff32c5ba9e7
+SHA256: 4265242b20be02b68ab7a55c4dab4c5b7c76bee91fe1fe58cb3cfd2fa3c6521d
+Section: Utilities
+Description: Library for decoding ATSC A/52 streams (AKA 'AC-3')
+Name: a52dec
+
