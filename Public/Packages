@@ -122,3 +122,19 @@ Section: Utilities
 Description: Spell checker with better logic than ispell
 Name: aspell
 
+Package: io.mc.axel
+Version: 2.17.3-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.gettext, io.mc.openssl
+Filename: ./Athena/axel_2.17.3-2_iphoneos-arm.deb
+Size: 26332
+MD5sum: 699e34e8c74e73de2a7ffd3544d87a55
+SHA1: 13b6bb273afffc8733fa58a44fdf4b9d35b5cd0c
+SHA256: 89e36274808df4910cf8bde9af3a5b93e3746837f865e267c96e2c8875cea908
+Section: Utilities
+Description: Light UNIX download accelerator
+Name: axel
+
