@@ -343,3 +343,18 @@ Section: Development
 Description: Software library to render fonts
 Name: freetype
 
+Package: io.mc.gdbm
+Version: 1.18.1-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 328
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/gdbm_1.18.1-2_iphoneos-arm.deb
+Size: 62282
+MD5sum: d1ee82c4af31a15604c3e2720c29603b
+SHA1: f2420d0f152c412172a5f0e58a54eac3f11a6389
+SHA256: 6642cbeb8461aa5cbb86d045ffb0cc309a21172895edf83147beb651ae7f8e9a
+Section: Utilities
+Description: GNU database manager
+Name: gdbm
+
