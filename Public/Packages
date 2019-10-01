@@ -1305,3 +1305,19 @@ Section: Utilities
 Description: Image format providing lossless and lossy compression for web images
 Name: webp
 
+Package: io.mc.wget
+Version: 1.20.3-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 540
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libidn2, io.mc.openssl
+Filename: ./Athena/wget_1.20.3-2_iphoneos-arm.deb
+Size: 201810
+MD5sum: be3e60ceabbb9d26991e05a8b8524261
+SHA1: 854ea948291334859a1fe5383e3e6255f06521eb
+SHA256: e39af5043f8f57707be20f7786121e178f08890d4e7fb57cfa71d71a955eb8db
+Section: Utilities
+Description: Internet file retriever
+Name: wget
+
