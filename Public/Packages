@@ -1006,3 +1006,19 @@ Section: Utilities
 Description: HTTP/2 C Library
 Name: nghttp2
 
+Package: io.mc.nmap
+Version: 7.80-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 25876
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libdnet, io.mc.libssh2, io.mc.lua, io.mc.openssl, io.mc.pcre
+Filename: ./Athena/nmap_7.80-3_iphoneos-arm.deb
+Size: 4531148
+MD5sum: cf566c52b2c13e91b4f2f2ba28b7e496
+SHA1: cf18177ce1ecbc79342d0c91057c67707944efdf
+SHA256: 81702ba36328b158d4ffb58408e6d720e748ece9f3971dfa8a8a9e0500c05222
+Section: Networking
+Description: Port scanning utility for large networks
+Name: nmap
+
