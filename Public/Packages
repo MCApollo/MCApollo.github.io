@@ -1225,3 +1225,19 @@ Priority: optional
 Description: Non-interactive ssh password authentication
 Name: sshpass
 
+Package: io.mc.tcpdump
+Version: 4.9.2-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1812
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpcap, io.mc.openssl
+Filename: ./Athena/tcpdump_4.9.2-2_iphoneos-arm.deb
+Size: 283102
+MD5sum: 2abe9dc2693e9af5a54e8e348fce9343
+SHA1: e6bf53a2355fa2358f646b8d5291d38fb949b61d
+SHA256: 78af1e2992ab54e96f0f8b8d0533c94e978bcae7e0a46dba1bcd91b9013a155a
+Section: Utilities
+Description: Command-line packet analyzer
+Name: tcpdump
+
