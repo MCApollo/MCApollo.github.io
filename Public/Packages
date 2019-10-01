@@ -1069,3 +1069,18 @@ Section: Utilities
 Description: Open source suite of directory software
 Name: openldap
 
+Package: io.mc.openssl
+Version: 1.0.2s-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 5484
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/openssl_1.0.2s-1_iphoneos-arm.deb
+Size: 1140948
+MD5sum: 01576a5262342c1c6d69e4b4bcad1632
+SHA1: 3cc0e72c946d5bc27a0c73f3baadd031e15670f8
+SHA256: 950d65e39472dd3353f1496fb1ed7f1ef8fd9cd0d8473ce2032640c560c8ed6a
+Section: Development
+Description: SSL/TLS cryptography library
+Name: openssl
+
