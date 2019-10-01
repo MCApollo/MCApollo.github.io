@@ -170,3 +170,18 @@ Section: Utilities
 Description: Storage conversion and expression calculator
 Name: bcal
 
+Package: io.mc.bsdiff
+Version: 4.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 108
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/bsdiff_4.3-1_iphoneos-arm.deb
+Size: 7656
+MD5sum: c45d3230ed938d975655af918cb52706
+SHA1: cd4b0e253cd2a60d8be3fe460f1459ee2164496b
+SHA256: 432dd70b4deb287b6a85769c5af6e4eacc5749a99943bd4179bf009f6d851ed8
+Section: Utilities
+Description: Generate and apply patches to binary files
+Name: bsdiff
+
