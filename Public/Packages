@@ -742,3 +742,18 @@ Section: Utilities
 Description: Library for Apple Binary- and XML-Property Lists
 Name: libplist
 
+Package: io.mc.libpng
+Version: 1.6.37-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 576
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libpng_1.6.37-1_iphoneos-arm.deb
+Size: 142018
+MD5sum: e5ab04b20639e82b3b9141689effda57
+SHA1: c8810e863a71f21d13260aeab59d797dbdef0252
+SHA256: 2b5b7485c1c34072dd2dd123eec5b839261d159f0d4be18d08586a9b5f42c465
+Section: Utilities
+Description: Library for manipulating PNG images
+Name: libpng
+
