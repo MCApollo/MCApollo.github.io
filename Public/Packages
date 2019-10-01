@@ -1192,3 +1192,19 @@ Section: Utilities
 Description: Flexible Network Intrusion Detection System
 Name: snort
 
+Package: io.mc.sqlite
+Version: 3.29.0-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3980
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.readline
+Filename: ./Athena/sqlite_3.29.0-2_iphoneos-arm.deb
+Size: 945634
+MD5sum: 1ded25f92286d5b0b7626d076af10add
+SHA1: d30bb1c8162abfe1cf36992501bf5ccd54002b93
+SHA256: 95c53dd952cb3e006f30b013773c4c4e0038f581edc61ce2be53e95fb4404f32
+Section: Utilities
+Description: Command-line interface for SQLite
+Name: sqlite
+
