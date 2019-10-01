@@ -91,3 +91,19 @@ Section: Utilities
 Description: Download with resuming and segmented downloading
 Name: aria2
 
+Package: io.mc.arp-scan
+Version: 1.9.5-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 908
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpcap
+Filename: ./Athena/arp-scan_1.9.5-2_iphoneos-arm.deb
+Size: 277466
+MD5sum: 3e544d7f0a05457533a6618f282b2367
+SHA1: 70360a4b4b68798b66e88c81ab929cd19a750d48
+SHA256: bafd9e766f28b948fd39e4ed6dbe0d133f4933c330bd6c0fcd39aeb974c1560c
+Section: Utilities
+Description: ARP scanning and fingerprinting tool
+Name: arp-scan
+
