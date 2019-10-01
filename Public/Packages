@@ -619,3 +619,19 @@ Section: Development
 Description: Asynchronous event library
 Name: libev
 
+Package: io.mc.libevent
+Version: 2.1.11-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1304
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openssl
+Filename: ./Athena/libevent_2.1.11-3_iphoneos-arm.deb
+Size: 211796
+MD5sum: 15b1e46895c2261a1bc9d5f5fd1e2170
+SHA1: 3c6187a0e414417ee3316f57c9ebe837e838ff8b
+SHA256: 7575a100dca61f2c4ad3bf7be5cac56f33df1d59b4df9f0e3b611c886259895f
+Section: Development
+Description: Asynchronous event library
+Name: libevent
+
