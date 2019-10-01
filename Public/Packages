@@ -138,3 +138,19 @@ Section: Utilities
 Description: Light UNIX download accelerator
 Name: axel
 
+Package: io.mc.bc
+Version: 1.07.1-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 224
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.readline
+Filename: ./Athena/bc_1.07.1-2_iphoneos-arm.deb
+Size: 50950
+MD5sum: 42aee7f6fe08c1498fa6a7df1c2fe224
+SHA1: 6863b75bc986e3590007744e2aececf835994cc9
+SHA256: af45b2b48ab60c099375d75c8345b37f12dedb99857754b94a348fa36138a8f9
+Section: Utilities
+Description: Arbitrary precision numeric processing language
+Name: bc
+
