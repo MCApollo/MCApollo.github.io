@@ -311,3 +311,19 @@ Section: Utilities
 Description: XML 1.0 parser
 Name: expat
 
+Package: io.mc.fontconfig
+Version: 2.13.1-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1080
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.expat, io.mc.freetype
+Filename: ./Athena/fontconfig_2.13.1-2_iphoneos-arm.deb
+Size: 132496
+MD5sum: 9d4dbe306004608ae52ac9ac3bcee670
+SHA1: 89c235dfad5fa963f8aa88efaa3d64dcd900605b
+SHA256: 0b849bd867ba1bf707e17f6800bda26b719f7f6bfc58a55a53e6965bc86b6a2b
+Section: Utilities
+Description: XML-based font configuration API for X Windows
+Name: fontconfig
+
