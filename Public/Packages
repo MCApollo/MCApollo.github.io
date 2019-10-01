@@ -573,3 +573,19 @@ Section: Development
 Description: Image manipulation library
 Name: jpeg
 
+Package: io.mc.jq
+Version: 1.6-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 400
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.oniguruma
+Filename: ./Athena/jq_1.6-2_iphoneos-arm.deb
+Size: 108380
+MD5sum: 7857895b3b01e7ded740f41953cb2d9b
+SHA1: 0d9b684dea4925922893a58ef66a76accc6b0cac
+SHA256: c17d94c14e56fbc808b9eafe741d33aa2b431b09b15f3e26e32a851e805328a0
+Section: Utilities
+Description: Lightweight and flexible command-line JSON processor
+Name: jq
+
