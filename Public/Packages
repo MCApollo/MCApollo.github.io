@@ -912,3 +912,18 @@ Section: Utilities
 Description: Powerful, lightweight programming language
 Name: lua
 
+Package: io.mc.lzo
+Version: 2.10-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 392
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/lzo_2.10-1_iphoneos-arm.deb
+Size: 57900
+MD5sum: 7816b96a5c0839326bc83a1a7317370e
+SHA1: 01db6867d75e8b2b57b1f85e4244568c036930bb
+SHA256: 6b98d3334f2579cea24fe3d326105582af8a5b587d646ecf12f804bbe32f47cb
+Section: Development
+Description: Real-time data compression library
+Name: lzo
+
