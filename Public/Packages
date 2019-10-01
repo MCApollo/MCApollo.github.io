@@ -589,3 +589,18 @@ Section: Utilities
 Description: Lightweight and flexible command-line JSON processor
 Name: jq
 
+Package: io.mc.libdnet
+Version: 1.12-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 252
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libdnet_1.12-1_iphoneos-arm.deb
+Size: 39588
+MD5sum: eeb92750d61ba5a869bb597a76c81cdd
+SHA1: 6954e5b1754c4d6aee34a63cee8203c5c3b87566
+SHA256: 255e786b78461b7fada5adcd4eb2364d6c82acf1e1af73ad63abef69e797e918
+Section: Development
+Description: Portable low-level networking library
+Name: libdnet
+
