@@ -1099,3 +1099,19 @@ Section: Utilities
 Description: Cryptography and SSL/TLS Toolkit
 Name: openssl@1.1
 
+Package: io.mc.p11-kit
+Version: 0.23.16.1-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3356
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libffi
+Filename: ./Athena/p11-kit_0.23.16.1-3_iphoneos-arm.deb
+Size: 366054
+MD5sum: 70e1a9cff503bf0d6b8b8e1b58588271
+SHA1: 4d1afee7152b27cd7263fff92576f9be0e270d17
+SHA256: 821c9e7640f9ed92837dad96506b193f0030794fb549e406a545773b8d561a9e
+Section: Utilities
+Description: Library to load and enumerate PKCS#11 modules
+Name: p11-kit
+
