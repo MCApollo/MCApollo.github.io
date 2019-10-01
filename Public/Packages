@@ -1176,3 +1176,19 @@ Section: Utilities
 Description: Library for command-line editing
 Name: readline
 
+Package: io.mc.snort
+Version: 2.9.14.1-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4720
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.daq, io.mc.libdnet, io.mc.libpcap, io.mc.nghttp2, io.mc.openssl, io.mc.pcre
+Filename: ./Athena/snort_2.9.14.1-2_iphoneos-arm.deb
+Size: 831256
+MD5sum: 764ecbb135de4317124b2eff8a2b2991
+SHA1: 71bf2ff1115a2a09717b7e4322fb7fff1323faf8
+SHA256: 580ba97b448bc9978b9902f5f84e26a41efd0187d041673bac37879b4514b6f1
+Section: Utilities
+Description: Flexible Network Intrusion Detection System
+Name: snort
+
