@@ -896,3 +896,19 @@ Section: Utilities
 Description: Small memory footprint, flexible web-server
 Name: lighttpd
 
+Package: io.mc.lua
+Version: 5.3.5-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 456
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.readline
+Filename: ./Athena/lua_5.3.5-3_iphoneos-arm.deb
+Size: 99556
+MD5sum: 8797b64a49110033dd7c5aaec6eac79d
+SHA1: 0a2b3e586d4f28b030c8b89311ad0f6277715960
+SHA256: 76bdf22db0d1863fb9e3966469008e6a5c3560cb5608bbf44222ac80f4a4ea9a
+Section: Utilities
+Description: Powerful, lightweight programming language
+Name: lua
+
