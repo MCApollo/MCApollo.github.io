@@ -403,3 +403,19 @@ Section: Utilities
 Description: Library and utilities for processing GIFs
 Name: giflib
 
+Package: io.mc.glib
+Version: 2.60.6-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 8152
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.gettext, io.mc.libffi, io.mc.pcre
+Filename: ./Athena/glib_2.60.6-3_iphoneos-arm.deb
+Size: 1372558
+MD5sum: 4d4c98fdf15680b60a1eae38c2fcbee9
+SHA1: c510dcba4f715e43446620532a329da681648457
+SHA256: 905551f1245e7612a703fe7039824fa2eef8ac3aef1d377e0d46ff41ea4e958f
+Section: Development
+Description: Core application library for C
+Name: glib
+
