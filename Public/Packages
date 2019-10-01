@@ -604,3 +604,18 @@ Section: Development
 Description: Portable low-level networking library
 Name: libdnet
 
+Package: io.mc.libev
+Version: 4.27-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 140
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libev_4.27-1_iphoneos-arm.deb
+Size: 27770
+MD5sum: ca780496377428ea56aef14ff7821651
+SHA1: 52958a700f48c47b953bb3c3bb5d92be8b7ac4c9
+SHA256: 773c2770b261d820e86dd82ab9ea48a6a9006a44dd1db3948a77837593e10ddc
+Section: Development
+Description: Asynchronous event library
+Name: libev
+
