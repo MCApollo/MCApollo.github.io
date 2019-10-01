@@ -1053,3 +1053,19 @@ Section: Development
 Description: Regular expressions library
 Name: oniguruma
 
+Package: io.mc.openldap
+Version: 2.4.48-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3608
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.cyrus-sasl, io.mc.openssl
+Filename: ./Athena/openldap_2.4.48-2_iphoneos-arm.deb
+Size: 789692
+MD5sum: 011eaeeff3de7879a8ed8732416630ca
+SHA1: 57f1fde7ae9e7e0dfb73d70bc54c4213d104c364
+SHA256: e99f918601e0102859cd69a8b7e10b794d08c5540b5464a6640894b3f5fc3b3c
+Section: Utilities
+Description: Open source suite of directory software
+Name: openldap
+
