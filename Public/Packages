@@ -880,3 +880,19 @@ Section: Development
 Description: GNOME XML library
 Name: libxml2
 
+Package: io.mc.lighttpd
+Version: 1.4.54-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2452
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openldap, io.mc.openssl, io.mc.pcre
+Filename: ./Athena/lighttpd_1.4.54-2_iphoneos-arm.deb
+Size: 244214
+MD5sum: 7faceb3bb59bd2da2e1a38c1a2f56fa8
+SHA1: df842f2cb4102a4cd024a8c7bcde4c6331c3b825
+SHA256: 3904ddd444e26e03b9dd4337721f3596ef823a3fac1341f5aa652ee3aeb24fff
+Section: Utilities
+Description: Small memory footprint, flexible web-server
+Name: lighttpd
+
