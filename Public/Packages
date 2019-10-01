@@ -296,3 +296,18 @@ Section: Utilities
 Description: Multipurpose sniffer/interceptor/logger for switched LAN
 Name: ettercap
 
+Package: io.mc.expat
+Version: 2.2.7-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 308
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/expat_2.2.7-1_iphoneos-arm.deb
+Size: 66324
+MD5sum: 1806894bf7b7bcdd0d6d914e0b0d7e98
+SHA1: b03372badb3f946525cff917b834e5aed241d83f
+SHA256: 886697500f50d7f892466938e8b3b19c5163f2bcd4b32971031c214927240867
+Section: Utilities
+Description: XML 1.0 parser
+Name: expat
+
