@@ -248,3 +248,19 @@ Section: Developer
 Description: Authentication abstraction library.
 Name: Cryus-sasl
 
+Package: io.mc.daq
+Version: 2.0.6-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 564
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpcap
+Filename: ./Athena/daq_2.0.6-2_iphoneos-arm.deb
+Size: 90882
+MD5sum: 295f23e415fb4b8214f4a9d03f282d87
+SHA1: 959f61a29a3f0fb482415824d1224c79d9bdbd40
+SHA256: e838a8efa8d4accd4b7e1c92f527b77fb2c6e3a563e8fdb9f407becbe841224a
+Section: Utilities
+Description: Network intrusion prevention and detection system
+Name: daq
+
