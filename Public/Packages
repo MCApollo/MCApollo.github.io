@@ -697,3 +697,18 @@ Section: Utilities
 Description: Library to communicate with iOS devices natively
 Name: libimobiledevice
 
+Package: io.mc.libnet
+Version: 1.1.6-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 324
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libnet_1.1.6-2_iphoneos-arm.deb
+Size: 62716
+MD5sum: a15338c11fe6c042e596b6e66ee463c5
+SHA1: e19a1bf25a9ba4451e633d2a90fe8c265475e799
+SHA256: 8fc802d5694583452f9c13f3857b576b189d383e75bc5e6b231c510437b68822
+Section: Development
+Description: C library for creating IP packets
+Name: libnet
+
