@@ -681,3 +681,19 @@ Section: Development
 Description: International domain name library (IDNA2008, Punycode and TR46)
 Name: libidn2
 
+Package: io.mc.libimobiledevice
+Version: 1.2.0-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1392
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libplist, io.mc.libtasn1, io.mc.libusbmuxd, io.mc.openssl
+Filename: ./Athena/libimobiledevice_1.2.0-2_iphoneos-arm.deb
+Size: 135208
+MD5sum: a150ce67f1457d43c7552f61952f701e
+SHA1: fd97edb18587639a0d49891dfe35e255391ce82f
+SHA256: 58f4997d670b6ce2d4136cc97a0a42872f2d4840a5a7f6b0d528fa08372b5efe
+Section: Utilities
+Description: Library to communicate with iOS devices natively
+Name: libimobiledevice
+
