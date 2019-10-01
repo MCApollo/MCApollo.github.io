@@ -819,3 +819,18 @@ Section: Development
 Description: TIFF library and utilities
 Name: libtiff
 
+Package: io.mc.libunistring
+Version: 0.9.10-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1820
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libunistring_0.9.10-1_iphoneos-arm.deb
+Size: 415726
+MD5sum: 5af20b7555f40979d231dd9fbffa54ac
+SHA1: 74febbd8493426eaecd66ec5fdb82d111566186b
+SHA256: 6e05535f39761350b2fd42847f2e57513d855174b24525ea66a2d8fd747c4766
+Section: Development
+Description: C string library for manipulating Unicode strings
+Name: libunistring
+
