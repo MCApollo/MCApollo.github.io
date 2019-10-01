@@ -650,3 +650,18 @@ Section: Development
 Description: Portable Foreign Function Interface library
 Name: libffi
 
+Package: io.mc.libidn
+Version: 1.35-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 404
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libidn_1.35-1_iphoneos-arm.deb
+Size: 66076
+MD5sum: 8b2bd2a0214f9324d9636e9a1f15b0f8
+SHA1: fd0cb4b6d91b72907e35406e33bf886e7b7819d1
+SHA256: e65fd06d47bdb9e952e8bd080445d8c1e9def5efd68fd10b33815924264a0ade
+Section: Development
+Description: International domain name library
+Name: libidn
+
