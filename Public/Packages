@@ -990,3 +990,19 @@ Section: Development
 Description: Low-level cryptographic library
 Name: nettle
 
+Package: io.mc.nghttp2
+Version: 1.39.2-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2500
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.c-ares, io.mc.jansson, io.mc.jemalloc, io.mc.libev, io.mc.libevent, io.mc.libxml2, io.mc.openssl
+Filename: ./Athena/nghttp2_1.39.2-2_iphoneos-arm.deb
+Size: 527474
+MD5sum: 0f4874982a316c852afb20e4c9bbc939
+SHA1: a2a59cc7bf383c063261b2500638cedf37cc486e
+SHA256: a4f82bafe626e42622c5120df62d420e9f1f64478cbd81b1992f23b0ae7f0ea8
+Section: Utilities
+Description: HTTP/2 C Library
+Name: nghttp2
+
