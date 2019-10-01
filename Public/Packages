@@ -216,3 +216,19 @@ Section: Development
 Description: Vector graphics library with cross-device output support
 Name: cairo
 
+Package: io.mc.curl
+Version: 7.65.3-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 972
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openssl
+Filename: ./Athena/curl_7.65.3-3_iphoneos-arm.deb
+Size: 320234
+MD5sum: 878cffc6619a4d85c2815d70d7834987
+SHA1: a7f87139f3ee7a43159e2e790a876a4ae5c49429
+SHA256: ac69e06edf295aeb672a19a02a8374255f96a2296a9aa5e1905e05e75de03ceb
+Section: Utilities
+Description: Get a file from an HTTP, HTTPS or FTP server
+Name: curl
+
