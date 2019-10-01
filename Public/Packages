@@ -154,3 +154,19 @@ Section: Utilities
 Description: Arbitrary precision numeric processing language
 Name: bc
 
+Package: io.mc.bcal
+Version: 2.1-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 76
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.readline
+Filename: ./Athena/bcal_2.1-2_iphoneos-arm.deb
+Size: 14636
+MD5sum: 0c1c9b96d1023f82431d9e8adc123cba
+SHA1: a2925acc2bfd241f9f3920f7e4789a329f662cc5
+SHA256: 68c405cf89b04922a46e4eb9c0ec7beb0ee28700a13225c11a635cdea05efa7d
+Section: Utilities
+Description: Storage conversion and expression calculator
+Name: bcal
+
