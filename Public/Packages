@@ -959,3 +959,18 @@ Section: Utilities
 Description: NCurses Disk Usage
 Name: ncdu
 
+Package: io.mc.ncurses
+Version: 6.1-5
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 21328
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/ncurses_6.1-5_iphoneos-arm.deb
+Size: 747844
+MD5sum: 5ac2ecd45428e2854dfccd9f7ae0ac4f
+SHA1: 277eac6d41ac1fe9e73bc7f041fc5f07f963b88a
+SHA256: 0f0a4c3736fff4dbcc16a42fbe18f9f05a7e55a37a1221631e2f948aa5c56393
+Section: Development
+Description: Text-based UI library
+Name: ncurses
+
