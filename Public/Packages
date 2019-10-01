@@ -558,3 +558,18 @@ Section: Utilities
 Description: malloc implementation emphasizing fragmentation avoidance
 Name: jemalloc
 
+Package: io.mc.jpeg
+Version: 9c-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 684
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/jpeg_9c-1_iphoneos-arm.deb
+Size: 142796
+MD5sum: da5a398469f1a588293a71d6d5697d4c
+SHA1: 6184e15ab0712e12babaa328477071e79b84933d
+SHA256: 6424bf1d21c04e3cde3b30f616a7032596ad28ede340ea8a2f761f4dd9d8c847
+Section: Development
+Description: Image manipulation library
+Name: jpeg
+
