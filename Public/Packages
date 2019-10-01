@@ -727,3 +727,18 @@ Section: Development
 Description: Portable library for network traffic capture
 Name: libpcap
 
+Package: io.mc.libplist
+Version: 2.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 332
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libplist_2.0.0-1_iphoneos-arm.deb
+Size: 42104
+MD5sum: 5258df61485f918f1e5fabfb3935eb81
+SHA1: 448fffa776f9c8da0a0d82d6ca7d9635941c3481
+SHA256: d23e7098aec04e2cb3924fdd9b8668edc10c1f27973bb6f05dfb13cde516b445
+Section: Utilities
+Description: Library for Apple Binary- and XML-Property Lists
+Name: libplist
+
