@@ -449,3 +449,19 @@ Section: Utilities
 Description: Smart font renderer for non-Roman scripts
 Name: graphite2
 
+Package: io.mc.harfbuzz
+Version: 2.5.3-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 5608
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.cairo, io.mc.freetype, io.mc.glib, io.mc.graphite2, io.mc.icu4c
+Filename: ./Athena/harfbuzz_2.5.3-2_iphoneos-arm.deb
+Size: 681388
+MD5sum: d11ec660647ce5f93b2d82b876fdee3f
+SHA1: 4979797267fd370ad4c8452558b549a18639f772
+SHA256: fbe5e6aa9a484f18e4f0840212a534c44e4bd7e3ffb07c675a469c56eeefb3b4
+Section: Utilities
+Description: OpenType text shaping engine
+Name: harfbuzz
+
