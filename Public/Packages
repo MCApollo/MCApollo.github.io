@@ -635,3 +635,18 @@ Section: Development
 Description: Asynchronous event library
 Name: libevent
 
+Package: io.mc.libffi
+Version: 3.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libffi_3.2.1-1_iphoneos-arm.deb
+Size: 17276
+MD5sum: 79006fdf5e3c759ccacd3efcb13cf5ba
+SHA1: 0a27ca5e41ed4969396990283d7cd2939012dbc6
+SHA256: 68fdf9ce051c3b6093a6b3f6e0ba3e7841efca20f8e690f3de15969ec01f7201
+Section: Development
+Description: Portable Foreign Function Interface library
+Name: libffi
+
