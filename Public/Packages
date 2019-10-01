@@ -543,3 +543,18 @@ Section: Development
 Description: C library for encoding, decoding, and manipulating JSON
 Name: jansson
 
+Package: io.mc.jemalloc
+Version: 5.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 740
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/jemalloc_5.2.1-1_iphoneos-arm.deb
+Size: 170458
+MD5sum: c327b6fed7d471b99dd14587a34177be
+SHA1: 60a298c16f8838dc523f2426cda1a5a84e568336
+SHA256: e15d7e740c748e6fe2ed1f6ee676fef2317690fd74030da635551e8393b3f102
+Section: Utilities
+Description: malloc implementation emphasizing fragmentation avoidance
+Name: jemalloc
+
