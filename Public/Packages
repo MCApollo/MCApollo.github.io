@@ -75,6 +75,22 @@ Section: Utilities
 Description: Renders mathematical expressions as ASCII art
 Name: aamath
 
+Package: io.mc.aircrack-ng
+Version: 1.5.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1652
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openssl, io.mc.pcre, io.mc.sqlite
+Filename: ./Athena/aircrack-ng_1.5.2-1_iphoneos-arm.deb
+Size: 242718
+MD5sum: 52d270783d11421d34e66a7f9e8fea31
+SHA1: 5eb25bd252a0d531c4d1af623181048d219f4995
+SHA256: 64d6226568895a91dc407718808c5aff097e32c6675803844ceac77bbc6b90f4
+Section: Utilities
+Description: Next-generation aircrack with lots of new features
+Name: aircrack-ng
+
 Package: io.mc.aria2
 Version: 1.34.0-2
 Architecture: iphoneos-arm
