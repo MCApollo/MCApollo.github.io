@@ -75,6 +75,22 @@ Section: Utilities
 Description: Renders mathematical expressions as ASCII art
 Name: aamath
 
+Package: io.mc.adb
+Version: 10-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1120
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libusb, io.mc.openssl
+Filename: ./Athena/adb_10-1_iphoneos-arm.deb
+Size: 220134
+MD5sum: c24ae6fc8e4f6052e34154905f7f9b90
+SHA1: 7741c4d0abd65f66b1eb6a483206a664b89ecd91
+SHA256: e9b689f9845d5eef63635f10501bd326fc5922378fbe52f6fd880d6998e6f525
+Section: Utilities
+Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
+Name: Android Debug Bridge
+
 Package: io.mc.aircrack-ng
 Version: 1.5.2-1
 Architecture: iphoneos-arm
