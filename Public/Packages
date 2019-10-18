@@ -1223,6 +1223,23 @@ Section: Development
 Description: Low-level library for pixel manipulation
 Name: pixman
 
+Package: io.mc.pyobjc
+Version: 5.2-6
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1184
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libffi, io.mc.libxml2, io.mc.python
+Filename: ./Athena/pyobjc_5.2-6_iphoneos-arm.deb
+Size: 219274
+MD5sum: d607ecfae5f3a3e5cb4e0792d3a9b0e5
+SHA1: 3326ada92047f8d0ef75a3b3760e062be2af5446
+SHA256: e85d0b0a3bffd2c49736c7ddb40686e28ffc6d3d384d161ea12c7f9f2385de00
+Section: Scripting
+Priority: optional
+Description: Python/Objective-C connection library
+Name: PyObjC
+
 Package: io.mc.python
 Version: 3.7.4-3
 Architecture: iphoneos-arm
