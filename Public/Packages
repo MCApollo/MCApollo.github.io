@@ -1261,6 +1261,22 @@ Section: Development
 Description: C library implementing the SSH2 protocol
 Name: libssh2
 
+Package: io.mc.libssh2
+Version: 1.9.0-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 332
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openssl
+Filename: ./Athena/libssh2_1.9.0-3_iphoneos-arm.deb
+Size: 88412
+MD5sum: f3497fddf701cb9700ee40ca9cd6f2b6
+SHA1: c8f2db78b8a27089abe23d4933f7a20aea81231b
+SHA256: 2465997e3709aecdddfc0c1245edb6c4a064fa9fba500cc046e533f71812f95c
+Section: Development
+Description: C library implementing the SSH2 protocol
+Name: libssh2
+
 Package: io.mc.libtasn1
 Version: 4.14-1
 Architecture: iphoneos-arm
