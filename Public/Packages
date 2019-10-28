@@ -59,6 +59,22 @@ Section: Development
 Description: Portable ASCII art graphics library
 Name: aalib
 
+Package: io.mc.aalib
+Version: 1.4rc5-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 372
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses
+Filename: ./Athena/aalib_1.4rc5-3_iphoneos-arm.deb
+Size: 43226
+MD5sum: e4e1aca0efd6f144f6f5b263203a7d08
+SHA1: d64b3412684a0dad565c1e52f99f44b5ad47a303
+SHA256: 3d09dc98e67ca87567067999007768b9a036182f32958814c7baaa5aa80748e1
+Section: Development
+Description: Portable ASCII art graphics library
+Name: aalib
+
 Package: io.mc.aamath
 Version: 0.3-4
 Architecture: iphoneos-arm
