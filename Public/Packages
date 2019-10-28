@@ -501,6 +501,22 @@ Section: Developer
 Description: Authentication abstraction library.
 Name: Cryus-sasl
 
+Package: io.mc.cyrus-sasl
+Version: 2.1.27-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1048
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openssl
+Filename: ./Athena/cyrus-sasl_2.1.27-3_iphoneos-arm.deb
+Size: 139020
+MD5sum: faa6ada3bbfc9426a1862f1037c8a03b
+SHA1: 6adede19b8eb934b12198bfb893cd342e566a962
+SHA256: 3e681b60fd500add02a7ac02ac7b9a4773058a2d19cf8832c0b8158b9e0d7d57
+Section: Developer
+Description: Authentication abstraction library.
+Name: Cryus-sasl
+
 Package: io.mc.daq
 Version: 2.0.6-2
 Architecture: iphoneos-arm
