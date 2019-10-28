@@ -2024,6 +2024,21 @@ Section: Development
 Description: Low-level library for pixel manipulation
 Name: pixman
 
+Package: io.mc.protobuf
+Version: 3.10.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 8388
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/protobuf_3.10.0-1_iphoneos-arm.deb
+Size: 1434352
+MD5sum: b9d4cbd3c65975fe5174091e4346c910
+SHA1: f1ed17baee5ad21cb21f6d11879c4faac76a8191
+SHA256: 43a1110e0e7cdbc78ed29c17c6a618d8844481d1538df7d5f33d1c96a0950f60
+Section: Utilities
+Description: Protocol buffers (Google's data interchange format)
+Name: protobuf
+
 Package: io.mc.pyobjc
 Version: 5.2-6
 Architecture: iphoneos-arm
