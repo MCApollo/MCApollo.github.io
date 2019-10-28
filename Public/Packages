@@ -392,6 +392,21 @@ Section: Utilities
 Description: Generate and apply patches to binary files
 Name: bsdiff
 
+Package: io.mc.byacc
+Version: 20190617-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/byacc_20190617-1_iphoneos-arm.deb
+Size: 41096
+MD5sum: 644e9bc84c338f1cad4c6b3942ff26b6
+SHA1: 9f5ca59c5bfba25cdd85a2287c6fee96bd9658c7
+SHA256: 6b35eb1645c206228ac4e4142a228a734ef65ef7397a8e4af49756366075dc07
+Section: Utilities
+Description: (Arguably) the best yacc variant
+Name: byacc
+
 Package: io.mc.c-ares
 Version: 1.15.0-1
 Architecture: iphoneos-arm
