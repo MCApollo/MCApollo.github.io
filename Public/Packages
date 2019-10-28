@@ -298,6 +298,22 @@ Section: Utilities
 Description: Arbitrary precision numeric processing language
 Name: bc
 
+Package: io.mc.bc
+Version: 1.07.1-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 224
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.readline
+Filename: ./Athena/bc_1.07.1-3_iphoneos-arm.deb
+Size: 50516
+MD5sum: 437489d872626d48c5ae4dd02aca0026
+SHA1: aee56306d86e2609ed98910bad1bd56dbb76ef5a
+SHA256: 2df869d15036ba35a99874074cb49f2c65be2802fb5973a68b2a49382eac156d
+Section: Utilities
+Description: Arbitrary precision numeric processing language
+Name: bc
+
 Package: io.mc.bcal
 Version: 2.1-2
 Architecture: iphoneos-arm
