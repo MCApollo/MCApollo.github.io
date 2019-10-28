@@ -2360,6 +2360,22 @@ Section: Networking
 Description: Anonymizing overlay network for TCP
 Name: tor
 
+Package: io.mc.transmission-cli
+Version: 2.94-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4344
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.curl, io.mc.libevent
+Filename: ./Athena/transmission-cli_2.94-1_iphoneos-arm.deb
+Size: 638186
+MD5sum: 26a1f1c1882d3b6c694750292c274558
+SHA1: 9e621204734e8cbc6c567f47f40f628edeae4dee
+SHA256: 438dbd917aa7077cfb5ae1829c15f6fa74a3347c6a8f199fdafaa765af8d9bef
+Section: Utilities
+Description: Lightweight BitTorrent client
+Name: transmission-cli
+
 Package: io.mc.unbound
 Version: 1.9.2-2
 Architecture: iphoneos-arm
