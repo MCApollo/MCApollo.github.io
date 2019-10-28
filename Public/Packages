@@ -469,6 +469,22 @@ Section: Utilities
 Description: Get a file from an HTTP, HTTPS or FTP server
 Name: curl
 
+Package: io.mc.curl
+Version: 7.65.3-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 956
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openssl
+Filename: ./Athena/curl_7.65.3-4_iphoneos-arm.deb
+Size: 318776
+MD5sum: e0470ed3ec3766586ff87015ff987ec4
+SHA1: 029d5810c2accda1283ed91c0360f0db6d3498dd
+SHA256: 8ec6d46d657a941665ae2ce20994b8236c5e54c984050629db48fa47271e49bb
+Section: Utilities
+Description: Get a file from an HTTP, HTTPS or FTP server
+Name: curl
+
 Package: io.mc.cyrus-sasl
 Version: 2.1.27-2
 Architecture: iphoneos-arm
