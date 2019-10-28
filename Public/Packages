@@ -2297,6 +2297,21 @@ Section: Utilities
 Description: TCP flow recorder
 Name: tcpflow
 
+Package: io.mc.tcsh
+Version: 6.21.00-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 448
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/tcsh_6.21.00-1_iphoneos-arm.deb
+Size: 168692
+MD5sum: 8a74143ee8fe242a3c6a2a9ca5eac545
+SHA1: f673dfbada7ccc175ab15041709bd20058f97d1c
+SHA256: 04a3f4eb3a7ff1da09e8dead7ce1631ee2f8eb7fa7888dc8699f829a87585340
+Section: Utilities
+Description: Enhanced, fully compatible version of the Berkeley C shell
+Name: tcsh
+
 Package: io.mc.tor
 Version: 0.4.1.5-3
 Architecture: iphoneos-arm
