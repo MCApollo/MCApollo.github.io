@@ -1123,6 +1123,22 @@ Section: Utilities
 Description: Library to communicate with iOS devices natively
 Name: libimobiledevice
 
+Package: io.mc.libimobiledevice
+Version: 1.2.0-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1392
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libplist, io.mc.libtasn1, io.mc.libusbmuxd, io.mc.openssl
+Filename: ./Athena/libimobiledevice_1.2.0-3_iphoneos-arm.deb
+Size: 135572
+MD5sum: e5c5527186d6155988d9d5c805aa7197
+SHA1: ca4354dede294f8a91537c714bcfcc81a6943d10
+SHA256: fe23db31fa61dc85e83ec3259389e9c67af94ed65ed6490583d9fd0eb813e7ec
+Section: Utilities
+Description: Library to communicate with iOS devices natively
+Name: libimobiledevice
+
 Package: io.mc.libnet
 Version: 1.1.6-2
 Architecture: iphoneos-arm
