@@ -362,6 +362,21 @@ Section: Utilities
 Description: Parser generator
 Name: bison
 
+Package: io.mc.boost
+Version: 1.70.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 189136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/boost_1.70.0-1_iphoneos-arm.deb
+Size: 11350158
+MD5sum: e6d6c08e3d20fb845f4be2bd21761bc5
+SHA1: 22ca1a67f321f3f44bdc49e48d2485e70f71f838
+SHA256: fb80ebfd3a2a28f1a21211b25a6b2d64d9e1ddd5fd79be3792b51d230c9ebba0
+Section: Utilities
+Description: Collection of portable C++ source libraries
+Name: boost
+
 Package: io.mc.bsdiff
 Version: 4.3-1
 Architecture: iphoneos-arm
