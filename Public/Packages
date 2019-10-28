@@ -2200,6 +2200,22 @@ Section: Utilities
 Description: Command-line interface for SQLite
 Name: sqlite
 
+Package: io.mc.sqlite
+Version: 3.29.0-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3964
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.readline
+Filename: ./Athena/sqlite_3.29.0-3_iphoneos-arm.deb
+Size: 939980
+MD5sum: 78a82192fe1d9ab8a5839817e562a7ce
+SHA1: dbd2c8c8af22778aca713dab6c944e6a8ca9ef05
+SHA256: 8dd6e187da86d867070958544830647f6bd6eb4f3d144444a655eff89debffe9
+Section: Utilities
+Description: Command-line interface for SQLite
+Name: sqlite
+
 Package: io.mc.sshpass
 Version: 1.06-1
 Architecture: iphoneos-arm
