@@ -1525,6 +1525,22 @@ Section: Utilities
 Description: Powerful, lightweight programming language
 Name: lua
 
+Package: io.mc.lua
+Version: 5.3.5-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 456
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.readline
+Filename: ./Athena/lua_5.3.5-4_iphoneos-arm.deb
+Size: 98872
+MD5sum: 3a11c1a64476539342503fbba4906d31
+SHA1: 4b3807389666c2ef5f962a638eac2027a6d8a733
+SHA256: fd0eeff104db991cf3c70d452a7b1603c0a2477bbc2dd37ed18414c80c4f1d44
+Section: Utilities
+Description: Powerful, lightweight programming language
+Name: lua
+
 Package: io.mc.lzo
 Version: 2.10-1
 Architecture: iphoneos-arm
