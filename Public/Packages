@@ -155,6 +155,22 @@ Section: Utilities
 Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
 Name: Android Debug Bridge
 
+Package: io.mc.adb
+Version: 10-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 876
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libusb, io.mc.openssl
+Filename: ./Athena/adb_10-4_iphoneos-arm.deb
+Size: 202222
+MD5sum: f447e9f8f54b1800c217c8c4ad61e180
+SHA1: 6d7e38cfd8191095a152fa9a3fea451fd538cbc1
+SHA256: aba82e2b4051c9db2154ce10e0a7ad21fe32d4b34b7e2284de6632e95b306bd2
+Section: Utilities
+Description: A versatile command line tool that lets you communicate with an emulator instance or connected Android-powered device.
+Name: Android Debug Bridge
+
 Package: io.mc.aircrack-ng
 Version: 1.5.2-1
 Architecture: iphoneos-arm
