@@ -346,6 +346,22 @@ Section: Utilities
 Description: Storage conversion and expression calculator
 Name: bcal
 
+Package: io.mc.bison
+Version: 3.4.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1120
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.m4
+Filename: ./Athena/bison_3.4.2-1_iphoneos-arm.deb
+Size: 265516
+MD5sum: 71c4afb738804ca87783e3cf95171782
+SHA1: 340638d218a12d3e7d8a25d0a18f1163d4797cea
+SHA256: f5a104fc02f4f25549bea0d0b1df577cd6575f1e22fd0d5b163729d96d634df2
+Section: Utilities
+Description: Parser generator
+Name: bison
+
 Package: io.mc.bsdiff
 Version: 4.3-1
 Architecture: iphoneos-arm
