@@ -2120,6 +2120,22 @@ Section: Utilities
 Description: Library for command-line editing
 Name: readline
 
+Package: io.mc.readline
+Version: 8.0.0-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 544
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses
+Filename: ./Athena/readline_8.0.0-4_iphoneos-arm.deb
+Size: 147106
+MD5sum: 0afd893ea705f4d5ca31256930d10345
+SHA1: bade79ca2cb5e26fd0d497ccbee30af33b5ef876
+SHA256: a6140dbd0034f10826ed30519d4c98c8a70154a760f8a6c8c2d87b44802140d7
+Section: Utilities
+Description: Library for command-line editing
+Name: readline
+
 Package: io.mc.snort
 Version: 2.9.14.1-2
 Architecture: iphoneos-arm
