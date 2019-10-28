@@ -1839,6 +1839,22 @@ Section: Networking
 Description: Platform built on V8 to build network applications
 Name: node
 
+Package: io.mc.node
+Version: 12.9.0-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 53180
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.c-ares, io.mc.nghttp2, io.mc.openssl-1.1
+Filename: ./Athena/node_12.9.0-3_iphoneos-arm.deb
+Size: 8158170
+MD5sum: 551b99d7114372e4ef903448a9a120a0
+SHA1: 3c40256b00c48073f823478e8c5af6caf888832f
+SHA256: 8187fa6f700118bc63ac153e58c733f44ed589c6a1e03369b2f06c6502918ade
+Section: Networking
+Description: Platform built on V8 to build network applications
+Name: node
+
 Package: io.mc.oniguruma
 Version: 6.9.3-1
 Architecture: iphoneos-arm
