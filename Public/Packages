@@ -1308,6 +1308,21 @@ Section: Development
 Description: TIFF library and utilities
 Name: libtiff
 
+Package: io.mc.libtool
+Version: 2.4.6-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2264
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libtool_2.4.6-1_iphoneos-arm.deb
+Size: 294820
+MD5sum: b67bda88d14780f50cf6307df81389fa
+SHA1: 64220f3dc65c666c82b1aaae062832c15234349f
+SHA256: 2dc3f2f0f57d920f6f872f66f34309c1796d1e478cd5706e5a4816153fb2203a
+Section: Development
+Description: Generic library support script
+Name: libtool
+
 Package: io.mc.libunistring
 Version: 0.9.10-1
 Architecture: iphoneos-arm
