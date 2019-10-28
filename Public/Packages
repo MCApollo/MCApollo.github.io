@@ -1399,6 +1399,22 @@ Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
 
+Package: io.mc.libusbmuxd
+Version: 1.0.10-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 148
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libplist, io.mc.libusb
+Filename: ./Athena/libusbmuxd_1.0.10-3_iphoneos-arm.deb
+Size: 17214
+MD5sum: 985b90f39b5a9f0f5d8038f1af19c367
+SHA1: 617aca31fc4bf636e4169ff814fa431d191d4fac
+SHA256: a61c9d9e6a507b649a36a7fbd878edd8c0095ce1b6703ad0c6b63e73456a5383
+Section: Development
+Description: Library of the USB multiplexor daemon
+Name: libusbmuxd
+
 Package: io.mc.libxml2
 Version: 2.9.9-1
 Architecture: iphoneos-arm
