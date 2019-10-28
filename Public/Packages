@@ -2424,6 +2424,21 @@ Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
 
+Package: io.mc.vde
+Version: 2.3.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1372
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/vde_2.3.2-1_iphoneos-arm.deb
+Size: 137768
+MD5sum: b00e66c4bb55eee8c26f0b2437847665
+SHA1: 0c3fb69b3f4ad4c8ed3ba6f5326e77e3a393a811
+SHA256: 64ad65f9bfb3ec63d4a1364e9adab81f6f21095c3cc2e731c7f4298172ca818f
+Section: Networking
+Description: Ethernet compliant virtual network
+Name: vde
+
 Package: io.mc.webp
 Version: 1.0.3-3
 Architecture: iphoneos-arm
