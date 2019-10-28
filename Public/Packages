@@ -219,6 +219,22 @@ Section: Utilities
 Description: ARP scanning and fingerprinting tool
 Name: arp-scan
 
+Package: io.mc.arpoison
+Version: 0.7-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 56
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libnet
+Filename: ./Athena/arpoison_0.7-1_iphoneos-arm.deb
+Size: 3494
+MD5sum: 16dda214f2ab9257bf61420e895cf3f1
+SHA1: ec2fce42248650a307c8e00b54350afd0db20f72
+SHA256: 2a0ffe5fcd75586561c3793faf11669a479c1bf8247a187fa0c0a06f6359df19
+Section: Utilities
+Description: UNIX arp cache update utility
+Name: arpoison
+
 Package: io.mc.aspell
 Version: 0.60.7-1
 Architecture: iphoneos-arm
