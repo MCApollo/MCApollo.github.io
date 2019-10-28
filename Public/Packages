@@ -1229,6 +1229,22 @@ Section: Utilities
 Description: Library for scrypt
 Name: libscrypt
 
+Package: io.mc.libssh
+Version: 0.9.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1836
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openssl
+Filename: ./Athena/libssh_0.9.0-1_iphoneos-arm.deb
+Size: 307722
+MD5sum: 7e7a44f8a99586c4cb7eacecfe8ba727
+SHA1: e93b1b153c78401e6d1f3f9b54262781ece311b1
+SHA256: 3ce1407ae2fc6e09d44896a064ec0d911020ed693990c8350453ec7d2780889d
+Section: Development
+Description: C library SSHv1/SSHv2 client and server protocols
+Name: libssh
+
 Package: io.mc.libssh2
 Version: 1.9.0-2
 Architecture: iphoneos-arm
