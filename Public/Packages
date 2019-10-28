@@ -1368,6 +1368,21 @@ Section: Utilities
 Description: Library for USB device access
 Name: libusb
 
+Package: io.mc.libusb
+Version: 1.0.23-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 224
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libusb_1.0.23-3_iphoneos-arm.deb
+Size: 49378
+MD5sum: 30f50bd906cc78e1aff68586bbc406d0
+SHA1: c2272044d11d2de9c04464628dec756d10f70f2d
+SHA256: f2cc50f475bb90a2b9df7055b44845a099611bc1de88c90f8c31f73cf1c0a328
+Section: Utilities
+Description: Library for USB device access
+Name: libusb
+
 Package: io.mc.libusbmuxd
 Version: 1.0.10-2
 Architecture: iphoneos-arm
