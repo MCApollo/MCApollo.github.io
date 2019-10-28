@@ -627,6 +627,22 @@ Section: Utilities
 Description: Multipurpose sniffer/interceptor/logger for switched LAN
 Name: ettercap
 
+Package: io.mc.ettercap
+Version: 0.8.3-5
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3848
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.curl, io.mc.geoip, io.mc.libnet, io.mc.libpcap, io.mc.ncurses, io.mc.openssl, io.mc.pcre
+Filename: ./Athena/ettercap_0.8.3-5_iphoneos-arm.deb
+Size: 689878
+MD5sum: f1bb8e08b29b419c9b86d5d41bcf08da
+SHA1: cfc1acdb52962a1ad771433b63fa5974c4c92a1f
+SHA256: cf401a9b738b81c4ed1cea215c00ac83df3f5713b1da2c870c1207dc431a2178
+Section: Utilities
+Description: Multipurpose sniffer/interceptor/logger for switched LAN
+Name: ettercap
+
 Package: io.mc.expat
 Version: 2.2.7-1
 Architecture: iphoneos-arm
