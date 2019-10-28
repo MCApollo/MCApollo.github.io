@@ -2072,6 +2072,22 @@ Section: Utilities
 Description: Interpreted, interactive, object-oriented programming language
 Name: python
 
+Package: io.mc.python
+Version: 3.7.4-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 55104
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.expat, io.mc.gdbm, io.mc.libffi, io.mc.ncurses, io.mc.openssl, io.mc.openssl-1.1, io.mc.readline, io.mc.sqlite, io.mc.xz
+Filename: ./Athena/python_3.7.4-4_iphoneos-arm.deb
+Size: 10135482
+MD5sum: 0410e78f75c87bfb802a09a591975f10
+SHA1: 87c25f696045263fc6e32f8c0fcab2532ee68c91
+SHA256: 21318e61b01e47c8543365438c3d2d0c697978416cf473dad3eb30f0abb8efa2
+Section: Utilities
+Description: Interpreted, interactive, object-oriented programming language
+Name: python
+
 Package: io.mc.readline
 Version: 8.0.0-3
 Architecture: iphoneos-arm
