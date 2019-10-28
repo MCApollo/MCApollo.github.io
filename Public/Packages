@@ -1617,6 +1617,22 @@ Section: Utilities
 Description: Command-line client for Mega.co.nz
 Name: megatools
 
+Package: io.mc.megatools
+Version: 1.10.2-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1420
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.curl, io.mc.glib, io.mc.openssl
+Filename: ./Athena/megatools_1.10.2-3_iphoneos-arm.deb
+Size: 128714
+MD5sum: 69e3a63eb5fc8a1faaef0a157241fd69
+SHA1: 720ee35eec3381852bbac50555be053d9ed1fcb0
+SHA256: 572adcdda17be0eb776a95a5cd74ada8482c054cf93b95f74f59800fd29202e1
+Section: Utilities
+Description: Command-line client for Mega.co.nz
+Name: megatools
+
 Package: io.mc.ncdu
 Version: 1.14.1-3
 Architecture: iphoneos-arm
