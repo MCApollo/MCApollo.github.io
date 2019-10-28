@@ -1759,6 +1759,22 @@ Section: Utilities
 Description: HTTP/2 C Library
 Name: nghttp2
 
+Package: io.mc.nghttp2
+Version: 1.39.2-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2528
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.c-ares, io.mc.jansson, io.mc.jemalloc, io.mc.libev, io.mc.libevent, io.mc.libxml2, io.mc.openssl
+Filename: ./Athena/nghttp2_1.39.2-3_iphoneos-arm.deb
+Size: 534038
+MD5sum: cb88834906dacdf2857d948d221c849d
+SHA1: 8e962b3e8958f6878fb5f0162263bdf7a5a9596d
+SHA256: bf2d2bbd4325f8fd59b1fdd1fbe596993b70d15e876a295d887cfbb60913cb76
+Section: Utilities
+Description: HTTP/2 C Library
+Name: nghttp2
+
 Package: io.mc.nmap
 Version: 7.80-3
 Architecture: iphoneos-arm
