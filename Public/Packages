@@ -2168,6 +2168,22 @@ Section: Utilities
 Description: Flexible Network Intrusion Detection System
 Name: snort
 
+Package: io.mc.snort
+Version: 2.9.14.1-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4704
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.daq, io.mc.libdnet, io.mc.libpcap, io.mc.nghttp2, io.mc.openssl, io.mc.pcre
+Filename: ./Athena/snort_2.9.14.1-3_iphoneos-arm.deb
+Size: 822810
+MD5sum: e8dd71652cfd2cbe149222dee4330917
+SHA1: 1a2803251ba81a3fded3770affa382541ba8d247
+SHA256: e304b624de63c5dac7474b437111f8eb3c5b5657325491c2733f45544f053e67
+Section: Utilities
+Description: Flexible Network Intrusion Detection System
+Name: snort
+
 Package: io.mc.sqlite
 Version: 3.29.0-2
 Architecture: iphoneos-arm
