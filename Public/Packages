@@ -2471,6 +2471,22 @@ Section: Utilities
 Description: Internet file retriever
 Name: wget
 
+Package: io.mc.wget
+Version: 1.20.3-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 540
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libidn2, io.mc.openssl
+Filename: ./Athena/wget_1.20.3-3_iphoneos-arm.deb
+Size: 200036
+MD5sum: d9b86ee2f594707315fe4e6fc7ed31a3
+SHA1: 5d25ae24831ffc4c5a58eaaaba290919234d2957
+SHA256: b0c1f221b42510b1857ebbbb5e2f0d88d6a19042f7e3285d8cc8a549c71f9969
+Section: Utilities
+Description: Internet file retriever
+Name: wget
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
