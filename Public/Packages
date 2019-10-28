@@ -2265,6 +2265,22 @@ Section: Utilities
 Description: Command-line packet analyzer
 Name: tcpdump
 
+Package: io.mc.tcpdump
+Version: 4.9.2-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1780
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpcap, io.mc.openssl
+Filename: ./Athena/tcpdump_4.9.2-3_iphoneos-arm.deb
+Size: 280054
+MD5sum: 024ede701225ca4ca1d3ff391c7b56cb
+SHA1: 3f23a759d7b20544af422832f8ea26b38ec94a4a
+SHA256: c9098dc55c6fd9bca7fbb6b2ef5dda94a47f8e44b3f300b33fe03c9b8625a673
+Section: Utilities
+Description: Command-line packet analyzer
+Name: tcpdump
+
 Package: io.mc.tor
 Version: 0.4.1.5-3
 Architecture: iphoneos-arm
