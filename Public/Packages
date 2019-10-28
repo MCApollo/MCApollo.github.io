@@ -1633,6 +1633,22 @@ Section: Utilities
 Description: Command-line client for Mega.co.nz
 Name: megatools
 
+Package: io.mc.midnight-commander
+Version: 4.8.22-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4184
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.glib, io.mc.libssh2, io.mc.openssl, io.mc.s-lang
+Filename: ./Athena/midnight-commander_4.8.22-1_iphoneos-arm.deb
+Size: 792722
+MD5sum: a263af40acf66a36a85c5ff037ac351c
+SHA1: 6cc7c5cd4cb59e09c33c0903cdf5c4ae940e25cc
+SHA256: f0a895978f6c0764147d78de4326a42e5713c131a53f33c5e267438f846018fa
+Section: Utilities
+Description: Terminal-based visual file manager
+Name: midnight-commander
+
 Package: io.mc.ncdu
 Version: 1.14.1-3
 Architecture: iphoneos-arm
