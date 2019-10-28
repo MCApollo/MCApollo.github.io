@@ -1493,6 +1493,22 @@ Section: Utilities
 Description: Small memory footprint, flexible web-server
 Name: lighttpd
 
+Package: io.mc.lighttpd
+Version: 1.4.54-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2500
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.openldap, io.mc.openssl, io.mc.pcre
+Filename: ./Athena/lighttpd_1.4.54-3_iphoneos-arm.deb
+Size: 256382
+MD5sum: b0abd0847b8fdbf614b1c1abb47853a7
+SHA1: 2093dcf79fbfcb233539382b924cf4fff15bd7a9
+SHA256: 7135002bde1dcdaab3c3e940c5af69b71ebfa6d5de2a3febb01b30aba4764663
+Section: Utilities
+Description: Small memory footprint, flexible web-server
+Name: lighttpd
+
 Package: io.mc.lua
 Version: 5.3.5-3
 Architecture: iphoneos-arm
