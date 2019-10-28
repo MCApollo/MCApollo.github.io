@@ -952,6 +952,22 @@ Section: Utilities
 Description: malloc implementation emphasizing fragmentation avoidance
 Name: jemalloc
 
+Package: io.mc.john-jumbo
+Version: 1.9.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 74312
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.gmp, io.mc.openssl
+Filename: ./Athena/john-jumbo_1.9.0-1_iphoneos-arm.deb
+Size: 29234394
+MD5sum: 0887b492ce092e6abf8b4856cfd8195c
+SHA1: 3e645e218b0763a9d5c66d1bcc3ea27cdbfe492f
+SHA256: 692ca6d65088a6546e57786b1d11ac34b46790f0619b3946b6dfa90b60a7e891
+Section: Utilities
+Description: Enhanced version of john, a UNIX password cracker
+Name: john-jumbo
+
 Package: io.mc.jpeg
 Version: 9c-1
 Architecture: iphoneos-arm
