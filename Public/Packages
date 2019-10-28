@@ -2136,6 +2136,22 @@ Section: Utilities
 Description: Library for command-line editing
 Name: readline
 
+Package: io.mc.s-lang
+Version: 2.3.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2904
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpng
+Filename: ./Athena/s-lang_2.3.2-1_iphoneos-arm.deb
+Size: 457426
+MD5sum: cb723abb29807b558c205951b3e88902
+SHA1: d4baf8d0965027d0e250edffac8b33c6d6407678
+SHA256: 3922bcf104039d205e1ff1ba3d62a02d7ed5b3eba75630faf8cf07f83b531d9f
+Section: Utilities
+Description: Library for creating multi-platform software
+Name: s-lang
+
 Package: io.mc.snort
 Version: 2.9.14.1-2
 Architecture: iphoneos-arm
