@@ -1556,6 +1556,21 @@ Section: Development
 Description: Real-time data compression library
 Name: lzo
 
+Package: io.mc.m4
+Version: 1.4.18-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 280
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/m4_1.4.18-1_iphoneos-arm.deb
+Size: 101112
+MD5sum: c6462bf77ffd3ee2fc749e7640cfc06a
+SHA1: ca4d24712ac50deaddb1439507db7557d36ce2c9
+SHA256: e2530372a41595a1d1dc6063cb31f032aaee0cddf85ec848c8c53ab639579a2a
+Section: Utilities
+Description: Macro processing language
+Name: m4
+
 Package: io.mc.megatools
 Version: 1.10.2-2
 Architecture: iphoneos-arm
