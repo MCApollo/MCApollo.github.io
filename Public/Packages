@@ -2518,3 +2518,19 @@ Section: Utilities
 Description: General-purpose data compression with high compression ratio
 Name: xz
 
+Package: io.mc.yara
+Version: 3.10.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 676
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.jansson, io.mc.libmagic, io.mc.openssl-1.1
+Filename: ./Athena/yara_3.10.0-1_iphoneos-arm.deb
+Size: 144574
+MD5sum: 8a48625185c54580c15ea9535911bca5
+SHA1: 9f72de90d6da2bb0b49c3d7973512f6fe588cdb1
+SHA256: 612a4472c6cfb640ef18491f06ee41d50ba794fac6079f90c56ef20a8ada29b6
+Section: Utilities
+Description: Malware identification and classification tool
+Name: yara
+
