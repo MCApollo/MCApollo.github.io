@@ -187,6 +187,22 @@ Section: Utilities
 Description: Download with resuming and segmented downloading
 Name: aria2
 
+Package: io.mc.aria2
+Version: 1.34.0-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3340
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libssh2, io.mc.libxml2, io.mc.openssl
+Filename: ./Athena/aria2_1.34.0-3_iphoneos-arm.deb
+Size: 800210
+MD5sum: d0d4f3f25378f5725e1ecc3c552c61e8
+SHA1: 44d30ca8903faba986e6f3af4ae22d324892e7d6
+SHA256: 6fadf6bb1b8b9cd36c2bddc5357b61989e5cec978404c67ddd2a9df60702a0db
+Section: Utilities
+Description: Download with resuming and segmented downloading
+Name: aria2
+
 Package: io.mc.arp-scan
 Version: 1.9.5-2
 Architecture: iphoneos-arm
