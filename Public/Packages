@@ -581,6 +581,21 @@ Section: Utilities
 Description: Display user-friendly message boxes from shell scripts
 Name: dialog
 
+Package: io.mc.diffutils
+Version: 3.7-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 488
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/diffutils_3.7-1_iphoneos-arm.deb
+Size: 117942
+MD5sum: 5f57f20c15f2ecab1e4592c763de042c
+SHA1: 8b347210c861465e12efd6d38fb761eecfc96a1d
+SHA256: 5a07231a4e042d38265e62a4b93e8e7bb7f0947b05bcc7b9b7240c780918a88a
+Section: Utilities
+Description: File comparison utilities
+Name: diffutils
+
 Package: io.mc.ettercap
 Version: 0.8.3-4
 Architecture: iphoneos-arm
