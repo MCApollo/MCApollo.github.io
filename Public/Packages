@@ -2344,6 +2344,22 @@ Section: Networking
 Description: Anonymizing overlay network for TCP
 Name: tor
 
+Package: io.mc.tor
+Version: 0.4.1.5-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 11188
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libevent, io.mc.libscrypt, io.mc.openssl, io.mc.xz
+Filename: ./Athena/tor_0.4.1.5-4_iphoneos-arm.deb
+Size: 1987302
+MD5sum: d54fe00669d7f89a3cccc6edd4bd26c2
+SHA1: 044e79e49ed4d43f9b10da67a8cd6c87ef2e8985
+SHA256: ed5446adc7ebe2b205f2efa99040ced77b34c673a9144b003e05057acf0a16e9
+Section: Networking
+Description: Anonymizing overlay network for TCP
+Name: tor
+
 Package: io.mc.unbound
 Version: 1.9.2-2
 Architecture: iphoneos-arm
