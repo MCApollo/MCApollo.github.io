@@ -438,6 +438,21 @@ Section: Development
 Description: Vector graphics library with cross-device output support
 Name: cairo
 
+Package: io.mc.cmake
+Version: 3.15.4-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 38588
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/cmake_3.15.4-1_iphoneos-arm.deb
+Size: 6724942
+MD5sum: 89ada2e36084324ef7d910e1868a560f
+SHA1: 781ff6c4fe0c1b0c3a6dceeeaacfacbf6afb87d2
+SHA256: ecc3d40f0b42ec8162d9b81ac76d24a1b9d65fd7af1744356b3ecf26094f33a9
+Section: Utilities
+Description: Cross-platform make
+Name: cmake
+
 Package: io.mc.curl
 Version: 7.65.3-3
 Architecture: iphoneos-arm
