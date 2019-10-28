@@ -2088,6 +2088,22 @@ Section: Utilities
 Description: Interpreted, interactive, object-oriented programming language
 Name: python
 
+Package: io.mc.qemu
+Version: 4.1.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 501816
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
+Filename: ./Athena/qemu_4.1.0-1_iphoneos-arm.deb
+Size: 62823524
+MD5sum: 0a1760e03d720ddec2c0d8490772b6f4
+SHA1: a1c355d5b9783bc423557dcd83436ab6a6bc47e9
+SHA256: 14aa7a7781e81217f0cbcfa18c8888096f46c56a0304b60594f123199432c287
+Section: Utilities
+Description: x86 and PowerPC Emulator
+Name: qemu
+
 Package: io.mc.readline
 Version: 8.0.0-3
 Architecture: iphoneos-arm
