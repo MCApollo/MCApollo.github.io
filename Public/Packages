@@ -658,6 +658,22 @@ Section: Utilities
 Description: XML 1.0 parser
 Name: expat
 
+Package: io.mc.fish
+Version: 3.0.2-7
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 11556
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses, io.mc.pcre2
+Filename: ./Athena/fish_3.0.2-7_iphoneos-arm.deb
+Size: 1325130
+MD5sum: 2934c3ab83693360993428acd34a90c6
+SHA1: eda5b8bfe7e09534fdd113b4426854f0e9f3355b
+SHA256: e52071faea86662f32e318e0c13f1dbc55760e8bac841f42c050c1e9d9c4d26b
+Section: Utilities
+Description: User-friendly command-line shell for UNIX-like operating systems
+Name: fish
+
 Package: io.mc.fontconfig
 Version: 2.13.1-2
 Architecture: iphoneos-arm
