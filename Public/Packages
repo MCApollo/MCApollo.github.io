@@ -2312,6 +2312,22 @@ Section: Utilities
 Description: Enhanced, fully compatible version of the Berkeley C shell
 Name: tcsh
 
+Package: io.mc.tmux
+Version: 2.9a-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 664
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libevent, io.mc.ncurses
+Filename: ./Athena/tmux_2.9a-1_iphoneos-arm.deb
+Size: 220732
+MD5sum: 4b3b2fdb4e2fa56f7167e4f0fef99931
+SHA1: 4925faf96cfe74077a68eae500d0495847f258e3
+SHA256: 7c3d52fcd1ef64f597c615038867fd4d4e17400aea041f7de5f5ae03a2fc8d6a
+Section: Utilities
+Description: Terminal multiplexer
+Name: tmux
+
 Package: io.mc.tor
 Version: 0.4.1.5-3
 Architecture: iphoneos-arm
