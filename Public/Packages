@@ -2534,3 +2534,19 @@ Section: Utilities
 Description: Malware identification and classification tool
 Name: yara
 
+Package: io.mc.zsh
+Version: 5.7.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 9864
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses, io.mc.pcre
+Filename: ./Athena/zsh_5.7.1-1_iphoneos-arm.deb
+Size: 1480252
+MD5sum: 71aa032e8824d001179c882d612e7877
+SHA1: 368c03a3df27d6fc825c351c11bb06032dd67b18
+SHA256: 45987368565ba8a5a82753b0e3c62ec81459283c60844b2fe81c3d71e5a95ddd
+Section: Utilities
+Description: UNIX shell (command interpreter)
+Name: zsh
+
