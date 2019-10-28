@@ -1139,6 +1139,21 @@ Section: Utilities
 Description: Library to communicate with iOS devices natively
 Name: libimobiledevice
 
+Package: io.mc.libmagic
+Version: 5.37-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 7584
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libmagic_5.37-1_iphoneos-arm.deb
+Size: 509610
+MD5sum: 3874325ef0d4982741a2f57a9fe54493
+SHA1: 91ff1af283e6a7824bb72ab7f272e9c1a7d49033
+SHA256: d27f087888b0a46a335e5cf3bb2c725d5b8db132a80e609ba3105bd49f4eb271
+Section: Utilities
+Description: Implementation of the file(1) command
+Name: file
+
 Package: io.mc.libnet
 Version: 1.1.6-2
 Architecture: iphoneos-arm
