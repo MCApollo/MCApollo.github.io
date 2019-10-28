@@ -1807,6 +1807,22 @@ Section: Networking
 Description: Port scanning utility for large networks
 Name: nmap
 
+Package: io.mc.nnn
+Version: 2.7-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 332
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses, io.mc.readline
+Filename: ./Athena/nnn_2.7-1_iphoneos-arm.deb
+Size: 117220
+MD5sum: 0971c6c75ab08e7f2ebe74abf00a17a5
+SHA1: 3efb7c6ba3321ba217ec297661f9b4dc7bc0fb0f
+SHA256: ad95406005256edea2d9fa80781d5c4c47925f06f99b8ba4feea05d73a223fb7
+Section: Utilities
+Description: Tiny, lightning fast, feature-packed file manager
+Name: nnn
+
 Package: io.mc.node
 Version: 12.9.0-1
 Architecture: iphoneos-arm
