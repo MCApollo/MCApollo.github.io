@@ -1571,6 +1571,21 @@ Section: Utilities
 Description: Macro processing language
 Name: m4
 
+Package: io.mc.make
+Version: 4.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 236
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/make_4.2.1-1_iphoneos-arm.deb
+Size: 85008
+MD5sum: ee1e5bd04324fdbc7c26f52db65106d5
+SHA1: 336817487c4f0ef7f29fe459d6a4abd12f73c79b
+SHA256: 4a8fbac6e36710df0c563f6350f721e9ab4b2270c22c21f65923b32bad68d3c2
+Section: Utilities
+Description: Utility for directing compilation
+Name: make
+
 Package: io.mc.megatools
 Version: 1.10.2-2
 Architecture: iphoneos-arm
