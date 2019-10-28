@@ -1649,6 +1649,22 @@ Section: Utilities
 Description: Terminal-based visual file manager
 Name: midnight-commander
 
+Package: io.mc.mosh
+Version: 1.3.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1004
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses, io.mc.protobuf
+Filename: ./Athena/mosh_1.3.2-1_iphoneos-arm.deb
+Size: 206650
+MD5sum: 54d96734c3b7d4835424dd5a69e41636
+SHA1: 0847b08a34b2a5dc57c8bb3e65935c347a87e554
+SHA256: e266fbd0c4a3e64f6daa58e827eb6d05f866bf58e44e85de925090cb1036d2f2
+Section: Utilities
+Description: Remote terminal application
+Name: mosh
+
 Package: io.mc.ncdu
 Version: 1.14.1-3
 Architecture: iphoneos-arm
