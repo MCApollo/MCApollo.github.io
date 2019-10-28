@@ -1415,6 +1415,21 @@ Section: Development
 Description: Library of the USB multiplexor daemon
 Name: libusbmuxd
 
+Package: io.mc.libuv
+Version: 1.31.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 344
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libuv_1.31.0-1_iphoneos-arm.deb
+Size: 76294
+MD5sum: 8ba3667a3ca4af8694100f6996a9d75d
+SHA1: bc17565734d4932a32bbd362b2c156ce11c338ef
+SHA256: b8c4fdff4dc8dfcc67408e6ae1319c1a9d97e4d5412478351faa5126bd187c38
+Section: Development
+Description: Multi-platform support library with a focus on asynchronous I/O
+Name: libuv
+
 Package: io.mc.libxml2
 Version: 2.9.9-1
 Architecture: iphoneos-arm
