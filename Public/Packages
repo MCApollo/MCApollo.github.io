@@ -2233,6 +2233,22 @@ Priority: optional
 Description: Non-interactive ssh password authentication
 Name: sshpass
 
+Package: io.mc.sstp-client
+Version: 1.0.12-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 184
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libevent, io.mc.openssl
+Filename: ./Athena/sstp-client_1.0.12-1_iphoneos-arm.deb
+Size: 31824
+MD5sum: afbdb00a42381e84be45b08ec22b30ce
+SHA1: b56951d89492571eebf7619a6c80b931c3b40ac4
+SHA256: 5be93e2bc3da48b3deb4c9d9616ed8d99349438d2421cbcaea859bf7e1587872
+Section: Utilities
+Description: SSTP (Microsofts Remote Access Solution for PPP over SSL) client
+Name: sstp-client
+
 Package: io.mc.tcpdump
 Version: 4.9.2-2
 Architecture: iphoneos-arm
