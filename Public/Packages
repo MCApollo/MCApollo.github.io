@@ -1902,6 +1902,22 @@ Section: Utilities
 Description: Open source suite of directory software
 Name: openldap
 
+Package: io.mc.openldap
+Version: 2.4.48-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3652
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.cyrus-sasl, io.mc.openssl
+Filename: ./Athena/openldap_2.4.48-3_iphoneos-arm.deb
+Size: 808060
+MD5sum: 653bc85c9030dde1c72ddb741cbcdc70
+SHA1: 5e3f4483e97ecbeb583dc6f19b7c6d6f5860d91c
+SHA256: e39aa3e9b3a35bad9b047a155dc7680790dd1835ed959e6e5e7311d0d0e67cae
+Section: Utilities
+Description: Open source suite of directory software
+Name: openldap
+
 Package: io.mc.openssl
 Version: 1.0.2s-1
 Architecture: iphoneos-arm
