@@ -797,6 +797,22 @@ Section: Development
 Description: GNU multiple precision arithmetic library
 Name: gmp
 
+Package: io.mc.gnutls
+Version: 3.6.9-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4092
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.gmp, io.mc.libidn2, io.mc.libtasn1, io.mc.libunistring, io.mc.nettle, io.mc.p11-kit, io.mc.unbound
+Filename: ./Athena/gnutls_3.6.9-1_iphoneos-arm.deb
+Size: 904074
+MD5sum: 24f7b67c1ba45c6bf0b22bc308c6c0ec
+SHA1: 14c0026a01898f6425b093a58108dcdd53e7a9f7
+SHA256: ce4c87de6d1f4e9ae92d9501b7a3fa4dacc95e1298c7bfafb66e65b5d028ae16
+Section: Utilities
+Description: GNU Transport Layer Security (TLS) Library
+Name: gnutls
+
 Package: io.mc.graphite2
 Version: 1.3.13-1
 Architecture: iphoneos-arm
