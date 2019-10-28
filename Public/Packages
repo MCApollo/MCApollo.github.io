@@ -1870,6 +1870,22 @@ Section: Development
 Description: Regular expressions library
 Name: oniguruma
 
+Package: io.mc.openjdk
+Version: 11+28-11
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 213664
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libffi
+Filename: ./Athena/openjdk_11+28-11_iphoneos-arm.deb
+Size: 93830246
+MD5sum: 71391e563c6de4bc2c3bfdc4a8f8a05b
+SHA1: 9f7f678c33e481b0af502fa5287717cdab08ef64
+SHA256: a2359d2ca39d0ae07c173bf6f409ad3b1136b14eb7b47c8edb0bf5e914b7d505
+Section: Java
+Description: Free and open-source implementation of the Java Platform.
+Name: OpenJDK
+
 Package: io.mc.openldap
 Version: 2.4.48-2
 Architecture: iphoneos-arm
