@@ -2056,6 +2056,22 @@ Section: Utilities
 Description: Protocol buffers (Google's data interchange format)
 Name: protobuf
 
+Package: io.mc.ptunnel
+Version: 0.72-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 104
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpcap
+Filename: ./Athena/ptunnel_0.72-1_iphoneos-arm.deb
+Size: 22092
+MD5sum: e647ccdfb999c011544c0618ac07a065
+SHA1: 043066dcfbac1ba2393b018e2790b4aa034202e2
+SHA256: af9d8cfe7ae288f8c701fe3bb4ab560a70660a0ee47078b925f066bf96cb0094
+Section: Utilities
+Description: Tunnel over ICMP
+Name: ptunnel
+
 Package: io.mc.pyobjc
 Version: 5.2-6
 Architecture: iphoneos-arm
