@@ -2600,6 +2600,20 @@ Section: Utilities
 Description: Lookup tool for domain names and other internet resources
 Name: whois
 
+Package: io.mc.wine
+Version: 4.2.0-1
+Architecture: iphoneos-arm
+Installed-Size: 324116
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.freetype, io.mc.jpeg, io.mc.libpng
+Filename: ./Athena/wine_4.2.0-1_iphoneos-arm.deb
+Size: 25665784
+MD5sum: 2df950230fe9b2c9621bc4b1d1a5da23
+SHA1: 2ab04f6795224b8c6ecfaa757d68852e9c76b0e2
+SHA256: 36002970e6d55a12eabb54f7055c06c1edbd325eb615a2b602341e978852bcc6
+Description: Run Windows applications without a copy of Microsoft Windows
+Name: wine
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
