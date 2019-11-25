@@ -2614,6 +2614,22 @@ SHA256: 36002970e6d55a12eabb54f7055c06c1edbd325eb615a2b602341e978852bcc6
 Description: Run Windows applications without a copy of Microsoft Windows
 Name: wine
 
+Package: io.mc.wine
+Version: 4.2.0-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 348932
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.freetype, io.mc.jpeg, io.mc.libpng
+Filename: ./Athena/wine_4.2.0-2_iphoneos-arm.deb
+Size: 27591754
+MD5sum: 2bd54ec1791b38aa6051856e195e1acd
+SHA1: 4f6de4f63c922d05806a7bdc49d0a0b2478504cf
+SHA256: b300f9f45914f73bd1deb5d226eaa7b9ad82045c5ed5d3ea761f31ab345511b8
+Section: Utilities
+Description: Run Windows applications without a copy of Microsoft Windows
+Name: wine
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
