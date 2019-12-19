@@ -1903,6 +1903,22 @@ Section: Java
 Description: Free and open-source implementation of the Java Platform.
 Name: OpenJDK
 
+Package: io.mc.openjdk
+Version: 11+28-12
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 213664
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libffi
+Filename: ./Athena/openjdk_11+28-12_iphoneos-arm.deb
+Size: 93832446
+MD5sum: 090b8c36465713f2b4512f6f0b0053b5
+SHA1: 1db0eeec752a96585e89a7374375dfade7f1e1da
+SHA256: d0034812f5b67fff2fdd1ad02598db9ae5d415e22564b3b65627dc8b93839e85
+Section: Java
+Description: Free and open-source implementation of the Java Platform.
+Name: OpenJDK
+
 Package: io.mc.openldap
 Version: 2.4.48-2
 Architecture: iphoneos-arm
