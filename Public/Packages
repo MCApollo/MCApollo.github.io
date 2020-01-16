@@ -1331,6 +1331,21 @@ Section: Development
 Description: Portable low-level networking library
 Name: libdnet
 
+Package: io.mc.libepoxy
+Version: 1.5.4-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3336
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/libepoxy_1.5.4-1_iphoneos-arm.deb
+Size: 298610
+MD5sum: 3154e54cfa3400cd5141ec9c2a4aea9d
+SHA1: b274b07f2ab930aa2d6e3f7e3b9e19986c62063a
+SHA256: 2be0909d71751260e6b6973045539e5e64d1028dfa269540b5cab34e7f01dba4
+Section: Utilities
+Description: Library for handling OpenGL function pointer management
+Name: libepoxy
+
 Package: io.mc.libev
 Version: 4.27-1
 Architecture: iphoneos-arm
