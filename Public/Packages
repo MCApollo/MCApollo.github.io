@@ -3071,6 +3071,22 @@ Section: Utilities
 Description: contains libraries which provide client and window-manager helpers for EWMH and ICCCM
 Name: xcb-util-wm
 
+Package: io.mc.xcursor-themes
+Version: 1.0.6-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4048
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgApps
+Filename: ./Athena/xcursor-themes_1.0.6-1_iphoneos-arm.deb
+Size: 311204
+MD5sum: 4b00721f8e0aeddeca014214d9fcea4f
+SHA1: 3fff189bd04e074d1c3d7cf273f28b2b60fca343
+SHA256: 89207d7ba9f81fe20990782a89f292f7a9aace11da0b06c0d88cc30aa1751c25
+Section: Utilities
+Description: package contains the redglass and whiteglass animated cursor themes
+Name: xcursor-themes
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
