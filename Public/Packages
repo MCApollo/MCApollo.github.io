@@ -865,6 +865,22 @@ Section: Utilities
 Description: User-friendly command-line shell for UNIX-like operating systems
 Name: fish
 
+Package: io.mc.fish
+Version: 3.0.2-8
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 11556
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses, io.mc.pcre2
+Filename: ./Athena/fish_3.0.2-8_iphoneos-arm.deb
+Size: 1325234
+MD5sum: 3e9ca440d4e9075ed3321165be573b64
+SHA1: 60d2a923a825ddfd402566ce1ad5b6c73ab49282
+SHA256: c51848efaeb997ed8ea9311ec97a7295a8ee0c9ca959fea03f66a85ea6805c41
+Section: Utilities
+Description: User-friendly command-line shell for UNIX-like operating systems
+Name: fish
+
 Package: io.mc.fontconfig
 Version: 2.13.1-2
 Architecture: iphoneos-arm
