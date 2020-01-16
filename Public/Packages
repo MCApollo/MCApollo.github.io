@@ -3245,6 +3245,22 @@ Section: Utilities
 Description: provids the expected applications available in previous X Window implementations.
 Name: Xorg Applications
 
+Package: io.mc.xorgfonts
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4872
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xcursor-themes
+Filename: ./Athena/XorgFonts_1.0-1_iphoneos-arm.deb
+Size: 2013142
+MD5sum: ebcd28a72339539da7c8d8416404e59b
+SHA1: b9482828a25435153bbb89973236c83128d18ec4
+SHA256: e32bded0edf8213f7107f66fbcfdbe6ca0058a286a34c6fd43dc50cbeefd425d
+Section: Utilities
+Description: provides some scalable fonts and supporting packages for Xorg applications
+Name: Xorg Fonts
+
 Package: io.mc.xorgproto
 Version: 2019.2-1
 Architecture: iphoneos-arm
