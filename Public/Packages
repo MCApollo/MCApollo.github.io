@@ -3119,6 +3119,22 @@ Section: X_Window
 Description: core of the X Window system
 Name: xorg-server
 
+Package: io.mc.xorgproto
+Version: 2019.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1692
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.util-macros
+Filename: ./Athena/xorgproto_2019.2-1_iphoneos-arm.deb
+Size: 164408
+MD5sum: 91b22595ac27a6fb907f65908c29d6a4
+SHA1: 0ec3de98f0bf9da4e696ddb5374387547497ad88
+SHA256: 6cbd5e1ad9a7c13b0a67a24ceb24c4ccd521d16f75bc54e43f5fd1715ed4929d
+Section: Development
+Description: xorgproto package provides the header files required to build the X Window system
+Name: xorgproto
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
