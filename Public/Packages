@@ -2929,6 +2929,21 @@ Section: Utilities
 Description: H.264/AVC encoder
 Name: x264
 
+Package: io.mc.x265
+Version: 3.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 5020
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/x265_3.1.2-1_iphoneos-arm.deb
+Size: 723886
+MD5sum: 5238e9caf808963813fad4a57b75d2a8
+SHA1: be8ae211e3f564c78747dfcd168bf09a0fd6657f
+SHA256: 04e317e1f2cb9c40da810d1997bb9a946611c189054b9730f059ed0b7183a2e3
+Section: Utilities
+Description: H.265/HEVC encoder
+Name: x265
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
