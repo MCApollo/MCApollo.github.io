@@ -565,6 +565,22 @@ Section: Development
 Description: Vector graphics library with cross-device output support
 Name: cairo
 
+Package: io.mc.cairo
+Version: 1.16.0-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2196
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.fontconfig, io.mc.freetype, io.mc.glib, io.mc.libpng, io.mc.lzo, io.mc.pixman
+Filename: ./Athena/cairo_1.16.0-3_iphoneos-arm.deb
+Size: 468432
+MD5sum: 12bd2c726b0c12d4f4ac2743db82a455
+SHA1: 1e8e24e804562fb89885c53aec63b779174eccb6
+SHA256: 841d36663ac30966060fadc6954c046091d56e74d78b86ea413a5bdb81c425b7
+Section: Development
+Description: Vector graphics library with cross-device output support
+Name: cairo
+
 Package: io.mc.cmake
 Version: 3.15.4-1
 Architecture: iphoneos-arm
