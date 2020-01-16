@@ -1762,6 +1762,22 @@ Section: Development
 Description: Multi-platform support library with a focus on asynchronous I/O
 Name: libuv
 
+Package: io.mc.libxcb
+Version: 1.13.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4024
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libXau, io.mc.libXdmcp, io.mc.xcb-proto
+Filename: ./Athena/libxcb_1.13.1-1_iphoneos-arm.deb
+Size: 284860
+MD5sum: d5e7234ced41e2c54d53fe768ec52ad1
+SHA1: c29998b4c030daa4745544b8461e7c20df11414e
+SHA256: 6433a4ab5f9606ae5f6a017c5460d9256abe5316b609ca83311123170998abd0
+Section: Utilities
+Description: Provides a interface to the X Window System protocol
+Name: libxcb
+
 Package: io.mc.libxml2
 Version: 2.9.9-1
 Architecture: iphoneos-arm
