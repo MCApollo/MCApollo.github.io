@@ -1762,6 +1762,22 @@ Section: Development
 Description: Multi-platform support library with a focus on asynchronous I/O
 Name: libuv
 
+Package: io.mc.libxau
+Version: 1.0.9-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 68
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xorgproto
+Filename: ./Athena/libXau_1.0.9-1_iphoneos-arm.deb
+Size: 5884
+MD5sum: 8aef1806e7b7db427140991e42d519f5
+SHA1: 12d6dea8c6fef960d011485e9bfd5023d9ffa9bf
+SHA256: 53103f2ac198ef32945ad6e8e2d573fc0492330ace16506a4b9e1998bc2e58b0
+Section: Utilities
+Description: Implements the X11 Authorization Protocol
+Name: libXau
+
 Package: io.mc.libxcb
 Version: 1.13.1-1
 Architecture: iphoneos-arm
