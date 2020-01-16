@@ -3103,6 +3103,22 @@ Section: Utilities
 Description: contains the keyboard configuration database for the X Window System
 Name: xkeyboard-config
 
+Package: io.mc.xorg-server
+Version: 1.20.6-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 7976
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.libepoxy, io.mc.libpng, io.mc.openssl-1.1, io.mc.pixman, io.mc.xkeyboard-config
+Filename: ./Athena/xorg-server_1.20.6-1_iphoneos-arm.deb
+Size: 1406758
+MD5sum: e32ffa5048aadc4a990e65b106219e8f
+SHA1: 202721a03382b8f0b9d7f4b094014c076145928b
+SHA256: c690117d28526bee7c8f040c351ba2ada3e16c78e5b82952ef9d38a57a30ea23
+Section: X_Window
+Description: core of the X Window system
+Name: xorg-server
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
