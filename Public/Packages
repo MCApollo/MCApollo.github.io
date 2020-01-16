@@ -219,6 +219,21 @@ Section: Utilities
 Description: Next-generation aircrack with lots of new features
 Name: aircrack-ng
 
+Package: io.mc.aom
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 14472
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/aom_1.0.0-1_iphoneos-arm.deb
+Size: 1485818
+MD5sum: fe57e05e39ff412f65357475aeb59f17
+SHA1: 996d6af6b6b7a218753fcdc35c67ff9fb0312ac9
+SHA256: eebaf90ad2bc937e5c88b3c687acfe549994f3d227ec3b90017decb957f9b2e5
+Section: Development
+Description: Codec library for encoding and decoding AV1 video streams
+Name: aom
+
 Package: io.mc.aria2
 Version: 1.34.0-2
 Architecture: iphoneos-arm
