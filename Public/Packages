@@ -107,6 +107,22 @@ Section: Utilities
 Description: Renders mathematical expressions as ASCII art
 Name: aamath
 
+Package: io.mc.aamath
+Version: 0.3-6
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 200
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses, io.mc.readline
+Filename: ./Athena/aamath_0.3-6_iphoneos-arm.deb
+Size: 40094
+MD5sum: fb1659f83ea4cf4f95cb6470fc565665
+SHA1: e4f445a9cc5538cd9071d008e111e1c171272c64
+SHA256: dc1a21f1d4bf17b5a3ab5195f11ca6bb6c17035b91d4f124767f754df08936eb
+Section: Utilities
+Description: Renders mathematical expressions as ASCII art
+Name: aamath
+
 Package: io.mc.adb
 Version: 10-1
 Architecture: iphoneos-arm
