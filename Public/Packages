@@ -2960,6 +2960,21 @@ Section: Utilities
 Description: contains bitmap images used by multiple X applications
 Name: xbitmaps
 
+Package: io.mc.xcb-proto
+Version: 1.13-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 992
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/xcb-proto_1.13-1_iphoneos-arm.deb
+Size: 102102
+MD5sum: 4ee614167d5d85d35a5db6bbe486b6e6
+SHA1: 7761c388fea0f0b4bfa3946934d9f103214afe89
+SHA256: 3ae5a17a664d5df7d79f66aba8de95a4e20bb09733c8d72b5a262512a4f2687a
+Section: Utilities
+Description: Provides the XML-XCB protocol descriptions that libxcb uses to generate the majority of its code and API
+Name: xcb-proto
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
