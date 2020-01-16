@@ -833,6 +833,22 @@ Section: Utilities
 Description: XML 1.0 parser
 Name: expat
 
+Package: io.mc.ffmpeg
+Version: 4.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 24880
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.aom, io.mc.fontconfig, io.mc.freetype, io.mc.frei0r, io.mc.gnutls, io.mc.lame, io.mc.libass, io.mc.libbluray, io.mc.libsoxr, io.mc.libvidstab, io.mc.libvorbis, io.mc.libvpx, io.mc.opencore-amr, io.mc.openjpeg, io.mc.opus, io.mc.rtmpdump, io.mc.rubberband, io.mc.sdl2, io.mc.snappy, io.mc.speex, io.mc.tesseract, io.mc.theora, io.mc.x264, io.mc.x265, io.mc.xvid, io.mc.xz
+Filename: ./Athena/ffmpeg_4.2.1-1_iphoneos-arm.deb
+Size: 7257938
+MD5sum: 013bc94073190e7f4fa99c5300c6bbcf
+SHA1: 0ebd37aa8ed4d5512564f7f7a47e9b06e408592b
+SHA256: efb0791838b5f6b26033c0e42d0b801ba2c28fdb16600fec93ad9430fb5ccc42
+Section: Utilities
+Description: Play, record, convert, and stream audio and video
+  Play, record, convert, and stream audio and video
+
 Package: io.mc.fish
 Version: 3.0.2-7
 Architecture: iphoneos-arm
