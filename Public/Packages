@@ -1067,6 +1067,22 @@ Section: Development
 Description: Core application library for C
 Name: glib
 
+Package: io.mc.glib
+Version: 2.62.2-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 8268
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.gettext, io.mc.libffi, io.mc.pcre
+Filename: ./Athena/glib_2.62.2-2_iphoneos-arm.deb
+Size: 1388682
+MD5sum: 66fcec68470c290e582a916f302593d3
+SHA1: cde8116c2ad5356889a89cdd71f367733ea03ff6
+SHA256: e4ee24ff396f4b4af67d506d50d1ba0cebdb58315298e270e84431d0d2b97e50
+Section: Development
+Description: Core application library for C
+Name: glib
+
 Package: io.mc.gmp
 Version: 6.1.2-1
 Architecture: iphoneos-arm
