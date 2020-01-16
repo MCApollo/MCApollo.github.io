@@ -441,6 +441,22 @@ Section: Utilities
 Description: Storage conversion and expression calculator
 Name: bcal
 
+Package: io.mc.bdw-gc
+Version: 8.0.4-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 628
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libatomic_ops
+Filename: ./Athena/bdw-gc_8.0.4-1_iphoneos-arm.deb
+Size: 130086
+MD5sum: 020a95fb5555a35b4694346314212f87
+SHA1: 7e1c2af2560255f3f3c9b3d590f8ca5660b2c939
+SHA256: fa1fc3fb3394b10321cb7eab2f9d06fd89564dbf3e3c66186a5c43ff0e516a2b
+Section: Utilities
+Description: Garbage collector for C and C++
+Name: bdw-gc
+
 Package: io.mc.bison
 Version: 3.4.2-1
 Architecture: iphoneos-arm
