@@ -2836,6 +2836,21 @@ Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
 
+Package: io.mc.util-macros
+Version: 1.19.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 100
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/util-macros_1.19.2-1_iphoneos-arm.deb
+Size: 21468
+MD5sum: 4c48c1261a0e862f07dfcbb0a2ec979b
+SHA1: 61cc809984bb0145295f764b2408bb0d2ad2f415
+SHA256: abb8701de26435013db419b15a14bb19a808a34582509d67832f0894ab9e12d1
+Section: Utilities
+Description: contains the m4 macros used by all of the Xorg packages
+Name: util-macros
+
 Package: io.mc.vde
 Version: 2.3.2-1
 Architecture: iphoneos-arm
