@@ -3039,6 +3039,22 @@ Section: Utilities
 Description: Contains a library for handling standard X key constants and conversion to/from keycodes
 Name: xcb-util-keysyms
 
+Package: io.mc.xcb-util-renderutil
+Version: 0.3.9-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 76
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libxcb
+Filename: ./Athena/xcb-util-renderutil_0.3.9-1_iphoneos-arm.deb
+Size: 6272
+MD5sum: e8d110b3f035b016ff1636e09e9a3b26
+SHA1: 269086e09f7489c788444815b344d1a3e6c0e588
+SHA256: 17cb7d09b426ddad84b8772eb2c68b2977654e30364b6aa7c68756d263a6acaf
+Section: Utilities
+Description: provides additional extensions to the XCB library
+Name: xcb-util-renderutil
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
