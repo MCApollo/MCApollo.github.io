@@ -3055,6 +3055,22 @@ Section: Utilities
 Description: provides additional extensions to the XCB library
 Name: xcb-util-renderutil
 
+Package: io.mc.xcb-util-wm
+Version: 0.4.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 300
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libxcb
+Filename: ./Athena/xcb-util-wm_0.4.1-1_iphoneos-arm.deb
+Size: 27794
+MD5sum: 862ddc3c8e817410624939e8dfd4123e
+SHA1: f8ec4881b3a5c307b07e4d220357fb243d645798
+SHA256: f6c43b68505e6ec4489cfca6607d5a290baabfbbaf19856189849f7058cce9ea
+Section: Utilities
+Description: contains libraries which provide client and window-manager helpers for EWMH and ICCCM
+Name: xcb-util-wm
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
