@@ -929,6 +929,21 @@ Section: Development
 Description: Software library to render fonts
 Name: freetype
 
+Package: io.mc.frei0r
+Version: 1.6.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 6728
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/frei0r_1.6.1-1_iphoneos-arm.deb
+Size: 321386
+MD5sum: ea7d9cbb299f630e0fc59ce8e854e057
+SHA1: dbabf57b4832a7fc4c764f862b454512212f5016
+SHA256: dba0b23bd60af745353f8f949c12cab7a693ae19803b2cd858a4a28c2efc438d
+Section: Utilities
+Description: Minimalistic plugin API for video effects
+Name: frei0r
+
 Package: io.mc.gdbm
 Version: 1.18.1-2
 Architecture: iphoneos-arm
