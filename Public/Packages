@@ -3023,6 +3023,22 @@ Section: Utilities
 Description: Provides additional extensions to the XCB library
 Name: xcb-util-image
 
+Package: io.mc.xcb-util-keysyms
+Version: 0.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 68
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libxcb
+Filename: ./Athena/xcb-util-keysyms_0.4.0-1_iphoneos-arm.deb
+Size: 4538
+MD5sum: ff68851f3cdd1d5df91b3471aafb08f2
+SHA1: 40ba56863d2fcfbdf28bbfcca79277b1078297b9
+SHA256: 0fd4e36844ebbc829836642ad4567235789374671c4fd7a3ff04ba60b6b2ae01
+Section: Utilities
+Description: Contains a library for handling standard X key constants and conversion to/from keycodes
+Name: xcb-util-keysyms
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
