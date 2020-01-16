@@ -3197,6 +3197,22 @@ Section: Utilities
 Description: contains the keyboard configuration database for the X Window System
 Name: xkeyboard-config
 
+Package: io.mc.xorg
+Version: 1.0-mega-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 8596
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.fontconfig, io.mc.libxcb
+Filename: ./Athena/Xorg_1.0-mega-1_iphoneos-arm.deb
+Size: 1456754
+MD5sum: 46f177d2762b51aff8c2bad6437ce5e1
+SHA1: 468ba7fb98bcf3c72cc8c81e310f40b07f4f06b2
+SHA256: 934e9b0b02fce75739f18a0ae0d0adb6819f1fd10d01ce1a89076664434dbfed
+Section: Utilities
+Description: Provides library routines that are used within all X Window applications (LFS 2019-12-11)
+Name: Xorg
+
 Package: io.mc.xorg-server
 Version: 1.20.6-1
 Architecture: iphoneos-arm
