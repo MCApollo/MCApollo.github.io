@@ -1778,6 +1778,22 @@ Section: Utilities
 Description: Provides a interface to the X Window System protocol
 Name: libxcb
 
+Package: io.mc.libxdmcp
+Version: 1.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 72
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xorgproto
+Filename: ./Athena/libXdmcp_1.1.3-1_iphoneos-arm.deb
+Size: 9594
+MD5sum: 3a101efca69c860f38c7f3ff9d69d740
+SHA1: c025ff305bb35ad7f8cef46536482d4fccb74a37
+SHA256: bf6d55d83a26fde511827567627357c027d02782564cae074f5b5052a4c8ed05
+Section: Utilities
+Description: Implements the X Display Manager Control Protocol
+Name: libXdmcp
+
 Package: io.mc.libxml2
 Version: 2.9.9-1
 Architecture: iphoneos-arm
