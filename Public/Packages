@@ -473,6 +473,22 @@ Section: Utilities
 Description: Parser generator
 Name: bison
 
+Package: io.mc.bison
+Version: 3.4.2-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1120
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.m4
+Filename: ./Athena/bison_3.4.2-2_iphoneos-arm.deb
+Size: 265274
+MD5sum: 2519ac6fd269d1cf85b428a8d245da8e
+SHA1: f34c80fdda4bb5b7f03d79daefdc8a98cef7e249
+SHA256: afaaeb12abf40210c816467b57bdaf0d8e14de8919eb7c4b55c3e44c517c73bc
+Section: Utilities
+Description: Parser generator
+Name: bison
+
 Package: io.mc.boost
 Version: 1.70.0-1
 Architecture: iphoneos-arm
