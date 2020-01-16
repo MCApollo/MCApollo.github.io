@@ -2944,6 +2944,22 @@ Section: Utilities
 Description: H.265/HEVC encoder
 Name: x265
 
+Package: io.mc.xbitmaps
+Version: 1.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 424
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.util-macros
+Filename: ./Athena/xbitmaps_1.1.2-1_iphoneos-arm.deb
+Size: 18426
+MD5sum: 0d5187d0871ae719874992602d04b662
+SHA1: 35313f1487ae5ee89ca03be488994a13e90b861b
+SHA256: d67a072a705bda5d37c533f1e8dc5b9f2ee30eca0e7a28394fdfd5d1476b3298
+Section: Utilities
+Description: contains bitmap images used by multiple X applications
+Name: xbitmaps
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
