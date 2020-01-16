@@ -1114,6 +1114,21 @@ Section: Utilities
 Description: GNU Transport Layer Security (TLS) Library
 Name: gnutls
 
+Package: io.mc.go
+Version: 1.13-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 352776
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/go_1.13-2_iphoneos-arm.deb
+Size: 64427236
+MD5sum: a6bb56d907bb5be887282ec7e0254554
+SHA1: 7d2857e9231b58eb4224a3017a7cfba37facb9b0
+SHA256: a922ca732572af35313bec46dc135550f56fc0b2d19f72f0b6f7de7cda6e3993
+Section: Utilities
+Description: Open source programming language to build simple/reliable/efficient software
+Name: go
+
 Package: io.mc.graphite2
 Version: 1.3.13-1
 Architecture: iphoneos-arm
