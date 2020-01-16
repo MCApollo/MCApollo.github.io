@@ -3135,6 +3135,21 @@ Section: Development
 Description: xorgproto package provides the header files required to build the X Window system
 Name: xorgproto
 
+Package: io.mc.xvid
+Version: 1.3.5-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1108
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/xvid_1.3.5-1_iphoneos-arm.deb
+Size: 199730
+MD5sum: 77471cea58b5a7abeb431611473c0e88
+SHA1: 43618a9f7b4de092273554324169b22a0577b287
+SHA256: 2c23c965ce7ad6942e36db866e3796dcaebd9d1f12e9f279972e3f285e4f3446
+Section: Development
+Description: High-performance, high-quality MPEG-4 video library
+Name: xvid
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
