@@ -881,6 +881,22 @@ Section: Utilities
 Description: User-friendly command-line shell for UNIX-like operating systems
 Name: fish
 
+Package: io.mc.flac
+Version: 1.3.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1200
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libogg
+Filename: ./Athena/flac_1.3.3-1_iphoneos-arm.deb
+Size: 235608
+MD5sum: 638db481a6d6e295ff4051e37b7c5052
+SHA1: 244e2232e47436632f04ac29ecb9f5f09c98a6a1
+SHA256: 647c9e5652ff78c542cee68d651f208977e85be00ff8d2cd51def6b5687270b4
+Section: Utilities
+Description: Free lossless audio codec
+Name: flac
+
 Package: io.mc.fontconfig
 Version: 2.13.1-2
 Architecture: iphoneos-arm
