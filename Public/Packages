@@ -2991,6 +2991,22 @@ Section: Utilities
 Description: Provides additional extensions to the XCB library
 Name: xcb-util
 
+Package: io.mc.xcb-util-cursor
+Version: 0.1.3-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 76
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xcb-util-image, io.mc.xcb-util-renderutil, io.mc.xcb-util
+Filename: ./Athena/xcb-util-cursor_0.1.3-1_iphoneos-arm.deb
+Size: 9862
+MD5sum: fbad00649091d3f1b68ddcbee233f751
+SHA1: d961b9f0dda16957116b08e5031b1714e35b4e79
+SHA256: e75170e931ab8f7f4fa0b921e1d4caf3018cea4b870c1cb9086b89b3454b70c8
+Section: Utilities
+Description: provides a module that implements the XCB cursor library
+Name: xcb-util-cursor
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
