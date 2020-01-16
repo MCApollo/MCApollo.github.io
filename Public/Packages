@@ -2914,6 +2914,21 @@ Section: Utilities
 Description: Run Windows applications without a copy of Microsoft Windows
 Name: wine
 
+Package: io.mc.x264
+Version: r2917-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3304
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/x264_r2917-1_iphoneos-arm.deb
+Size: 529664
+MD5sum: 11e61c42569f4ef28c34d7d0ba372039
+SHA1: 21a7eeb6c544d7f4204ab10115a2feb445f7a237
+SHA256: b70c412372a1f1b1beef43da78904caaa1f9e503f86e0f035b3b3c9dd5615cdd
+Section: Utilities
+Description: H.264/AVC encoder
+Name: x264
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
