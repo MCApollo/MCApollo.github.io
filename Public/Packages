@@ -2975,6 +2975,22 @@ Section: Utilities
 Description: Provides the XML-XCB protocol descriptions that libxcb uses to generate the majority of its code and API
 Name: xcb-proto
 
+Package: io.mc.xcb-util
+Version: 0.4.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 100
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libxcb
+Filename: ./Athena/xcb-util_0.4.0-1_iphoneos-arm.deb
+Size: 8312
+MD5sum: a8b3c5bca52791cec9ec9750ded205bb
+SHA1: db5a8672cd54198ed6f98628df22c7b139a665ed
+SHA256: 7ebb2026add4272fd00d38b5897f63dda0c81d6798a8e2c4a7453a21fbfa7a2e
+Section: Utilities
+Description: Provides additional extensions to the XCB library
+Name: xcb-util
+
 Package: io.mc.xz
 Version: 5.2.4-1
 Architecture: iphoneos-arm
