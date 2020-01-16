@@ -3229,6 +3229,22 @@ Section: X_Window
 Description: core of the X Window system
 Name: xorg-server
 
+Package: io.mc.xorgapps
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libpng, io.mc.mesa, io.mc.xbitmaps, io.mc.xcb-util
+Filename: ./Athena/XorgApps_1.0-1_iphoneos-arm.deb
+Size: 385144
+MD5sum: c2274c454c9c9ec81d097c47171e5720
+SHA1: c9433ef753e0d3c36a69c35f73e9736ba7e8ff06
+SHA256: 050564dab7add3bfc44288dfd6836b491d2e48207af4a6ef66ced79fffb4f935
+Section: Utilities
+Description: provids the expected applications available in previous X Window implementations.
+Name: Xorg Applications
+
 Package: io.mc.xorgproto
 Version: 2019.2-1
 Architecture: iphoneos-arm
