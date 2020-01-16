@@ -724,6 +724,22 @@ Section: Utilities
 Description: Display user-friendly message boxes from shell scripts
 Name: dialog
 
+Package: io.mc.dialog
+Version: 1.3-20190728-6
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 848
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.ncurses
+Filename: ./Athena/dialog_1.3-20190728-6_iphoneos-arm.deb
+Size: 224996
+MD5sum: 7fb01078459aaf8e648238556ca7ff9d
+SHA1: d68b66d4ecd2eaad4a9b0932e25ed9e7d3fe5cb8
+SHA256: 9773485eb228b8265d1c809ced4fa1c5015695088aedff030c5039763144e557
+Section: Utilities
+Description: Display user-friendly message boxes from shell scripts
+Name: dialog
+
 Package: io.mc.diffutils
 Version: 3.7-1
 Architecture: iphoneos-arm
