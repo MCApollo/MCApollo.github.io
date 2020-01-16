@@ -1160,6 +1160,22 @@ Section: Utilities
 Description: OpenType text shaping engine
 Name: harfbuzz
 
+Package: io.mc.harfbuzz
+Version: 2.5.3-3
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 5608
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.cairo, io.mc.freetype, io.mc.glib, io.mc.graphite2, io.mc.icu4c
+Filename: ./Athena/harfbuzz_2.5.3-3_iphoneos-arm.deb
+Size: 680518
+MD5sum: a12e9cc3e0ca77248b521b1e069d87dc
+SHA1: d28a27e065d1d8768a0f1d2c9c38a41d6c130e63
+SHA256: 5cb5a653e496b1441ab92a2a86dd7811413d88f47f5f8f2bf02e06a11eda543d
+Section: Utilities
+Description: OpenType text shaping engine
+Name: harfbuzz
+
 Package: io.mc.hping
 Version: 3.20051105-2
 Architecture: iphoneos-arm
