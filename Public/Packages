@@ -3244,6 +3244,22 @@ Section: X_Window
 Description: core of the X Window system
 Name: xorg-server
 
+Package: io.mc.xorg-server
+Version: 1.20.6-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 7976
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.libepoxy, io.mc.libpng, io.mc.openssl-1.1, io.mc.pixman, io.mc.xkeyboard-config
+Filename: ./Athena/xorg-server_1.20.6-2_iphoneos-arm.deb
+Size: 1407122
+MD5sum: 3975d3b4c2fb73950b249507a36a2282
+SHA1: 6428b61944cd192e0abf69a09c06989b66ee9220
+SHA256: 605d55f6964da3adb30235b51a369c6cab7f7a68250e75b448a3f38ae15445ea
+Section: X_Window
+Description: core of the X Window system
+Name: xorg-server
+
 Package: io.mc.xorgapps
 Version: 1.0-1
 Architecture: iphoneos-arm
