@@ -1300,6 +1300,21 @@ Section: Development
 Description: Image manipulation library
 Name: jpeg
 
+Package: io.mc.jpeg-turbo
+Version: 2.0.2-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2264
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/jpeg-turbo_2.0.2-1_iphoneos-arm.deb
+Size: 258624
+MD5sum: 7ba7ecc572c6bd4bd32e9b72a92da51e
+SHA1: 3ad93b26dd82216521fbfeee41cc49a809d4237e
+SHA256: a66456f9cfa78e6709755ea2c6fb35911de6589f49dc5f65e1289c85d7a3e1f3
+Section: Utilities
+Description: JPEG image codec that aids compression and decompression
+Name: jpeg-turbo
+
 Package: io.mc.jq
 Version: 1.6-2
 Architecture: iphoneos-arm
