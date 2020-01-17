@@ -3196,6 +3196,22 @@ Section: Utilities
 Description: package contains the redglass and whiteglass animated cursor themes
 Name: xcursor-themes
 
+Package: io.mc.xf86-video-dummy
+Version: 0.3.8-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 64
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.xorg-server
+Filename: ./Athena/xf86-video-dummy_0.3.8-1_iphoneos-arm.deb
+Size: 6492
+MD5sum: 78af63a367432cf45008cc1a0b853f09
+SHA1: fa7e4a5434e111dcbfd8bb40983b0568dce6e9a8
+SHA256: b51891dc22d3baebb6caa72d8a5a1953d7e1ca64422152029423b3eebf97bf58
+Section: Utilities
+Description: X server dummy display driver
+Name: Xorg video dummy
+
 Package: io.mc.xkeyboard-config
 Version: 2.28-1
 Architecture: iphoneos-arm
