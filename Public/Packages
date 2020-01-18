@@ -3361,6 +3361,22 @@ Section: Utilities
 Description: X server dummy display driver
 Name: Xorg video dummy
 
+Package: io.mc.xinit
+Version: 1.4.1-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 204
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.Xorg, io.mc.xorg-server
+Filename: ./Athena/xinit_1.4.1-1_iphoneos-arm.deb
+Size: 18232
+MD5sum: 905969f9fb72afc5c8395b8273ec4062
+SHA1: a0ff67d5084f66d02f7f9a6e9896529e7578f405
+SHA256: 167702e05defcb232327a78c5a038af59447ce0cf532b9d7d6a57865e5e97e9a
+Section: Utilities
+Description: script to start Xserver
+Name: xinit
+
 Package: io.mc.xkeyboard-config
 Version: 2.28-1
 Architecture: iphoneos-arm
