@@ -2852,6 +2852,22 @@ Section: Utilities
 Description: High-performance, platform-neutral implementation of VNC
 Name: tiger-vnc
 
+Package: io.mc.tiger-vnc
+Version: 1.10.1-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 3768
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.fltk, io.mc.gettext, io.mc.gnutls, io.mc.jpeg-turbo, io.mc.xorg-server
+Filename: ./Athena/tiger-vnc_1.10.1-2_iphoneos-arm.deb
+Size: 956220
+MD5sum: 6df38cd138446461a1e98a124cb85e78
+SHA1: cc6462eb279e2699bf5bb1e7c6942bedb69af2c9
+SHA256: ef690408dabbe93dce704fc54a0c42225e4f5dbe9b368ee489f00513f21a1839
+Section: Utilities
+Description: High-performance, platform-neutral implementation of VNC
+Name: tiger-vnc
+
 Package: io.mc.tmux
 Version: 2.9a-1
 Architecture: iphoneos-arm
