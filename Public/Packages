@@ -897,6 +897,22 @@ Section: Utilities
 Description: Free lossless audio codec
 Name: flac
 
+Package: io.mc.fltk
+Version: 1.3.5-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 4644
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.Xorg, io.mc.jpeg, io.mc.libpng
+Filename: ./Athena/fltk_1.3.5-1_iphoneos-arm.deb
+Size: 935398
+MD5sum: a1a6de7692e337c82c8cb77940bc2a82
+SHA1: fbf1aa402dd47d4cdfb80f8ea78540140d606861
+SHA256: feba865d0cbeaf6bca71ea6c592c0897cf42cf000bc4b273059227d14f2194d9
+Section: Utilities
+Description: Cross-platform C++ GUI toolkit
+Name: fltk
+
 Package: io.mc.fontconfig
 Version: 2.13.1-2
 Architecture: iphoneos-arm
