@@ -1367,6 +1367,24 @@ Section: Utilities
 Description: JPEG image codec that aids compression and decompression
 Name: jpeg-turbo
 
+Package: io.mc.jpeg-turbo
+Version: 2.0.2-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 2528
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: io.mc.jpeg
+Replaces: io.mc.jpeg
+Provides: io.mc.jpeg
+Filename: ./Athena/jpeg-turbo_2.0.2-4_iphoneos-arm.deb
+Size: 324810
+MD5sum: c6db5086ba7e24bb430c749d09f83f9c
+SHA1: f7c2a23d78cb734b72076c8d9cc7f5298d4e848a
+SHA256: 672369ca17026c6ffabcd41fa64fcc2f600514fa803f494ddffd979e4b902160
+Section: Utilities
+Description: JPEG image codec that aids compression and decompression
+Name: jpeg-turbo
+
 Package: io.mc.jq
 Version: 1.6-2
 Architecture: iphoneos-arm
