@@ -3329,6 +3329,22 @@ Section: Utilities
 Description: contains libraries which provide client and window-manager helpers for EWMH and ICCCM
 Name: xcb-util-wm
 
+Package: io.mc.xclock
+Version: 1.0.9-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 88
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.Xorg
+Filename: ./Athena/xclock_1.0.9-1_iphoneos-arm.deb
+Size: 19916
+MD5sum: f362e30dfae4985534265c1a5ea3b485
+SHA1: a6b5398669e3a986c09f1b6d56842baf9aca1992
+SHA256: 03d7163cb06f270320a67c88e0a5c333dc0cea283991488ee7b243d1c7a1fd3d
+Section: Utilities
+Description: a simple X11 clock application
+Name: xclock
+
 Package: io.mc.xcursor-themes
 Version: 1.0.6-1
 Architecture: iphoneos-arm
