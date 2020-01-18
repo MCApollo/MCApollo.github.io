@@ -3521,6 +3521,22 @@ Section: Utilities
 Description: includes deprecated fonts for Xorg
 Name: Xorg Legacy Fonts
 
+Package: io.mc.xorglegacy
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 19428
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.XorgFonts, io.mc.xcursor-themes
+Filename: ./Athena/XorgLegacy_1.0-2_iphoneos-arm.deb
+Size: 13503360
+MD5sum: 8d1d6f9efa7cb2b7b8b523f8e396e5e1
+SHA1: c50f4da7e3ad91be6f05ba7408e317f1208985fc
+SHA256: 11de6e673a67f02d1341718a3b7e88acf44d24828896ee56b7743418dbde34a0
+Section: Utilities
+Description: includes deprecated fonts for Xorg
+Name: Xorg Legacy Fonts
+
 Package: io.mc.xorgproto
 Version: 2019.2-1
 Architecture: iphoneos-arm
