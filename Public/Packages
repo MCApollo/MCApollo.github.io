@@ -917,14 +917,30 @@ Package: io.mc.fontconfig
 Version: 2.13.1-2
 Architecture: iphoneos-arm
 Maintainer: Mac C. <MCApollo@protonmail.com>
-Installed-Size: 1080
+Installed-Size: 1068
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: io.mc.expat, io.mc.freetype
 Filename: ./Athena/fontconfig_2.13.1-2_iphoneos-arm.deb
-Size: 132496
-MD5sum: 9d4dbe306004608ae52ac9ac3bcee670
-SHA1: 89c235dfad5fa963f8aa88efaa3d64dcd900605b
-SHA256: 0b849bd867ba1bf707e17f6800bda26b719f7f6bfc58a55a53e6965bc86b6a2b
+Size: 131966
+MD5sum: 216fc7d7a8f1e6c32d45c3f2308fb4bd
+SHA1: 6016bf28bd46c4832e9bf673b19a392713b7c396
+SHA256: d14dd383502460476ffe327a1cc0d5e30a6ef322cd7d4776b860e5a2c848200c
+Section: Utilities
+Description: XML-based font configuration API for X Windows
+Name: fontconfig
+
+Package: io.mc.fontconfig
+Version: 2.13.1-4
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1064
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.expat, io.mc.freetype
+Filename: ./Athena/fontconfig_2.13.1-4_iphoneos-arm.deb
+Size: 131550
+MD5sum: 057df35a88427c94e54b3664e9c3f912
+SHA1: 7ca09a25048e0eb9adbbca835dceb9e66f2523f1
+SHA256: fde224b7404e95374386f24eaf5ce8724635e2a3ab451241e6e8accbd20d2cf2
 Section: Utilities
 Description: XML-based font configuration API for X Windows
 Name: fontconfig
