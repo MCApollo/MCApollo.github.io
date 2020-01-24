@@ -2681,6 +2681,22 @@ Description: Generic and open source machine emulator and virtualizer (debug bui
   Generic and open source machine emulator and virtualizer.
 
 Package: io.mc.qemu
+Version: 4.1.0+debug-7
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 252860
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
+Filename: ./Athena/qemu_4.1.0+debug-7_iphoneos-arm.deb
+Size: 17570984
+MD5sum: f5a46b87aa1f4ea67322ca8237d81969
+SHA1: ec3ce1e7eee119812791805c386a2a92ef3f3440
+SHA256: cc91aa5168463d4cb4637578e9424bc079c0a6bab150869ea10d9b0c405e7184
+Section: Utilities
+Description: Generic and open source machine emulator and virtualizer (debug build).
+  Generic and open source machine emulator and virtualizer.
+
+Package: io.mc.qemu
 Version: 4.1.0-1
 Architecture: iphoneos-arm
 Maintainer: Mac C. <MCApollo@protonmail.com>
