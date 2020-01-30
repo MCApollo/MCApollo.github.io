@@ -2730,6 +2730,22 @@ Section: Utilities
 Description: x86 and PowerPC Emulator
 Name: qemu
 
+Package: io.mc.qemu
+Version: 4.2.0-2
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 352272
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg-turbo, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.vde
+Filename: ./Athena/qemu_4.2.0-2_iphoneos-arm.deb
+Size: 36908818
+MD5sum: c0eeb325572d4eb8b1c147d166f8d925
+SHA1: e3b48e5cde643c43267f19ff6b32eab35bcf5a68
+SHA256: 308689fe38b4905c18ab9cfd7f29939d5e68ed8097a3308d6a6bbcda1b5a78c1
+Section: Utilities
+Description: Generic and open source machine emulator and virtualizer (debug build).
+  Generic and open source machine emulator and virtualizer.
+
 Package: io.mc.readline
 Version: 8.0.0-3
 Architecture: iphoneos-arm
