@@ -3098,6 +3098,22 @@ Section: Utilities
 Description: Validating, recursive, caching DNS resolver
 Name: unbound
 
+Package: io.mc.usbfluxd
+Version: 1.0-94cb00e-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 164
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libplist
+Filename: ./Athena/usbfluxd_1.0-94cb00e-1_iphoneos-arm.deb
+Size: 26162
+MD5sum: f63798773a2d9eafb2291091c61375f0
+SHA1: 31ce0348a943fb4c1060cdbf5cc2bf16f6d0b30e
+SHA256: 1d5df8b648fe1de971bc9f7251f178169448ab3a5bd43e31bf2f6898076dbc9f
+Section: Utilities
+Description: Redirects the standard usbmuxd socket to allow connections to local and remote usbmuxd instances so remote devices appear connected locally.
+Name: usbfluxd
+
 Package: io.mc.usbmuxd
 Version: 1.0.10-2
 Architecture: iphoneos-arm
