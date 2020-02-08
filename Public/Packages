@@ -3193,6 +3193,22 @@ Section: Utilities
 Description: USB multiplexor daemon for iPhone and iPod Touch devices
 Name: usbmuxd
 
+Package: io.mc.usbredir
+Version: 0.8.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 252
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.libusb
+Filename: ./Athena/usbredir_0.8.0-1_iphoneos-arm.deb
+Size: 33786
+MD5sum: 750b6ba82b400a9f5fc8d5d4ff88967b
+SHA1: d2342261c1a10156fc0a5521f0435742e278ca60
+SHA256: 18f136f85b809bac3eefdcf6dea71761bb4d8594201311fbbf15c4e378157ab0
+Section: Development
+Description: USB traffic redirection library
+Name: usbredir
+
 Package: io.mc.util-macros
 Version: 1.19.2-1
 Architecture: iphoneos-arm
