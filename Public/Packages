@@ -1006,6 +1006,22 @@ Section: Utilities
 Description: GNU database manager
 Name: gdbm
 
+Package: io.mc.gdk-pixbuf
+Version: 2.40.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 1384
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.Xorg, io.mc.glib, io.mc.jpeg-turbo, io.mc.libpng, io.mc.libtiff
+Filename: ./Athena/gdk-pixbuf_2.40.0-1_iphoneos-arm.deb
+Size: 168288
+MD5sum: 811454ae2408987bd833ff8faf2c94cd
+SHA1: 0380682a5411ed481401b52e88fb503214d9c993
+SHA256: f3c3e2f5511fc3014d9b98859730f79f735fddcec3ee0cce5d7d0c77818d018b
+Section: Utilities
+Description: Toolkit for image loading and pixel buffer manipulation
+Name: gdk-pixbuf
+
 Package: io.mc.geoip
 Version: 1.6.12-1
 Architecture: iphoneos-arm
