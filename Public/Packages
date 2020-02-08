@@ -2842,6 +2842,21 @@ Section: Utilities
 Description: Flexible Network Intrusion Detection System
 Name: snort
 
+Package: io.mc.spice-protocol
+Version: 0.14.0-1
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./Athena/spice-protocol_0.14.0-1_iphoneos-arm.deb
+Size: 18326
+MD5sum: 383f34df6d413c36662a04951662cc6b
+SHA1: 2dc1d175164fc87ec7f55b6a82093bff13e3091a
+SHA256: 43ffad19e9bafe4eae05f170fbb7fe5623bc282bb716aac26ceb4a8e041b0c88
+Section: Utilities
+Description: Headers for SPICE protocol
+Name: spice-protocol
+
 Package: io.mc.sqlite
 Version: 3.29.0-2
 Architecture: iphoneos-arm
