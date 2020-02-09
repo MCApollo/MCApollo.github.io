@@ -2793,6 +2793,22 @@ Section: Utilities
 Description: Generic and open source machine emulator and virtualizer.
 Name: qemu
 
+Package: io.mc.qemu
+Version: 4.2.0-5
+Architecture: iphoneos-arm
+Maintainer: Mac C. <MCApollo@protonmail.com>
+Installed-Size: 353656
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: io.mc.glib, io.mc.gnutls, io.mc.jpeg-turbo, io.mc.libpng, io.mc.libssh, io.mc.libusb, io.mc.lzo, io.mc.ncurses, io.mc.pixman, io.mc.spice-protocol, io.mc.spice, io.mc.vde
+Filename: ./Athena/qemu_4.2.0-5_iphoneos-arm.deb
+Size: 37167850
+MD5sum: bc14f26e921a168c8353381687624019
+SHA1: 0a8a0e4b8e6eec7e58f949272b12149483226e28
+SHA256: fa50e9177300c473331662a2e44c422be1b7ce4b190b0db44da03637999e7577
+Section: Utilities
+Description: Generic and open source machine emulator and virtualizer.
+Name: qemu
+
 Package: io.mc.readline
 Version: 8.0.0-3
 Architecture: iphoneos-arm
